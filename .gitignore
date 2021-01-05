@@ -1,0 +1,7 @@
+/docs/
+/lib/
+/bin/driver
+/.shards/
+*.dwarf
+.ameba.yml
+/backup/

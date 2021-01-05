@@ -1,0 +1,51 @@
+name: CI
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+  schedule:
+    - cron: '0 6 * * 6'
+jobs:
+  build:
+    timeout-minutes: 30
+    strategy:
+      fail-fast: false
+      matrix:
+        os: [ubuntu-latest, macos-latest]
+        browser: [chromium, firefox, webkit]
+    runs-on: ${{ matrix.os }}
+
+    steps:
+    - uses: actions/checkout@v2
+    - uses: microsoft/playwright-github-action@v1
+    - name: Cache Downloaded Drivers
+      uses: actions/cache@v2
+      with:
+        path: bin/downloaded-drivers
+        key: ${{ runner.os }}-drivers-${{ hashFiles('bin/*.sh') }}
+        restore-keys: ${{ runner.os }}-drivers
+    - name: Install Crystal
+      uses: oprypin/install-crystal@v1.3.0
+    - name: Download drivers
+      shell: bash
+      run: bin/install_local_driver.sh
+    - name: Generate API
+      shell: bash
+      run: bin/gen_api.sh
+    - name: Generate docs
+      run: crystal doc
+    - name: Run tests
+      run: crystal spec
+      env:
+        BROWSER: ${{ matrix.browser }}
+        NO_TRANSFER_TEST: TRUE
+    - name: Deploy
+      uses: JamesIves/github-pages-deploy-action@3.7.1
+      with:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        BRANCH: gh-pages
+        FOLDER: docs
+        SINGLE_COMMIT: true
+
