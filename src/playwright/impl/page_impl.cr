@@ -671,7 +671,7 @@ module Playwright
       options ||= WaitForRequestOptions.new
       waitables = Array(Waitable(Request?)).new
       waitables << WaitableEvent(EventType).new(listeners, EventType::REQUEST,
-        ->(e : Event(EventType)) { matcher.test(e.data.as(Request).url) }).apply ->(evt : Event(EventType)) { evt.data.as(Request) }
+        ->(e : Event(EventType)) { matcher.test(e.data.as(Request).url) }).apply ->(evt : Event(EventType)) { evt.data.as?(Request) }
       waitables << WaitablePageClose(Request?).new(self)
       waitables << CreateWaitable(Request?).new(timeout_settings, options.timeout).get
 

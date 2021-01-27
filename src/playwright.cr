@@ -1,5 +1,5 @@
 module Playwright
-  VERSION = "0.1.0"
+  VERSION = "0.1.1"
   # :nodoc:
   alias Number = Int64 | Float64
   # :nodoc:
