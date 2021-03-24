@@ -1,0 +1,1568 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="generator" content="Crystal Docs 0.36.1">
+<meta name="crystal_docs.project_version" content="main">
+<meta name="crystal_docs.project_name" content="playwright">
+
+
+
+<link href="../../css/style.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="../../js/doc.js"></script>
+
+  <meta name="repository-name" content="playwright">
+  <title>Playwright::Mouse::Button - playwright main</title>
+  <script type="text/javascript">
+    CrystalDocs.base_path = "../../";
+  </script>
+</head>
+<body>
+
+<svg class="hidden">
+  <symbol id="octicon-link" viewBox="0 0 16 16">
+    <path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path>
+  </symbol>
+</svg>
+<div class="sidebar">
+  <div class="sidebar-header">
+    <div class="search-box">
+      <input type="search" class="search-input" placeholder="Search..." spellcheck="false" aria-label="Search">
+    </div>
+
+    <div class="project-summary">
+      <h1 class="project-name">
+        <a href="../../index.html">
+          playwright
+        </a>
+      </h1>
+
+      <span class="project-version">
+        main
+      </span>
+    </div>
+  </div>
+
+  <div class="search-results hidden">
+    <ul class="search-list"></ul>
+  </div>
+
+  <div class="types-list">
+    <ul>
+  
+  <li class="parent open current" data-id="playwright/Playwright" data-name="playwright">
+      <a href="../../Playwright.html">Playwright</a>
+      
+        <ul>
+  
+  <li class="parent " data-id="playwright/Playwright/Accessibility" data-name="playwright::accessibility">
+      <a href="../../Playwright/Accessibility.html">Accessibility</a>
+      
+        <ul>
+  
+  <li class=" " data-id="playwright/Playwright/Accessibility/SnapshotOptions" data-name="playwright::accessibility::snapshotoptions">
+      <a href="../../Playwright/Accessibility/SnapshotOptions.html">SnapshotOptions</a>
+      
+    </li>
+  
+</ul>
+
+      
+    </li>
+  
+  <li class="parent " data-id="playwright/Playwright/AccessibilityNode" data-name="playwright::accessibilitynode">
+      <a href="../../Playwright/AccessibilityNode.html">AccessibilityNode</a>
+      
+        <ul>
+  
+  <li class=" " data-id="playwright/Playwright/AccessibilityNode/CheckedState" data-name="playwright::accessibilitynode::checkedstate">
+      <a href="../../Playwright/AccessibilityNode/CheckedState.html">CheckedState</a>
+      
+    </li>
+  
+  <li class=" " data-id="playwright/Playwright/AccessibilityNode/PressedState" data-name="playwright::accessibilitynode::pressedstate">
+      <a href="../../Playwright/AccessibilityNode/PressedState.html">PressedState</a>
+      
+    </li>
+  
+</ul>
+
+      
+    </li>
+  
+  <li class=" " data-id="playwright/Playwright/Any" data-name="playwright::any">
+      <a href="../../Playwright/Any.html">Any</a>
+      
+    </li>
+  
+  <li class="parent " data-id="playwright/Playwright/Browser" data-name="playwright::browser">
+      <a href="../../Playwright/Browser.html">Browser</a>
+      
+        <ul>
+  
+  <li class=" " data-id="playwright/Playwright/Browser/EventType" data-name="playwright::browser::eventtype">
+      <a href="../../Playwright/Browser/EventType.html">EventType</a>
+      
+    </li>
+  
+  <li class="parent " data-id="playwright/Playwright/Browser/NewContextOptions" data-name="playwright::browser::newcontextoptions">
+      <a href="../../Playwright/Browser/NewContextOptions.html">NewContextOptions</a>
+      
+        <ul>
+  
+  <li class=" " data-id="playwright/Playwright/Browser/NewContextOptions/Proxy" data-name="playwright::browser::newcontextoptions::proxy">
+      <a href="../../Playwright/Browser/NewContextOptions/Proxy.html">Proxy</a>
+      
+    </li>
+  
+  <li class=" " data-id="playwright/Playwright/Browser/NewContextOptions/RecordHar" data-name="playwright::browser::newcontextoptions::recordhar">
+      <a href="../../Playwright/Browser/NewContextOptions/RecordHar.html">RecordHar</a>
+      
+    </li>
+  
+  <li class=" " data-id="playwright/Playwright/Browser/NewContextOptions/RecordVideo" data-name="playwright::browser::newcontextoptions::recordvideo">
+      <a href="../../Playwright/Browser/NewContextOptions/RecordVideo.html">RecordVideo</a>
+      
+    </li>
+  
+</ul>
+
+      
+    </li>
+  
+  <li class="parent " data-id="playwright/Playwright/Browser/NewPageOptions" data-name="playwright::browser::newpageoptions">
+      <a href="../../Playwright/Browser/NewPageOptions.html">NewPageOptions</a>
+      
+        <ul>
+  
+  <li class=" " data-id="playwright/Playwright/Browser/NewPageOptions/Proxy" data-name="playwright::browser::newpageoptions::proxy">
+      <a href="../../Playwright/Browser/NewPageOptions/Proxy.html">Proxy</a>
+      
+    </li>
+  
+  <li class=" " data-id="playwright/Playwright/Browser/NewPageOptions/RecordHar" data-name="playwright::browser::newpageoptions::recordhar">
+      <a href="../../Playwright/Browser/NewPageOptions/RecordHar.html">RecordHar</a>
+      
+    </li>
+  
+  <li class=" " data-id="playwright/Playwright/Browser/NewPageOptions/RecordVideo" data-name="playwright::browser::newpageoptions::recordvideo">
+      <a href="../../Playwright/Browser/NewPageOptions/RecordVideo.html">RecordVideo</a>
+      
+    </li>
+  
+</ul>
+
+      
+    </li>
+  
+  <li class=" " data-id="playwright/Playwright/Browser/VideoSize" data-name="playwright::browser::videosize">
+      <a href="../../Playwright/Browser/VideoSize.html">VideoSize</a>
+      
+    </li>
+  
+</ul>
+
+      
+    </li>
+  
+  <li class="parent " data-id="playwright/Playwright/BrowserContext" data-name="playwright::browsercontext">
+      <a href="../../Playwright/BrowserContext.html">BrowserContext</a>
+      
+        <ul>
+  
+  <li class=" " data-id="playwright/Playwright/BrowserContext/AddCookie" data-name="playwright::browsercontext::addcookie">
+      <a href="../../Playwright/BrowserContext/AddCookie.html">AddCookie</a>
+      
+    </li>
+  
+  <li class=" " data-id="playwright/Playwright/BrowserContext/Cookie" data-name="playwright::browsercontext::cookie">
+      <a href="../../Playwright/BrowserContext/Cookie.html">Cookie</a>
+      
+    </li>
+  
+  <li class=" " data-id="playwright/Playwright/BrowserContext/EventType" data-name="playwright::browsercontext::eventtype">
+      <a href="../../Playwright/BrowserContext/EventType.html">EventType</a>
+      
+    </li>
+  
+  <li class=" " data-id="playwright/Playwright/BrowserContext/ExposeBindingOptions" data-name="playwright::browsercontext::exposebindingoptions">
+      <a href="../../Playwright/BrowserContext/ExposeBindingOptions.html">ExposeBindingOptions</a>
+      
+    </li>
+  
+  <li class=" " data-id="playwright/Playwright/BrowserContext/GrantPermissionsOptions" data-name="playwright::browsercontext::grantpermissionsoptions">
+      <a href="../../Playwright/BrowserContext/GrantPermissionsOptions.html">GrantPermissionsOptions</a>
+      
+    </li>
+  
+  <li class=" " data-id="playwright/Playwright/BrowserContext/HTTPCredentials" data-name="playwright::browsercontext::httpcredentials">
+      <a href="../../Playwright/BrowserContext/HTTPCredentials.html">HTTPCredentials</a>
+      
+    </li>
+  
+  <li class=" " data-id="playwright/Playwright/BrowserContext/SameSite" data-name="playwright::browsercontext::samesite">
+      <a href="../../Playwright/BrowserContext/SameSite.html">SameSite</a>
+      
+    </li>
+  
+  <li class="parent " data-id="playwright/Playwright/BrowserContext/StorageState" data-name="playwright::browsercontext::storagestate">
+      <a href="../../Playwright/BrowserContext/StorageState.html">StorageState</a>
+      
+        <ul>
+  
+  <li class="parent " data-id="playwright/Playwright/BrowserContext/StorageState/OriginState" data-name="playwright::browsercontext::storagestate::originstate">
+      <a href="../../Playwright/BrowserContext/StorageState/OriginState.html">OriginState</a>
+      
+        <ul>
+  
+  <li class=" " data-id="playwright/Playwright/BrowserContext/StorageState/OriginState/LocalStorageItem" data-name="playwright::browsercontext::storagestate::originstate::localstorageitem">
+      <a href="../../Playwright/BrowserContext/StorageState/OriginState/LocalStorageItem.html">LocalStorageItem</a>
+      
+    </li>
+  
+</ul>
+
+      
+    </li>
+  
+</ul>
+
+      
+    </li>
+  
+  <li class=" " data-id="playwright/Playwright/BrowserContext/StorageStateOptions" data-name="playwright::browsercontext::storagestateoptions">
+      <a href="../../Playwright/BrowserContext/StorageStateOptions.html">StorageStateOptions</a>
+      
+    </li>
+  
+  <li class=" " data-id="playwright/Playwright/BrowserContext/WaitForEventOptions" data-name="playwright::browsercontext::waitforeventoptions">
+      <a href="../../Playwright/BrowserContext/WaitForEventOptions.html">WaitForEventOptions</a>
+      
+    </li>
+  
+</ul>
+
+      
+    </li>
+  
+  <li class="parent " data-id="playwright/Playwright/BrowserType" data-name="playwright::browsertype">
+      <a href="../../Playwright/BrowserType.html">BrowserType</a>
+      
+        <ul>
+  
+  <li class="parent " data-id="playwright/Playwright/BrowserType/LaunchOptions" data-name="playwright::browsertype::launchoptions">
+      <a href="../../Playwright/BrowserType/LaunchOptions.html">LaunchOptions</a>
+      
+        <ul>
+  
+  <li class=" " data-id="playwright/Playwright/BrowserType/LaunchOptions/Proxy" data-name="playwright::browsertype::launchoptions::proxy">
+      <a href="../../Playwright/BrowserType/LaunchOptions/Proxy.html">Proxy</a>
+      
+    </li>
+  
+</ul>
+
+      
+    </li>
+  
+  <li class="parent " data-id="playwright/Playwright/BrowserType/LaunchPersistentContextOptions" data-name="playwright::browsertype::launchpersistentcontextoptions">
+      <a href="../../Playwright/BrowserType/LaunchPersistentContextOptions.html">LaunchPersistentContextOptions</a>
+      
+        <ul>
+  
+  <li class=" " data-id="playwright/Playwright/BrowserType/LaunchPersistentContextOptions/Proxy" data-name="playwright::browsertype::launchpersistentcontextoptions::proxy">
+      <a href="../../Playwright/BrowserType/LaunchPersistentContextOptions/Proxy.html">Proxy</a>
+      
+    </li>
+  
+  <li class=" " data-id="playwright/Playwright/BrowserType/LaunchPersistentContextOptions/RecordHar" data-name="playwright::browsertype::launchpersistentcontextoptions::recordhar">
+      <a href="../../Playwright/BrowserType/LaunchPersistentContextOptions/RecordHar.html">RecordHar</a>
+      
+    </li>
+  
+  <li class="parent " data-id="playwright/Playwright/BrowserType/LaunchPersistentContextOptions/RecordVideo" data-name="playwright::browsertype::launchpersistentcontextoptions::recordvideo">
+      <a href="../../Playwright/BrowserType/LaunchPersistentContextOptions/RecordVideo.html">RecordVideo</a>
+      
+        <ul>
+  
+  <li class=" " data-id="playwright/Playwright/BrowserType/LaunchPersistentContextOptions/RecordVideo/Size" data-name="playwright::browsertype::launchpersistentcontextoptions::recordvideo::size">
+      <a href="../../Playwright/BrowserType/LaunchPersistentContextOptions/RecordVideo/Size.html">Size</a>
+      
+    </li>
+  
+</ul>
+
+      
+    </li>
+  
+</ul>
+
+      
+    </li>
+  
+</ul>
+
+      
+    </li>
+  
+  <li class=" " data-id="playwright/Playwright/ColorScheme" data-name="playwright::colorscheme">
+      <a href="../../Playwright/ColorScheme.html">ColorScheme</a>
+      
+    </li>
+  
+  <li class="parent " data-id="playwright/Playwright/ConsoleMessage" data-name="playwright::consolemessage">
+      <a href="../../Playwright/ConsoleMessage.html">ConsoleMessage</a>
+      
+        <ul>
+  
+  <li class=" " data-id="playwright/Playwright/ConsoleMessage/Location" data-name="playwright::consolemessage::location">
+      <a href="../../Playwright/ConsoleMessage/Location.html">Location</a>
+      
+    </li>
+  
+</ul>
+
+      
+    </li>
+  
+  <li class=" " data-id="playwright/Playwright/Consumer" data-name="playwright::consumer(t)">
+      <a href="../../Playwright/Consumer.html">Consumer</a>
+      
+    </li>
+  
+  <li class=" " data-id="playwright/Playwright/Deferred" data-name="playwright::deferred(t)">
+      <a href="../../Playwright/Deferred.html">Deferred</a>
+      
+    </li>
+  
+  <li class="parent " data-id="playwright/Playwright/DeviceDescriptor" data-name="playwright::devicedescriptor">
+      <a href="../../Playwright/DeviceDescriptor.html">DeviceDescriptor</a>
+      
+        <ul>
+  
+  <li class=" " data-id="playwright/Playwright/DeviceDescriptor/Viewport" data-name="playwright::devicedescriptor::viewport">
+      <a href="../../Playwright/DeviceDescriptor/Viewport.html">Viewport</a>
+      
+    </li>
+  
+</ul>
+
+      
+    </li>
+  
+  <li class="parent " data-id="playwright/Playwright/Dialog" data-name="playwright::dialog">
+      <a href="../../Playwright/Dialog.html">Dialog</a>
+      
+        <ul>
+  
+  <li class=" " data-id="playwright/Playwright/Dialog/Type" data-name="playwright::dialog::type">
+      <a href="../../Playwright/Dialog/Type.html">Type</a>
+      
+    </li>
+  
+</ul>
+
+      
+    </li>
+  
+  <li class=" " data-id="playwright/Playwright/Download" data-name="playwright::download">
+      <a href="../../Playwright/Download.html">Download</a>
+      
+    </li>
+  
+  <li class="parent " data-id="playwright/Playwright/ElementHandle" data-name="playwright::elementhandle">
+      <a href="../../Playwright/ElementHandle.html">ElementHandle</a>
+      
+        <ul>
+  
+  <li class=" " data-id="playwright/Playwright/ElementHandle/BoundingBox" data-name="playwright::elementhandle::boundingbox">
+      <a href="../../Playwright/ElementHandle/BoundingBox.html">BoundingBox</a>
+      
+    </li>
+  
+  <li class=" " data-id="playwright/Playwright/ElementHandle/CheckOptions" data-name="playwright::elementhandle::checkoptions">
+      <a href="../../Playwright/ElementHandle/CheckOptions.html">CheckOptions</a>
+      
+    </li>
+  
+  <li class=" " data-id="playwright/Playwright/ElementHandle/ClickOptions" data-name="playwright::elementhandle::clickoptions">
+      <a href="../../Playwright/ElementHandle/ClickOptions.html">ClickOptions</a>
+      
+    </li>
+  
+  <li class=" " data-id="playwright/Playwright/ElementHandle/DblclickOptions" data-name="playwright::elementhandle::dblclickoptions">
+      <a href="../../Playwright/ElementHandle/DblclickOptions.html">DblclickOptions</a>
+      
+    </li>
+  
+  <li class=" " data-id="playwright/Playwright/ElementHandle/ElementState" data-name="playwright::elementhandle::elementstate">
+      <a href="../../Playwright/ElementHandle/ElementState.html">ElementState</a>
+      
+    </li>
+  
+  <li class=" " data-id="playwright/Playwright/ElementHandle/FillOptions" data-name="playwright::elementhandle::filloptions">
+      <a href="../../Playwright/ElementHandle/FillOptions.html">FillOptions</a>
+      
+    </li>
+  
+  <li class=" " data-id="playwright/Playwright/ElementHandle/HoverOptions" data-name="playwright::elementhandle::hoveroptions">
+      <a href="../../Playwright/ElementHandle/HoverOptions.html">HoverOptions</a>
+      
+    </li>
+  
+  <li class=" " data-id="playwright/Playwright/ElementHandle/PressOptions" data-name="playwright::elementhandle::pressoptions">
+      <a href="../../Playwright/ElementHandle/PressOptions.html">PressOptions</a>
+      
+    </li>
+  
+  <li class="parent " data-id="playwright/Playwright/ElementHandle/ScreenshotOptions" data-name="playwright::elementhandle::screenshotoptions">
+      <a href="../../Playwright/ElementHandle/ScreenshotOptions.html">ScreenshotOptions</a>
+      
+        <ul>
+  
+  <li class=" " data-id="playwright/Playwright/ElementHandle/ScreenshotOptions/Type" data-name="playwright::elementhandle::screenshotoptions::type">
+      <a href="../../Playwright/ElementHandle/ScreenshotOptions/Type.html">Type</a>
+      
+    </li>
+  
+</ul>
+
+      
+    </li>
+  
+  <li class=" " data-id="playwright/Playwright/ElementHandle/ScrollIntoViewIfNeededOptions" data-name="playwright::elementhandle::scrollintoviewifneededoptions">
+      <a href="../../Playwright/ElementHandle/ScrollIntoViewIfNeededOptions.html">ScrollIntoViewIfNeededOptions</a>
+      
+    </li>
+  
+  <li class=" " data-id="playwright/Playwright/ElementHandle/SelectOption" data-name="playwright::elementhandle::selectoption">
+      <a href="../../Playwright/ElementHandle/SelectOption.html">SelectOption</a>
+      
+    </li>
+  
+  <li class=" " data-id="playwright/Playwright/ElementHandle/SelectOptionOptions" data-name="playwright::elementhandle::selectoptionoptions">
+      <a href="../../Playwright/ElementHandle/SelectOptionOptions.html">SelectOptionOptions</a>
+      
+    </li>
+  
+  <li class=" " data-id="playwright/Playwright/ElementHandle/SelectTextOptions" data-name="playwright::elementhandle::selecttextoptions">
+      <a href="../../Playwright/ElementHandle/SelectTextOptions.html">SelectTextOptions</a>
+      
+    </li>
+  
+  <li class=" " data-id="playwright/Playwright/ElementHandle/SetInputFilesOptions" data-name="playwright::elementhandle::setinputfilesoptions">
+      <a href="../../Playwright/ElementHandle/SetInputFilesOptions.html">SetInputFilesOptions</a>
+      
+    </li>
+  
+  <li class="parent " data-id="playwright/Playwright/ElementHandle/TapOptions" data-name="playwright::elementhandle::tapoptions">
+      <a href="../../Playwright/ElementHandle/TapOptions.html">TapOptions</a>
+      
+        <ul>
+  
+  <li class=" " data-id="playwright/Playwright/ElementHandle/TapOptions/Position" data-name="playwright::elementhandle::tapoptions::position">
+      <a href="../../Playwright/ElementHandle/TapOptions/Position.html">Position</a>
+      
+    </li>
+  
+</ul>
+
+      
+    </li>
+  
+  <li class=" " data-id="playwright/Playwright/ElementHandle/TypeOptions" data-name="playwright::elementhandle::typeoptions">
+      <a href="../../Playwright/ElementHandle/TypeOptions.html">TypeOptions</a>
+      
+    </li>
+  
+  <li class=" " data-id="playwright/Playwright/ElementHandle/UncheckOptions" data-name="playwright::elementhandle::uncheckoptions">
+      <a href="../../Playwright/ElementHandle/UncheckOptions.html">UncheckOptions</a>
+      
+    </li>
+  
+  <li class=" " data-id="playwright/Playwright/ElementHandle/WaitForElementStateOptions" data-name="playwright::elementhandle::waitforelementstateoptions">
+      <a href="../../Playwright/ElementHandle/WaitForElementStateOptions.html">WaitForElementStateOptions</a>
+      
+    </li>
+  
+  <li class="parent " data-id="playwright/Playwright/ElementHandle/WaitForSelectorOptions" data-name="playwright::elementhandle::waitforselectoroptions">
+      <a href="../../Playwright/ElementHandle/WaitForSelectorOptions.html">WaitForSelectorOptions</a>
+      
+        <ul>
+  
+  <li class=" " data-id="playwright/Playwright/ElementHandle/WaitForSelectorOptions/State" data-name="playwright::elementhandle::waitforselectoroptions::state">
+      <a href="../../Playwright/ElementHandle/WaitForSelectorOptions/State.html">State</a>
+      
+    </li>
+  
+</ul>
+
+      
+    </li>
+  
+</ul>
+
+      
+    </li>
+  
+  <li class=" " data-id="playwright/Playwright/Event" data-name="playwright::event(eventtype)">
+      <a href="../../Playwright/Event.html">Event</a>
+      
+    </li>
+  
+  <li class="parent " data-id="playwright/Playwright/FileChooser" data-name="playwright::filechooser">
+      <a href="../../Playwright/FileChooser.html">FileChooser</a>
+      
+        <ul>
+  
+  <li class=" " data-id="playwright/Playwright/FileChooser/FilePayload" data-name="playwright::filechooser::filepayload">
+      <a href="../../Playwright/FileChooser/FilePayload.html">FilePayload</a>
+      
+    </li>
+  
+  <li class=" " data-id="playwright/Playwright/FileChooser/SetFilesOptions" data-name="playwright::filechooser::setfilesoptions">
+      <a href="../../Playwright/FileChooser/SetFilesOptions.html">SetFilesOptions</a>
+      
+    </li>
+  
+</ul>
+
+      
+    </li>
+  
+  <li class="parent " data-id="playwright/Playwright/Frame" data-name="playwright::frame">
+      <a href="../../Playwright/Frame.html">Frame</a>
+      
+        <ul>
+  
+  <li class=" " data-id="playwright/Playwright/Frame/AddScriptTagParams" data-name="playwright::frame::addscripttagparams">
+      <a href="../../Playwright/Frame/AddScriptTagParams.html">AddScriptTagParams</a>
+      
+    </li>
+  
+  <li class=" " data-id="playwright/Playwright/Frame/AddStyleTagParams" data-name="playwright::frame::addstyletagparams">
+      <a href="../../Playwright/Frame/AddStyleTagParams.html">AddStyleTagParams</a>
+      
+    </li>
+  
+  <li class=" " data-id="playwright/Playwright/Frame/CheckOptions" data-name="playwright::frame::checkoptions">
+      <a href="../../Playwright/Frame/CheckOptions.html">CheckOptions</a>
+      
+    </li>
+  
+  <li class=" " data-id="playwright/Playwright/Frame/ClickOptions" data-name="playwright::frame::clickoptions">
+      <a href="../../Playwright/Frame/ClickOptions.html">ClickOptions</a>
+      
+    </li>
+  
+  <li class=" " data-id="playwright/Playwright/Frame/DblclickOptions" data-name="playwright::frame::dblclickoptions">
+      <a href="../../Playwright/Frame/DblclickOptions.html">DblclickOptions</a>
+      
+    </li>
+  
+  <li class=" " data-id="playwright/Playwright/Frame/DispatchEventOptions" data-name="playwright::frame::dispatcheventoptions">
+      <a href="../../Playwright/Frame/DispatchEventOptions.html">DispatchEventOptions</a>
+      
+    </li>
+  
+  <li class=" " data-id="playwright/Playwright/Frame/FillOptions" data-name="playwright::frame::filloptions">
+      <a href="../../Playwright/Frame/FillOptions.html">FillOptions</a>
+      
+    </li>
+  
+  <li class=" " data-id="playwright/Playwright/Frame/FocusOptions" data-name="playwright::frame::focusoptions">
+      <a href="../../Playwright/Frame/FocusOptions.html">FocusOptions</a>
+      
+    </li>
+  
+  <li class=" " data-id="playwright/Playwright/Frame/GetAttributeOptions" data-name="playwright::frame::getattributeoptions">
+      <a href="../../Playwright/Frame/GetAttributeOptions.html">GetAttributeOptions</a>
+      
+    </li>
+  
+  <li class=" " data-id="playwright/Playwright/Frame/HoverOptions" data-name="playwright::frame::hoveroptions">
+      <a href="../../Playwright/Frame/HoverOptions.html">HoverOptions</a>
+      
+    </li>
+  
+  <li class=" " data-id="playwright/Playwright/Frame/InnerHTMLOptions" data-name="playwright::frame::innerhtmloptions">
+      <a href="../../Playwright/Frame/InnerHTMLOptions.html">InnerHTMLOptions</a>
+      
+    </li>
+  
+  <li class=" " data-id="playwright/Playwright/Frame/InnerTextOptions" data-name="playwright::frame::innertextoptions">
+      <a href="../../Playwright/Frame/InnerTextOptions.html">InnerTextOptions</a>
+      
+    </li>
+  
+  <li class=" " data-id="playwright/Playwright/Frame/LoadState" data-name="playwright::frame::loadstate">
+      <a href="../../Playwright/Frame/LoadState.html">LoadState</a>
+      
+    </li>
+  
+  <li class=" " data-id="playwright/Playwright/Frame/NavigateOptions" data-name="playwright::frame::navigateoptions">
+      <a href="../../Playwright/Frame/NavigateOptions.html">NavigateOptions</a>
+      
+    </li>
+  
+  <li class=" " data-id="playwright/Playwright/Frame/PressOptions" data-name="playwright::frame::pressoptions">
+      <a href="../../Playwright/Frame/PressOptions.html">PressOptions</a>
+      
+    </li>
+  
+  <li class=" " data-id="playwright/Playwright/Frame/SelectOptionOptions" data-name="playwright::frame::selectoptionoptions">
+      <a href="../../Playwright/Frame/SelectOptionOptions.html">SelectOptionOptions</a>
+      
+    </li>
+  
+  <li class=" " data-id="playwright/Playwright/Frame/SetContentOptions" data-name="playwright::frame::setcontentoptions">
+      <a href="../../Playwright/Frame/SetContentOptions.html">SetContentOptions</a>
+      
+    </li>
+  
+  <li class=" " data-id="playwright/Playwright/Frame/SetInputFilesOptions" data-name="playwright::frame::setinputfilesoptions">
+      <a href="../../Playwright/Frame/SetInputFilesOptions.html">SetInputFilesOptions</a>
+      
+    </li>
+  
+  <li class="parent " data-id="playwright/Playwright/Frame/TapOptions" data-name="playwright::frame::tapoptions">
+      <a href="../../Playwright/Frame/TapOptions.html">TapOptions</a>
+      
+        <ul>
+  
+  <li class=" " data-id="playwright/Playwright/Frame/TapOptions/Position" data-name="playwright::frame::tapoptions::position">
+      <a href="../../Playwright/Frame/TapOptions/Position.html">Position</a>
+      
+    </li>
+  
+</ul>
+
+      
+    </li>
+  
+  <li class=" " data-id="playwright/Playwright/Frame/TextContentOptions" data-name="playwright::frame::textcontentoptions">
+      <a href="../../Playwright/Frame/TextContentOptions.html">TextContentOptions</a>
+      
+    </li>
+  
+  <li class=" " data-id="playwright/Playwright/Frame/TypeOptions" data-name="playwright::frame::typeoptions">
+      <a href="../../Playwright/Frame/TypeOptions.html">TypeOptions</a>
+      
+    </li>
+  
+  <li class=" " data-id="playwright/Playwright/Frame/UncheckOptions" data-name="playwright::frame::uncheckoptions">
+      <a href="../../Playwright/Frame/UncheckOptions.html">UncheckOptions</a>
+      
+    </li>
+  
+  <li class=" " data-id="playwright/Playwright/Frame/WaitForFunctionOptions" data-name="playwright::frame::waitforfunctionoptions">
+      <a href="../../Playwright/Frame/WaitForFunctionOptions.html">WaitForFunctionOptions</a>
+      
+    </li>
+  
+  <li class=" " data-id="playwright/Playwright/Frame/WaitForLoadStateOptions" data-name="playwright::frame::waitforloadstateoptions">
+      <a href="../../Playwright/Frame/WaitForLoadStateOptions.html">WaitForLoadStateOptions</a>
+      
+    </li>
+  
+  <li class=" " data-id="playwright/Playwright/Frame/WaitForNavigationOptions" data-name="playwright::frame::waitfornavigationoptions">
+      <a href="../../Playwright/Frame/WaitForNavigationOptions.html">WaitForNavigationOptions</a>
+      
+    </li>
+  
+  <li class="parent " data-id="playwright/Playwright/Frame/WaitForSelectorOptions" data-name="playwright::frame::waitforselectoroptions">
+      <a href="../../Playwright/Frame/WaitForSelectorOptions.html">WaitForSelectorOptions</a>
+      
+        <ul>
+  
+  <li class=" " data-id="playwright/Playwright/Frame/WaitForSelectorOptions/State" data-name="playwright::frame::waitforselectoroptions::state">
+      <a href="../../Playwright/Frame/WaitForSelectorOptions/State.html">State</a>
+      
+    </li>
+  
+</ul>
+
+      
+    </li>
+  
+</ul>
+
+      
+    </li>
+  
+  <li class=" " data-id="playwright/Playwright/Geolocation" data-name="playwright::geolocation">
+      <a href="../../Playwright/Geolocation.html">Geolocation</a>
+      
+    </li>
+  
+  <li class=" " data-id="playwright/Playwright/IPlaywright" data-name="playwright::iplaywright">
+      <a href="../../Playwright/IPlaywright.html">IPlaywright</a>
+      
+    </li>
+  
+  <li class=" " data-id="playwright/Playwright/JSHandle" data-name="playwright::jshandle">
+      <a href="../../Playwright/JSHandle.html">JSHandle</a>
+      
+    </li>
+  
+  <li class="parent " data-id="playwright/Playwright/Keyboard" data-name="playwright::keyboard">
+      <a href="../../Playwright/Keyboard.html">Keyboard</a>
+      
+        <ul>
+  
+  <li class=" " data-id="playwright/Playwright/Keyboard/Modifier" data-name="playwright::keyboard::modifier">
+      <a href="../../Playwright/Keyboard/Modifier.html">Modifier</a>
+      
+    </li>
+  
+</ul>
+
+      
+    </li>
+  
+  <li class=" " data-id="playwright/Playwright/Listener" data-name="playwright::listener(eventtype)">
+      <a href="../../Playwright/Listener.html">Listener</a>
+      
+    </li>
+  
+  <li class=" " data-id="playwright/Playwright/ListenerImpl" data-name="playwright::listenerimpl(t)">
+      <a href="../../Playwright/ListenerImpl.html">ListenerImpl</a>
+      
+    </li>
+  
+  <li class="parent " data-id="playwright/Playwright/Logger" data-name="playwright::logger">
+      <a href="../../Playwright/Logger.html">Logger</a>
+      
+        <ul>
+  
+  <li class=" " data-id="playwright/Playwright/Logger/LogHints" data-name="playwright::logger::loghints">
+      <a href="../../Playwright/Logger/LogHints.html">LogHints</a>
+      
+    </li>
+  
+  <li class=" " data-id="playwright/Playwright/Logger/Severity" data-name="playwright::logger::severity">
+      <a href="../../Playwright/Logger/Severity.html">Severity</a>
+      
+    </li>
+  
+</ul>
+
+      
+    </li>
+  
+  <li class="parent open current" data-id="playwright/Playwright/Mouse" data-name="playwright::mouse">
+      <a href="../../Playwright/Mouse.html">Mouse</a>
+      
+        <ul>
+  
+  <li class=" current" data-id="playwright/Playwright/Mouse/Button" data-name="playwright::mouse::button">
+      <a href="../../Playwright/Mouse/Button.html">Button</a>
+      
+    </li>
+  
+  <li class=" " data-id="playwright/Playwright/Mouse/ClickOptions" data-name="playwright::mouse::clickoptions">
+      <a href="../../Playwright/Mouse/ClickOptions.html">ClickOptions</a>
+      
+    </li>
+  
+  <li class=" " data-id="playwright/Playwright/Mouse/DblclickOptions" data-name="playwright::mouse::dblclickoptions">
+      <a href="../../Playwright/Mouse/DblclickOptions.html">DblclickOptions</a>
+      
+    </li>
+  
+  <li class=" " data-id="playwright/Playwright/Mouse/DownOptions" data-name="playwright::mouse::downoptions">
+      <a href="../../Playwright/Mouse/DownOptions.html">DownOptions</a>
+      
+    </li>
+  
+  <li class=" " data-id="playwright/Playwright/Mouse/MoveOptions" data-name="playwright::mouse::moveoptions">
+      <a href="../../Playwright/Mouse/MoveOptions.html">MoveOptions</a>
+      
+    </li>
+  
+  <li class=" " data-id="playwright/Playwright/Mouse/UpOptions" data-name="playwright::mouse::upoptions">
+      <a href="../../Playwright/Mouse/UpOptions.html">UpOptions</a>
+      
+    </li>
+  
+</ul>
+
+      
+    </li>
+  
+  <li class="parent " data-id="playwright/Playwright/Page" data-name="playwright::page">
+      <a href="../../Playwright/Page.html">Page</a>
+      
+        <ul>
+  
+  <li class=" " data-id="playwright/Playwright/Page/AddScriptTagParams" data-name="playwright::page::addscripttagparams">
+      <a href="../../Playwright/Page/AddScriptTagParams.html">AddScriptTagParams</a>
+      
+    </li>
+  
+  <li class=" " data-id="playwright/Playwright/Page/AddStyleTagParams" data-name="playwright::page::addstyletagparams">
+      <a href="../../Playwright/Page/AddStyleTagParams.html">AddStyleTagParams</a>
+      
+    </li>
+  
+  <li class="parent " data-id="playwright/Playwright/Page/Binding" data-name="playwright::page::binding">
+      <a href="../../Playwright/Page/Binding.html">Binding</a>
+      
+        <ul>
+  
+  <li class=" " data-id="playwright/Playwright/Page/Binding/Source" data-name="playwright::page::binding::source">
+      <a href="../../Playwright/Page/Binding/Source.html">Source</a>
+      
+    </li>
+  
+</ul>
+
+      
+    </li>
+  
+  <li class=" " data-id="playwright/Playwright/Page/CheckOptions" data-name="playwright::page::checkoptions">
+      <a href="../../Playwright/Page/CheckOptions.html">CheckOptions</a>
+      
+    </li>
+  
+  <li class=" " data-id="playwright/Playwright/Page/ClickOptions" data-name="playwright::page::clickoptions">
+      <a href="../../Playwright/Page/ClickOptions.html">ClickOptions</a>
+      
+    </li>
+  
+  <li class=" " data-id="playwright/Playwright/Page/CloseOptions" data-name="playwright::page::closeoptions">
+      <a href="../../Playwright/Page/CloseOptions.html">CloseOptions</a>
+      
+    </li>
+  
+  <li class=" " data-id="playwright/Playwright/Page/DblclickOptions" data-name="playwright::page::dblclickoptions">
+      <a href="../../Playwright/Page/DblclickOptions.html">DblclickOptions</a>
+      
+    </li>
+  
+  <li class=" " data-id="playwright/Playwright/Page/DispatchEventOptions" data-name="playwright::page::dispatcheventoptions">
+      <a href="../../Playwright/Page/DispatchEventOptions.html">DispatchEventOptions</a>
+      
+    </li>
+  
+  <li class="parent " data-id="playwright/Playwright/Page/EmulateMediaParams" data-name="playwright::page::emulatemediaparams">
+      <a href="../../Playwright/Page/EmulateMediaParams.html">EmulateMediaParams</a>
+      
+        <ul>
+  
+  <li class=" " data-id="playwright/Playwright/Page/EmulateMediaParams/Media" data-name="playwright::page::emulatemediaparams::media">
+      <a href="../../Playwright/Page/EmulateMediaParams/Media.html">Media</a>
+      
+    </li>
+  
+</ul>
+
+      
+    </li>
+  
+  <li class=" " data-id="playwright/Playwright/Page/Error" data-name="playwright::page::error">
+      <a href="../../Playwright/Page/Error.html">Error</a>
+      
+    </li>
+  
+  <li class=" " data-id="playwright/Playwright/Page/EventType" data-name="playwright::page::eventtype">
+      <a href="../../Playwright/Page/EventType.html">EventType</a>
+      
+    </li>
+  
+  <li class=" " data-id="playwright/Playwright/Page/ExposeBindingOptions" data-name="playwright::page::exposebindingoptions">
+      <a href="../../Playwright/Page/ExposeBindingOptions.html">ExposeBindingOptions</a>
+      
+    </li>
+  
+  <li class=" " data-id="playwright/Playwright/Page/FillOptions" data-name="playwright::page::filloptions">
+      <a href="../../Playwright/Page/FillOptions.html">FillOptions</a>
+      
+    </li>
+  
+  <li class=" " data-id="playwright/Playwright/Page/FocusOptions" data-name="playwright::page::focusoptions">
+      <a href="../../Playwright/Page/FocusOptions.html">FocusOptions</a>
+      
+    </li>
+  
+  <li class=" " data-id="playwright/Playwright/Page/Function" data-name="playwright::page::function">
+      <a href="../../Playwright/Page/Function.html">Function</a>
+      
+    </li>
+  
+  <li class=" " data-id="playwright/Playwright/Page/GetAttributeOptions" data-name="playwright::page::getattributeoptions">
+      <a href="../../Playwright/Page/GetAttributeOptions.html">GetAttributeOptions</a>
+      
+    </li>
+  
+  <li class=" " data-id="playwright/Playwright/Page/GoBackOptions" data-name="playwright::page::gobackoptions">
+      <a href="../../Playwright/Page/GoBackOptions.html">GoBackOptions</a>
+      
+    </li>
+  
+  <li class=" " data-id="playwright/Playwright/Page/GoForwardOptions" data-name="playwright::page::goforwardoptions">
+      <a href="../../Playwright/Page/GoForwardOptions.html">GoForwardOptions</a>
+      
+    </li>
+  
+  <li class=" " data-id="playwright/Playwright/Page/HoverOptions" data-name="playwright::page::hoveroptions">
+      <a href="../../Playwright/Page/HoverOptions.html">HoverOptions</a>
+      
+    </li>
+  
+  <li class=" " data-id="playwright/Playwright/Page/InnerHTMLOptions" data-name="playwright::page::innerhtmloptions">
+      <a href="../../Playwright/Page/InnerHTMLOptions.html">InnerHTMLOptions</a>
+      
+    </li>
+  
+  <li class=" " data-id="playwright/Playwright/Page/InnerTextOptions" data-name="playwright::page::innertextoptions">
+      <a href="../../Playwright/Page/InnerTextOptions.html">InnerTextOptions</a>
+      
+    </li>
+  
+  <li class=" " data-id="playwright/Playwright/Page/LoadState" data-name="playwright::page::loadstate">
+      <a href="../../Playwright/Page/LoadState.html">LoadState</a>
+      
+    </li>
+  
+  <li class=" " data-id="playwright/Playwright/Page/NavigateOptions" data-name="playwright::page::navigateoptions">
+      <a href="../../Playwright/Page/NavigateOptions.html">NavigateOptions</a>
+      
+    </li>
+  
+  <li class="parent " data-id="playwright/Playwright/Page/PdfOptions" data-name="playwright::page::pdfoptions">
+      <a href="../../Playwright/Page/PdfOptions.html">PdfOptions</a>
+      
+        <ul>
+  
+  <li class=" " data-id="playwright/Playwright/Page/PdfOptions/Margin" data-name="playwright::page::pdfoptions::margin">
+      <a href="../../Playwright/Page/PdfOptions/Margin.html">Margin</a>
+      
+    </li>
+  
+</ul>
+
+      
+    </li>
+  
+  <li class=" " data-id="playwright/Playwright/Page/PressOptions" data-name="playwright::page::pressoptions">
+      <a href="../../Playwright/Page/PressOptions.html">PressOptions</a>
+      
+    </li>
+  
+  <li class=" " data-id="playwright/Playwright/Page/ReloadOptions" data-name="playwright::page::reloadoptions">
+      <a href="../../Playwright/Page/ReloadOptions.html">ReloadOptions</a>
+      
+    </li>
+  
+  <li class="parent " data-id="playwright/Playwright/Page/ScreenshotOptions" data-name="playwright::page::screenshotoptions">
+      <a href="../../Playwright/Page/ScreenshotOptions.html">ScreenshotOptions</a>
+      
+        <ul>
+  
+  <li class=" " data-id="playwright/Playwright/Page/ScreenshotOptions/Clip" data-name="playwright::page::screenshotoptions::clip">
+      <a href="../../Playwright/Page/ScreenshotOptions/Clip.html">Clip</a>
+      
+    </li>
+  
+  <li class=" " data-id="playwright/Playwright/Page/ScreenshotOptions/Type" data-name="playwright::page::screenshotoptions::type">
+      <a href="../../Playwright/Page/ScreenshotOptions/Type.html">Type</a>
+      
+    </li>
+  
+</ul>
+
+      
+    </li>
+  
+  <li class=" " data-id="playwright/Playwright/Page/SelectOptionOptions" data-name="playwright::page::selectoptionoptions">
+      <a href="../../Playwright/Page/SelectOptionOptions.html">SelectOptionOptions</a>
+      
+    </li>
+  
+  <li class=" " data-id="playwright/Playwright/Page/SetContentOptions" data-name="playwright::page::setcontentoptions">
+      <a href="../../Playwright/Page/SetContentOptions.html">SetContentOptions</a>
+      
+    </li>
+  
+  <li class=" " data-id="playwright/Playwright/Page/SetInputFilesOptions" data-name="playwright::page::setinputfilesoptions">
+      <a href="../../Playwright/Page/SetInputFilesOptions.html">SetInputFilesOptions</a>
+      
+    </li>
+  
+  <li class="parent " data-id="playwright/Playwright/Page/TapOptions" data-name="playwright::page::tapoptions">
+      <a href="../../Playwright/Page/TapOptions.html">TapOptions</a>
+      
+        <ul>
+  
+  <li class=" " data-id="playwright/Playwright/Page/TapOptions/Position" data-name="playwright::page::tapoptions::position">
+      <a href="../../Playwright/Page/TapOptions/Position.html">Position</a>
+      
+    </li>
+  
+</ul>
+
+      
+    </li>
+  
+  <li class=" " data-id="playwright/Playwright/Page/TextContentOptions" data-name="playwright::page::textcontentoptions">
+      <a href="../../Playwright/Page/TextContentOptions.html">TextContentOptions</a>
+      
+    </li>
+  
+  <li class=" " data-id="playwright/Playwright/Page/TypeOptions" data-name="playwright::page::typeoptions">
+      <a href="../../Playwright/Page/TypeOptions.html">TypeOptions</a>
+      
+    </li>
+  
+  <li class=" " data-id="playwright/Playwright/Page/UncheckOptions" data-name="playwright::page::uncheckoptions">
+      <a href="../../Playwright/Page/UncheckOptions.html">UncheckOptions</a>
+      
+    </li>
+  
+  <li class=" " data-id="playwright/Playwright/Page/ViewPort" data-name="playwright::page::viewport">
+      <a href="../../Playwright/Page/ViewPort.html">ViewPort</a>
+      
+    </li>
+  
+  <li class=" " data-id="playwright/Playwright/Page/WaitForEventOptions" data-name="playwright::page::waitforeventoptions">
+      <a href="../../Playwright/Page/WaitForEventOptions.html">WaitForEventOptions</a>
+      
+    </li>
+  
+  <li class=" " data-id="playwright/Playwright/Page/WaitForFunctionOptions" data-name="playwright::page::waitforfunctionoptions">
+      <a href="../../Playwright/Page/WaitForFunctionOptions.html">WaitForFunctionOptions</a>
+      
+    </li>
+  
+  <li class=" " data-id="playwright/Playwright/Page/WaitForLoadStateOptions" data-name="playwright::page::waitforloadstateoptions">
+      <a href="../../Playwright/Page/WaitForLoadStateOptions.html">WaitForLoadStateOptions</a>
+      
+    </li>
+  
+  <li class=" " data-id="playwright/Playwright/Page/WaitForNavigationOptions" data-name="playwright::page::waitfornavigationoptions">
+      <a href="../../Playwright/Page/WaitForNavigationOptions.html">WaitForNavigationOptions</a>
+      
+    </li>
+  
+  <li class=" " data-id="playwright/Playwright/Page/WaitForRequestOptions" data-name="playwright::page::waitforrequestoptions">
+      <a href="../../Playwright/Page/WaitForRequestOptions.html">WaitForRequestOptions</a>
+      
+    </li>
+  
+  <li class=" " data-id="playwright/Playwright/Page/WaitForResponseOptions" data-name="playwright::page::waitforresponseoptions">
+      <a href="../../Playwright/Page/WaitForResponseOptions.html">WaitForResponseOptions</a>
+      
+    </li>
+  
+  <li class="parent " data-id="playwright/Playwright/Page/WaitForSelectorOptions" data-name="playwright::page::waitforselectoroptions">
+      <a href="../../Playwright/Page/WaitForSelectorOptions.html">WaitForSelectorOptions</a>
+      
+        <ul>
+  
+  <li class=" " data-id="playwright/Playwright/Page/WaitForSelectorOptions/State" data-name="playwright::page::waitforselectoroptions::state">
+      <a href="../../Playwright/Page/WaitForSelectorOptions/State.html">State</a>
+      
+    </li>
+  
+</ul>
+
+      
+    </li>
+  
+</ul>
+
+      
+    </li>
+  
+  <li class=" " data-id="playwright/Playwright/PageBindingProc" data-name="playwright::pagebindingproc">
+      <a href="../../Playwright/PageBindingProc.html">PageBindingProc</a>
+      
+    </li>
+  
+  <li class=" " data-id="playwright/Playwright/PageFunctionProc" data-name="playwright::pagefunctionproc">
+      <a href="../../Playwright/PageFunctionProc.html">PageFunctionProc</a>
+      
+    </li>
+  
+  <li class=" " data-id="playwright/Playwright/PlaywrightException" data-name="playwright::playwrightexception">
+      <a href="../../Playwright/PlaywrightException.html">PlaywrightException</a>
+      
+    </li>
+  
+  <li class=" " data-id="playwright/Playwright/Position" data-name="playwright::position">
+      <a href="../../Playwright/Position.html">Position</a>
+      
+    </li>
+  
+  <li class="parent " data-id="playwright/Playwright/Request" data-name="playwright::request">
+      <a href="../../Playwright/Request.html">Request</a>
+      
+        <ul>
+  
+  <li class=" " data-id="playwright/Playwright/Request/RequestFailure" data-name="playwright::request::requestfailure">
+      <a href="../../Playwright/Request/RequestFailure.html">RequestFailure</a>
+      
+    </li>
+  
+  <li class=" " data-id="playwright/Playwright/Request/RequestTiming" data-name="playwright::request::requesttiming">
+      <a href="../../Playwright/Request/RequestTiming.html">RequestTiming</a>
+      
+    </li>
+  
+</ul>
+
+      
+    </li>
+  
+  <li class=" " data-id="playwright/Playwright/Response" data-name="playwright::response">
+      <a href="../../Playwright/Response.html">Response</a>
+      
+    </li>
+  
+  <li class="parent " data-id="playwright/Playwright/Route" data-name="playwright::route">
+      <a href="../../Playwright/Route.html">Route</a>
+      
+        <ul>
+  
+  <li class=" " data-id="playwright/Playwright/Route/ContinueOverrides" data-name="playwright::route::continueoverrides">
+      <a href="../../Playwright/Route/ContinueOverrides.html">ContinueOverrides</a>
+      
+    </li>
+  
+  <li class=" " data-id="playwright/Playwright/Route/FulfillResponse" data-name="playwright::route::fulfillresponse">
+      <a href="../../Playwright/Route/FulfillResponse.html">FulfillResponse</a>
+      
+    </li>
+  
+</ul>
+
+      
+    </li>
+  
+  <li class="parent " data-id="playwright/Playwright/Selectors" data-name="playwright::selectors">
+      <a href="../../Playwright/Selectors.html">Selectors</a>
+      
+        <ul>
+  
+  <li class=" " data-id="playwright/Playwright/Selectors/RegisterOptions" data-name="playwright::selectors::registeroptions">
+      <a href="../../Playwright/Selectors/RegisterOptions.html">RegisterOptions</a>
+      
+    </li>
+  
+</ul>
+
+      
+    </li>
+  
+  <li class=" " data-id="playwright/Playwright/Serialization" data-name="playwright::serialization">
+      <a href="../../Playwright/Serialization.html">Serialization</a>
+      
+    </li>
+  
+  <li class=" " data-id="playwright/Playwright/ServerException" data-name="playwright::serverexception">
+      <a href="../../Playwright/ServerException.html">ServerException</a>
+      
+    </li>
+  
+  <li class=" " data-id="playwright/Playwright/TimeoutError" data-name="playwright::timeouterror">
+      <a href="../../Playwright/TimeoutError.html">TimeoutError</a>
+      
+    </li>
+  
+  <li class=" " data-id="playwright/Playwright/Touchscreen" data-name="playwright::touchscreen">
+      <a href="../../Playwright/Touchscreen.html">Touchscreen</a>
+      
+    </li>
+  
+  <li class=" " data-id="playwright/Playwright/Video" data-name="playwright::video">
+      <a href="../../Playwright/Video.html">Video</a>
+      
+    </li>
+  
+  <li class=" " data-id="playwright/Playwright/Waitable" data-name="playwright::waitable(t)">
+      <a href="../../Playwright/Waitable.html">Waitable</a>
+      
+    </li>
+  
+  <li class="parent " data-id="playwright/Playwright/WebSocket" data-name="playwright::websocket">
+      <a href="../../Playwright/WebSocket.html">WebSocket</a>
+      
+        <ul>
+  
+  <li class=" " data-id="playwright/Playwright/WebSocket/EventType" data-name="playwright::websocket::eventtype">
+      <a href="../../Playwright/WebSocket/EventType.html">EventType</a>
+      
+    </li>
+  
+  <li class=" " data-id="playwright/Playwright/WebSocket/FrameData" data-name="playwright::websocket::framedata">
+      <a href="../../Playwright/WebSocket/FrameData.html">FrameData</a>
+      
+    </li>
+  
+  <li class=" " data-id="playwright/Playwright/WebSocket/WaitForEventOptions" data-name="playwright::websocket::waitforeventoptions">
+      <a href="../../Playwright/WebSocket/WaitForEventOptions.html">WaitForEventOptions</a>
+      
+    </li>
+  
+</ul>
+
+      
+    </li>
+  
+  <li class="parent " data-id="playwright/Playwright/Worker" data-name="playwright::worker">
+      <a href="../../Playwright/Worker.html">Worker</a>
+      
+        <ul>
+  
+  <li class=" " data-id="playwright/Playwright/Worker/EventType" data-name="playwright::worker::eventtype">
+      <a href="../../Playwright/Worker/EventType.html">EventType</a>
+      
+    </li>
+  
+</ul>
+
+      
+    </li>
+  
+</ul>
+
+      
+    </li>
+  
+</ul>
+
+  </div>
+</div>
+
+
+<div class="main-content">
+<h1 class="type-name">
+
+  <span class="kind">enum</span> Playwright::Mouse::Button
+
+</h1>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <h2>
+    <a id="defined-in" class="anchor" href="#defined-in">
+  <svg class="octicon-link" aria-hidden="true">
+    <use href="#octicon-link"/>
+  </svg>
+</a>
+    Defined in:
+  </h2>
+  
+    
+      <a href="https://github.com/naqvis/playwright-cr/blob/fb9bb4cbcecb2e9647fe4ab19643339fec554e83/src/playwright/mouse.cr#L8" target="_blank">
+        playwright/mouse.cr
+      </a>
+    
+    <br/>
+  
+
+
+
+  
+    <h2>
+      <a id="enum-members" class="anchor" href="#enum-members">
+  <svg class="octicon-link" aria-hidden="true">
+    <use href="#octicon-link"/>
+  </svg>
+</a>
+      Enum Members
+    </h2>
+  
+  <dl>
+    
+      <dt class="entry-const" id="LEFT">
+        <strong>LEFT</strong> = <code><span class="n">0</span></code>
+      </dt>
+      
+    
+      <dt class="entry-const" id="MIDDLE">
+        <strong>MIDDLE</strong> = <code><span class="n">1</span></code>
+      </dt>
+      
+    
+      <dt class="entry-const" id="RIGHT">
+        <strong>RIGHT</strong> = <code><span class="n">2</span></code>
+      </dt>
+      
+    
+  </dl>
+
+
+
+
+
+
+
+  <h2>
+    <a id="instance-method-summary" class="anchor" href="#instance-method-summary">
+  <svg class="octicon-link" aria-hidden="true">
+    <use href="#octicon-link"/>
+  </svg>
+</a>
+    Instance Method Summary
+  </h2>
+  <ul class="list-summary">
+    
+      <li class="entry-summary">
+        <a href="#left?-instance-method" class="signature"><strong>#left?</strong></a>
+        
+      </li>
+    
+      <li class="entry-summary">
+        <a href="#middle?-instance-method" class="signature"><strong>#middle?</strong></a>
+        
+      </li>
+    
+      <li class="entry-summary">
+        <a href="#right?-instance-method" class="signature"><strong>#right?</strong></a>
+        
+      </li>
+    
+      <li class="entry-summary">
+        <a href="#to_json(json:JSON::Builder)-instance-method" class="signature"><strong>#to_json</strong>(json : JSON::Builder)</a>
+        
+          <div class="summary"><p>Serializes this enum member by name.</p></div>
+        
+      </li>
+    
+      <li class="entry-summary">
+        <a href="#to_s-instance-method" class="signature"><strong>#to_s</strong></a>
+        
+          <div class="summary"><p>Returns a <code>String</code> representation of this enum member.</p></div>
+        
+      </li>
+    
+  </ul>
+
+
+
+
+
+<div class="methods-inherited">
+  
+    
+
+
+    
+
+
+    
+
+
+  
+    
+
+
+    
+
+
+    
+
+
+  
+    
+
+
+    
+
+
+    
+
+
+  
+    
+
+
+    
+
+
+    
+
+
+  
+</div>
+
+
+
+
+
+
+  <h2>
+    <a id="instance-method-detail" class="anchor" href="#instance-method-detail">
+  <svg class="octicon-link" aria-hidden="true">
+    <use href="#octicon-link"/>
+  </svg>
+</a>
+    Instance Method Detail
+  </h2>
+  
+    <div class="entry-detail" id="left?-instance-method">
+      <div class="signature">
+        
+        def <strong>left?</strong>
+
+        <a class="method-permalink" href="#left?-instance-method">#</a>
+      </div>
+      
+      <br/>
+      <div>
+        
+          [<a href="https://github.com/naqvis/playwright-cr/blob/fb9bb4cbcecb2e9647fe4ab19643339fec554e83/src/playwright/mouse.cr#L9" target="_blank">View source</a>]
+        
+      </div>
+    </div>
+  
+    <div class="entry-detail" id="middle?-instance-method">
+      <div class="signature">
+        
+        def <strong>middle?</strong>
+
+        <a class="method-permalink" href="#middle?-instance-method">#</a>
+      </div>
+      
+      <br/>
+      <div>
+        
+          [<a href="https://github.com/naqvis/playwright-cr/blob/fb9bb4cbcecb2e9647fe4ab19643339fec554e83/src/playwright/mouse.cr#L10" target="_blank">View source</a>]
+        
+      </div>
+    </div>
+  
+    <div class="entry-detail" id="right?-instance-method">
+      <div class="signature">
+        
+        def <strong>right?</strong>
+
+        <a class="method-permalink" href="#right?-instance-method">#</a>
+      </div>
+      
+      <br/>
+      <div>
+        
+          [<a href="https://github.com/naqvis/playwright-cr/blob/fb9bb4cbcecb2e9647fe4ab19643339fec554e83/src/playwright/mouse.cr#L11" target="_blank">View source</a>]
+        
+      </div>
+    </div>
+  
+    <div class="entry-detail" id="to_json(json:JSON::Builder)-instance-method">
+      <div class="signature">
+        
+        def <strong>to_json</strong>(json : JSON::Builder)
+
+        <a class="method-permalink" href="#to_json(json:JSON::Builder)-instance-method">#</a>
+      </div>
+      
+        <div class="doc">
+          
+            <div class="doc-inherited">
+              Description copied from struct Enum
+            </div>
+          
+          <p>Serializes this enum member by name.</p>
+
+<p>For non-flags enums, the serialization is a JSON string. The value is the
+member name (see <code><a href="../../Playwright/Mouse/Button.html#to_s-instance-method">#to_s</a></code>) transformed with <code>String#underscore</code>.</p>
+
+<pre><code class="language-crystal"><span class="k">enum</span> <span class="t">Stages</span>
+  <span class="t">INITIAL</span>
+  <span class="t">SECOND_STAGE</span>
+<span class="k">end</span>
+
+<span class="t">Stages</span><span class="t">::</span><span class="t">INITIAL</span>.to_json      <span class="c"># =&gt; %(&quot;initial&quot;)</span>
+<span class="t">Stages</span><span class="t">::</span><span class="t">SECOND_STAGE</span>.to_json <span class="c"># =&gt; %(&quot;second_stage&quot;)</span></code></pre>
+
+<p>For flags enums, the serialization is a JSON array including every flagged
+member individually serialized in the same way as a member of a non-flags enum.
+<code>None</code> is serialized as an empty array, <code>All</code> as an array containing
+all members.</p>
+
+<pre><code class="language-crystal">@[<span class="t">Flags</span>]
+<span class="k">enum</span> <span class="t">Sides</span>
+  <span class="t">LEFT</span>
+  <span class="t">RIGHT</span>
+<span class="k">end</span>
+
+<span class="t">Sides</span><span class="t">::</span><span class="t">LEFT</span>.to_json                  <span class="c"># =&gt; %([&quot;left&quot;])</span>
+(<span class="t">Sides</span><span class="t">::</span><span class="t">LEFT</span> <span class="o">|</span> <span class="t">Sides</span><span class="t">::</span><span class="t">RIGHT</span>).to_json <span class="c"># =&gt; %([&quot;left&quot;,&quot;right&quot;])</span>
+<span class="t">Sides</span><span class="t">::</span><span class="t">All</span>.to_json                   <span class="c"># =&gt; %([&quot;left&quot;,&quot;right&quot;])</span>
+<span class="t">Sides</span><span class="t">::</span><span class="t">None</span>.to_json                  <span class="c"># =&gt; %([])</span></code></pre>
+
+<p><code>ValueConverter.to_json</code> offers a different serialization strategy based on the
+member value.</p>
+        </div>
+      
+      <br/>
+      <div>
+        
+          [<a href="https://github.com/naqvis/playwright-cr/blob/fb9bb4cbcecb2e9647fe4ab19643339fec554e83/src/playwright/mouse.cr#L17" target="_blank">View source</a>]
+        
+      </div>
+    </div>
+  
+    <div class="entry-detail" id="to_s-instance-method">
+      <div class="signature">
+        
+        def <strong>to_s</strong>
+
+        <a class="method-permalink" href="#to_s-instance-method">#</a>
+      </div>
+      
+        <div class="doc">
+          
+            <div class="doc-inherited">
+              Description copied from struct Enum
+            </div>
+          
+          <p>Returns a <code>String</code> representation of this enum member.
+In the case of regular enums, this is just the name of the member.
+In the case of flag enums, it's the names joined by vertical bars, or "None",
+if the value is zero.</p>
+
+<p>If an enum's value doesn't match a member's value, the raw value
+is returned as a string.</p>
+
+<pre><code class="language-crystal"><span class="t">Color</span><span class="t">::</span><span class="t">Red</span>.to_s                     <span class="c"># =&gt; &quot;Red&quot;</span>
+<span class="t">IOMode</span><span class="t">::</span><span class="t">None</span>.to_s                   <span class="c"># =&gt; &quot;None&quot;</span>
+(<span class="t">IOMode</span><span class="t">::</span><span class="t">Read</span> <span class="o">|</span> <span class="t">IOMode</span><span class="t">::</span><span class="t">Write</span>).to_s <span class="c"># =&gt; &quot;Read | Write&quot;</span>
+
+<span class="t">Color</span>.<span class="k">new</span>(<span class="n">10</span>).to_s <span class="c"># =&gt; &quot;10&quot;</span></code></pre>
+        </div>
+      
+      <br/>
+      <div>
+        
+          [<a href="https://github.com/naqvis/playwright-cr/blob/fb9bb4cbcecb2e9647fe4ab19643339fec554e83/src/playwright/mouse.cr#L13" target="_blank">View source</a>]
+        
+      </div>
+    </div>
+  
+
+
+
+
+</div>
+
+</body>
+</html>

@@ -1,0 +1,3695 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="generator" content="Crystal Docs 0.36.1">
+<meta name="crystal_docs.project_version" content="main">
+<meta name="crystal_docs.project_name" content="playwright">
+
+
+
+<link href="../css/style.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="../js/doc.js"></script>
+
+  <meta name="repository-name" content="playwright">
+  <title>Playwright::Frame - playwright main</title>
+  <script type="text/javascript">
+    CrystalDocs.base_path = "../";
+  </script>
+</head>
+<body>
+
+<svg class="hidden">
+  <symbol id="octicon-link" viewBox="0 0 16 16">
+    <path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path>
+  </symbol>
+</svg>
+<div class="sidebar">
+  <div class="sidebar-header">
+    <div class="search-box">
+      <input type="search" class="search-input" placeholder="Search..." spellcheck="false" aria-label="Search">
+    </div>
+
+    <div class="project-summary">
+      <h1 class="project-name">
+        <a href="../index.html">
+          playwright
+        </a>
+      </h1>
+
+      <span class="project-version">
+        main
+      </span>
+    </div>
+  </div>
+
+  <div class="search-results hidden">
+    <ul class="search-list"></ul>
+  </div>
+
+  <div class="types-list">
+    <ul>
+  
+  <li class="parent open current" data-id="playwright/Playwright" data-name="playwright">
+      <a href="../Playwright.html">Playwright</a>
+      
+        <ul>
+  
+  <li class="parent " data-id="playwright/Playwright/Accessibility" data-name="playwright::accessibility">
+      <a href="../Playwright/Accessibility.html">Accessibility</a>
+      
+        <ul>
+  
+  <li class=" " data-id="playwright/Playwright/Accessibility/SnapshotOptions" data-name="playwright::accessibility::snapshotoptions">
+      <a href="../Playwright/Accessibility/SnapshotOptions.html">SnapshotOptions</a>
+      
+    </li>
+  
+</ul>
+
+      
+    </li>
+  
+  <li class="parent " data-id="playwright/Playwright/AccessibilityNode" data-name="playwright::accessibilitynode">
+      <a href="../Playwright/AccessibilityNode.html">AccessibilityNode</a>
+      
+        <ul>
+  
+  <li class=" " data-id="playwright/Playwright/AccessibilityNode/CheckedState" data-name="playwright::accessibilitynode::checkedstate">
+      <a href="../Playwright/AccessibilityNode/CheckedState.html">CheckedState</a>
+      
+    </li>
+  
+  <li class=" " data-id="playwright/Playwright/AccessibilityNode/PressedState" data-name="playwright::accessibilitynode::pressedstate">
+      <a href="../Playwright/AccessibilityNode/PressedState.html">PressedState</a>
+      
+    </li>
+  
+</ul>
+
+      
+    </li>
+  
+  <li class=" " data-id="playwright/Playwright/Any" data-name="playwright::any">
+      <a href="../Playwright/Any.html">Any</a>
+      
+    </li>
+  
+  <li class="parent " data-id="playwright/Playwright/Browser" data-name="playwright::browser">
+      <a href="../Playwright/Browser.html">Browser</a>
+      
+        <ul>
+  
+  <li class=" " data-id="playwright/Playwright/Browser/EventType" data-name="playwright::browser::eventtype">
+      <a href="../Playwright/Browser/EventType.html">EventType</a>
+      
+    </li>
+  
+  <li class="parent " data-id="playwright/Playwright/Browser/NewContextOptions" data-name="playwright::browser::newcontextoptions">
+      <a href="../Playwright/Browser/NewContextOptions.html">NewContextOptions</a>
+      
+        <ul>
+  
+  <li class=" " data-id="playwright/Playwright/Browser/NewContextOptions/Proxy" data-name="playwright::browser::newcontextoptions::proxy">
+      <a href="../Playwright/Browser/NewContextOptions/Proxy.html">Proxy</a>
+      
+    </li>
+  
+  <li class=" " data-id="playwright/Playwright/Browser/NewContextOptions/RecordHar" data-name="playwright::browser::newcontextoptions::recordhar">
+      <a href="../Playwright/Browser/NewContextOptions/RecordHar.html">RecordHar</a>
+      
+    </li>
+  
+  <li class=" " data-id="playwright/Playwright/Browser/NewContextOptions/RecordVideo" data-name="playwright::browser::newcontextoptions::recordvideo">
+      <a href="../Playwright/Browser/NewContextOptions/RecordVideo.html">RecordVideo</a>
+      
+    </li>
+  
+</ul>
+
+      
+    </li>
+  
+  <li class="parent " data-id="playwright/Playwright/Browser/NewPageOptions" data-name="playwright::browser::newpageoptions">
+      <a href="../Playwright/Browser/NewPageOptions.html">NewPageOptions</a>
+      
+        <ul>
+  
+  <li class=" " data-id="playwright/Playwright/Browser/NewPageOptions/Proxy" data-name="playwright::browser::newpageoptions::proxy">
+      <a href="../Playwright/Browser/NewPageOptions/Proxy.html">Proxy</a>
+      
+    </li>
+  
+  <li class=" " data-id="playwright/Playwright/Browser/NewPageOptions/RecordHar" data-name="playwright::browser::newpageoptions::recordhar">
+      <a href="../Playwright/Browser/NewPageOptions/RecordHar.html">RecordHar</a>
+      
+    </li>
+  
+  <li class=" " data-id="playwright/Playwright/Browser/NewPageOptions/RecordVideo" data-name="playwright::browser::newpageoptions::recordvideo">
+      <a href="../Playwright/Browser/NewPageOptions/RecordVideo.html">RecordVideo</a>
+      
+    </li>
+  
+</ul>
+
+      
+    </li>
+  
+  <li class=" " data-id="playwright/Playwright/Browser/VideoSize" data-name="playwright::browser::videosize">
+      <a href="../Playwright/Browser/VideoSize.html">VideoSize</a>
+      
+    </li>
+  
+</ul>
+
+      
+    </li>
+  
+  <li class="parent " data-id="playwright/Playwright/BrowserContext" data-name="playwright::browsercontext">
+      <a href="../Playwright/BrowserContext.html">BrowserContext</a>
+      
+        <ul>
+  
+  <li class=" " data-id="playwright/Playwright/BrowserContext/AddCookie" data-name="playwright::browsercontext::addcookie">
+      <a href="../Playwright/BrowserContext/AddCookie.html">AddCookie</a>
+      
+    </li>
+  
+  <li class=" " data-id="playwright/Playwright/BrowserContext/Cookie" data-name="playwright::browsercontext::cookie">
+      <a href="../Playwright/BrowserContext/Cookie.html">Cookie</a>
+      
+    </li>
+  
+  <li class=" " data-id="playwright/Playwright/BrowserContext/EventType" data-name="playwright::browsercontext::eventtype">
+      <a href="../Playwright/BrowserContext/EventType.html">EventType</a>
+      
+    </li>
+  
+  <li class=" " data-id="playwright/Playwright/BrowserContext/ExposeBindingOptions" data-name="playwright::browsercontext::exposebindingoptions">
+      <a href="../Playwright/BrowserContext/ExposeBindingOptions.html">ExposeBindingOptions</a>
+      
+    </li>
+  
+  <li class=" " data-id="playwright/Playwright/BrowserContext/GrantPermissionsOptions" data-name="playwright::browsercontext::grantpermissionsoptions">
+      <a href="../Playwright/BrowserContext/GrantPermissionsOptions.html">GrantPermissionsOptions</a>
+      
+    </li>
+  
+  <li class=" " data-id="playwright/Playwright/BrowserContext/HTTPCredentials" data-name="playwright::browsercontext::httpcredentials">
+      <a href="../Playwright/BrowserContext/HTTPCredentials.html">HTTPCredentials</a>
+      
+    </li>
+  
+  <li class=" " data-id="playwright/Playwright/BrowserContext/SameSite" data-name="playwright::browsercontext::samesite">
+      <a href="../Playwright/BrowserContext/SameSite.html">SameSite</a>
+      
+    </li>
+  
+  <li class="parent " data-id="playwright/Playwright/BrowserContext/StorageState" data-name="playwright::browsercontext::storagestate">
+      <a href="../Playwright/BrowserContext/StorageState.html">StorageState</a>
+      
+        <ul>
+  
+  <li class="parent " data-id="playwright/Playwright/BrowserContext/StorageState/OriginState" data-name="playwright::browsercontext::storagestate::originstate">
+      <a href="../Playwright/BrowserContext/StorageState/OriginState.html">OriginState</a>
+      
+        <ul>
+  
+  <li class=" " data-id="playwright/Playwright/BrowserContext/StorageState/OriginState/LocalStorageItem" data-name="playwright::browsercontext::storagestate::originstate::localstorageitem">
+      <a href="../Playwright/BrowserContext/StorageState/OriginState/LocalStorageItem.html">LocalStorageItem</a>
+      
+    </li>
+  
+</ul>
+
+      
+    </li>
+  
+</ul>
+
+      
+    </li>
+  
+  <li class=" " data-id="playwright/Playwright/BrowserContext/StorageStateOptions" data-name="playwright::browsercontext::storagestateoptions">
+      <a href="../Playwright/BrowserContext/StorageStateOptions.html">StorageStateOptions</a>
+      
+    </li>
+  
+  <li class=" " data-id="playwright/Playwright/BrowserContext/WaitForEventOptions" data-name="playwright::browsercontext::waitforeventoptions">
+      <a href="../Playwright/BrowserContext/WaitForEventOptions.html">WaitForEventOptions</a>
+      
+    </li>
+  
+</ul>
+
+      
+    </li>
+  
+  <li class="parent " data-id="playwright/Playwright/BrowserType" data-name="playwright::browsertype">
+      <a href="../Playwright/BrowserType.html">BrowserType</a>
+      
+        <ul>
+  
+  <li class="parent " data-id="playwright/Playwright/BrowserType/LaunchOptions" data-name="playwright::browsertype::launchoptions">
+      <a href="../Playwright/BrowserType/LaunchOptions.html">LaunchOptions</a>
+      
+        <ul>
+  
+  <li class=" " data-id="playwright/Playwright/BrowserType/LaunchOptions/Proxy" data-name="playwright::browsertype::launchoptions::proxy">
+      <a href="../Playwright/BrowserType/LaunchOptions/Proxy.html">Proxy</a>
+      
+    </li>
+  
+</ul>
+
+      
+    </li>
+  
+  <li class="parent " data-id="playwright/Playwright/BrowserType/LaunchPersistentContextOptions" data-name="playwright::browsertype::launchpersistentcontextoptions">
+      <a href="../Playwright/BrowserType/LaunchPersistentContextOptions.html">LaunchPersistentContextOptions</a>
+      
+        <ul>
+  
+  <li class=" " data-id="playwright/Playwright/BrowserType/LaunchPersistentContextOptions/Proxy" data-name="playwright::browsertype::launchpersistentcontextoptions::proxy">
+      <a href="../Playwright/BrowserType/LaunchPersistentContextOptions/Proxy.html">Proxy</a>
+      
+    </li>
+  
+  <li class=" " data-id="playwright/Playwright/BrowserType/LaunchPersistentContextOptions/RecordHar" data-name="playwright::browsertype::launchpersistentcontextoptions::recordhar">
+      <a href="../Playwright/BrowserType/LaunchPersistentContextOptions/RecordHar.html">RecordHar</a>
+      
+    </li>
+  
+  <li class="parent " data-id="playwright/Playwright/BrowserType/LaunchPersistentContextOptions/RecordVideo" data-name="playwright::browsertype::launchpersistentcontextoptions::recordvideo">
+      <a href="../Playwright/BrowserType/LaunchPersistentContextOptions/RecordVideo.html">RecordVideo</a>
+      
+        <ul>
+  
+  <li class=" " data-id="playwright/Playwright/BrowserType/LaunchPersistentContextOptions/RecordVideo/Size" data-name="playwright::browsertype::launchpersistentcontextoptions::recordvideo::size">
+      <a href="../Playwright/BrowserType/LaunchPersistentContextOptions/RecordVideo/Size.html">Size</a>
+      
+    </li>
+  
+</ul>
+
+      
+    </li>
+  
+</ul>
+
+      
+    </li>
+  
+</ul>
+
+      
+    </li>
+  
+  <li class=" " data-id="playwright/Playwright/ColorScheme" data-name="playwright::colorscheme">
+      <a href="../Playwright/ColorScheme.html">ColorScheme</a>
+      
+    </li>
+  
+  <li class="parent " data-id="playwright/Playwright/ConsoleMessage" data-name="playwright::consolemessage">
+      <a href="../Playwright/ConsoleMessage.html">ConsoleMessage</a>
+      
+        <ul>
+  
+  <li class=" " data-id="playwright/Playwright/ConsoleMessage/Location" data-name="playwright::consolemessage::location">
+      <a href="../Playwright/ConsoleMessage/Location.html">Location</a>
+      
+    </li>
+  
+</ul>
+
+      
+    </li>
+  
+  <li class=" " data-id="playwright/Playwright/Consumer" data-name="playwright::consumer(t)">
+      <a href="../Playwright/Consumer.html">Consumer</a>
+      
+    </li>
+  
+  <li class=" " data-id="playwright/Playwright/Deferred" data-name="playwright::deferred(t)">
+      <a href="../Playwright/Deferred.html">Deferred</a>
+      
+    </li>
+  
+  <li class="parent " data-id="playwright/Playwright/DeviceDescriptor" data-name="playwright::devicedescriptor">
+      <a href="../Playwright/DeviceDescriptor.html">DeviceDescriptor</a>
+      
+        <ul>
+  
+  <li class=" " data-id="playwright/Playwright/DeviceDescriptor/Viewport" data-name="playwright::devicedescriptor::viewport">
+      <a href="../Playwright/DeviceDescriptor/Viewport.html">Viewport</a>
+      
+    </li>
+  
+</ul>
+
+      
+    </li>
+  
+  <li class="parent " data-id="playwright/Playwright/Dialog" data-name="playwright::dialog">
+      <a href="../Playwright/Dialog.html">Dialog</a>
+      
+        <ul>
+  
+  <li class=" " data-id="playwright/Playwright/Dialog/Type" data-name="playwright::dialog::type">
+      <a href="../Playwright/Dialog/Type.html">Type</a>
+      
+    </li>
+  
+</ul>
+
+      
+    </li>
+  
+  <li class=" " data-id="playwright/Playwright/Download" data-name="playwright::download">
+      <a href="../Playwright/Download.html">Download</a>
+      
+    </li>
+  
+  <li class="parent " data-id="playwright/Playwright/ElementHandle" data-name="playwright::elementhandle">
+      <a href="../Playwright/ElementHandle.html">ElementHandle</a>
+      
+        <ul>
+  
+  <li class=" " data-id="playwright/Playwright/ElementHandle/BoundingBox" data-name="playwright::elementhandle::boundingbox">
+      <a href="../Playwright/ElementHandle/BoundingBox.html">BoundingBox</a>
+      
+    </li>
+  
+  <li class=" " data-id="playwright/Playwright/ElementHandle/CheckOptions" data-name="playwright::elementhandle::checkoptions">
+      <a href="../Playwright/ElementHandle/CheckOptions.html">CheckOptions</a>
+      
+    </li>
+  
+  <li class=" " data-id="playwright/Playwright/ElementHandle/ClickOptions" data-name="playwright::elementhandle::clickoptions">
+      <a href="../Playwright/ElementHandle/ClickOptions.html">ClickOptions</a>
+      
+    </li>
+  
+  <li class=" " data-id="playwright/Playwright/ElementHandle/DblclickOptions" data-name="playwright::elementhandle::dblclickoptions">
+      <a href="../Playwright/ElementHandle/DblclickOptions.html">DblclickOptions</a>
+      
+    </li>
+  
+  <li class=" " data-id="playwright/Playwright/ElementHandle/ElementState" data-name="playwright::elementhandle::elementstate">
+      <a href="../Playwright/ElementHandle/ElementState.html">ElementState</a>
+      
+    </li>
+  
+  <li class=" " data-id="playwright/Playwright/ElementHandle/FillOptions" data-name="playwright::elementhandle::filloptions">
+      <a href="../Playwright/ElementHandle/FillOptions.html">FillOptions</a>
+      
+    </li>
+  
+  <li class=" " data-id="playwright/Playwright/ElementHandle/HoverOptions" data-name="playwright::elementhandle::hoveroptions">
+      <a href="../Playwright/ElementHandle/HoverOptions.html">HoverOptions</a>
+      
+    </li>
+  
+  <li class=" " data-id="playwright/Playwright/ElementHandle/PressOptions" data-name="playwright::elementhandle::pressoptions">
+      <a href="../Playwright/ElementHandle/PressOptions.html">PressOptions</a>
+      
+    </li>
+  
+  <li class="parent " data-id="playwright/Playwright/ElementHandle/ScreenshotOptions" data-name="playwright::elementhandle::screenshotoptions">
+      <a href="../Playwright/ElementHandle/ScreenshotOptions.html">ScreenshotOptions</a>
+      
+        <ul>
+  
+  <li class=" " data-id="playwright/Playwright/ElementHandle/ScreenshotOptions/Type" data-name="playwright::elementhandle::screenshotoptions::type">
+      <a href="../Playwright/ElementHandle/ScreenshotOptions/Type.html">Type</a>
+      
+    </li>
+  
+</ul>
+
+      
+    </li>
+  
+  <li class=" " data-id="playwright/Playwright/ElementHandle/ScrollIntoViewIfNeededOptions" data-name="playwright::elementhandle::scrollintoviewifneededoptions">
+      <a href="../Playwright/ElementHandle/ScrollIntoViewIfNeededOptions.html">ScrollIntoViewIfNeededOptions</a>
+      
+    </li>
+  
+  <li class=" " data-id="playwright/Playwright/ElementHandle/SelectOption" data-name="playwright::elementhandle::selectoption">
+      <a href="../Playwright/ElementHandle/SelectOption.html">SelectOption</a>
+      
+    </li>
+  
+  <li class=" " data-id="playwright/Playwright/ElementHandle/SelectOptionOptions" data-name="playwright::elementhandle::selectoptionoptions">
+      <a href="../Playwright/ElementHandle/SelectOptionOptions.html">SelectOptionOptions</a>
+      
+    </li>
+  
+  <li class=" " data-id="playwright/Playwright/ElementHandle/SelectTextOptions" data-name="playwright::elementhandle::selecttextoptions">
+      <a href="../Playwright/ElementHandle/SelectTextOptions.html">SelectTextOptions</a>
+      
+    </li>
+  
+  <li class=" " data-id="playwright/Playwright/ElementHandle/SetInputFilesOptions" data-name="playwright::elementhandle::setinputfilesoptions">
+      <a href="../Playwright/ElementHandle/SetInputFilesOptions.html">SetInputFilesOptions</a>
+      
+    </li>
+  
+  <li class="parent " data-id="playwright/Playwright/ElementHandle/TapOptions" data-name="playwright::elementhandle::tapoptions">
+      <a href="../Playwright/ElementHandle/TapOptions.html">TapOptions</a>
+      
+        <ul>
+  
+  <li class=" " data-id="playwright/Playwright/ElementHandle/TapOptions/Position" data-name="playwright::elementhandle::tapoptions::position">
+      <a href="../Playwright/ElementHandle/TapOptions/Position.html">Position</a>
+      
+    </li>
+  
+</ul>
+
+      
+    </li>
+  
+  <li class=" " data-id="playwright/Playwright/ElementHandle/TypeOptions" data-name="playwright::elementhandle::typeoptions">
+      <a href="../Playwright/ElementHandle/TypeOptions.html">TypeOptions</a>
+      
+    </li>
+  
+  <li class=" " data-id="playwright/Playwright/ElementHandle/UncheckOptions" data-name="playwright::elementhandle::uncheckoptions">
+      <a href="../Playwright/ElementHandle/UncheckOptions.html">UncheckOptions</a>
+      
+    </li>
+  
+  <li class=" " data-id="playwright/Playwright/ElementHandle/WaitForElementStateOptions" data-name="playwright::elementhandle::waitforelementstateoptions">
+      <a href="../Playwright/ElementHandle/WaitForElementStateOptions.html">WaitForElementStateOptions</a>
+      
+    </li>
+  
+  <li class="parent " data-id="playwright/Playwright/ElementHandle/WaitForSelectorOptions" data-name="playwright::elementhandle::waitforselectoroptions">
+      <a href="../Playwright/ElementHandle/WaitForSelectorOptions.html">WaitForSelectorOptions</a>
+      
+        <ul>
+  
+  <li class=" " data-id="playwright/Playwright/ElementHandle/WaitForSelectorOptions/State" data-name="playwright::elementhandle::waitforselectoroptions::state">
+      <a href="../Playwright/ElementHandle/WaitForSelectorOptions/State.html">State</a>
+      
+    </li>
+  
+</ul>
+
+      
+    </li>
+  
+</ul>
+
+      
+    </li>
+  
+  <li class=" " data-id="playwright/Playwright/Event" data-name="playwright::event(eventtype)">
+      <a href="../Playwright/Event.html">Event</a>
+      
+    </li>
+  
+  <li class="parent " data-id="playwright/Playwright/FileChooser" data-name="playwright::filechooser">
+      <a href="../Playwright/FileChooser.html">FileChooser</a>
+      
+        <ul>
+  
+  <li class=" " data-id="playwright/Playwright/FileChooser/FilePayload" data-name="playwright::filechooser::filepayload">
+      <a href="../Playwright/FileChooser/FilePayload.html">FilePayload</a>
+      
+    </li>
+  
+  <li class=" " data-id="playwright/Playwright/FileChooser/SetFilesOptions" data-name="playwright::filechooser::setfilesoptions">
+      <a href="../Playwright/FileChooser/SetFilesOptions.html">SetFilesOptions</a>
+      
+    </li>
+  
+</ul>
+
+      
+    </li>
+  
+  <li class="parent open current" data-id="playwright/Playwright/Frame" data-name="playwright::frame">
+      <a href="../Playwright/Frame.html">Frame</a>
+      
+        <ul>
+  
+  <li class=" " data-id="playwright/Playwright/Frame/AddScriptTagParams" data-name="playwright::frame::addscripttagparams">
+      <a href="../Playwright/Frame/AddScriptTagParams.html">AddScriptTagParams</a>
+      
+    </li>
+  
+  <li class=" " data-id="playwright/Playwright/Frame/AddStyleTagParams" data-name="playwright::frame::addstyletagparams">
+      <a href="../Playwright/Frame/AddStyleTagParams.html">AddStyleTagParams</a>
+      
+    </li>
+  
+  <li class=" " data-id="playwright/Playwright/Frame/CheckOptions" data-name="playwright::frame::checkoptions">
+      <a href="../Playwright/Frame/CheckOptions.html">CheckOptions</a>
+      
+    </li>
+  
+  <li class=" " data-id="playwright/Playwright/Frame/ClickOptions" data-name="playwright::frame::clickoptions">
+      <a href="../Playwright/Frame/ClickOptions.html">ClickOptions</a>
+      
+    </li>
+  
+  <li class=" " data-id="playwright/Playwright/Frame/DblclickOptions" data-name="playwright::frame::dblclickoptions">
+      <a href="../Playwright/Frame/DblclickOptions.html">DblclickOptions</a>
+      
+    </li>
+  
+  <li class=" " data-id="playwright/Playwright/Frame/DispatchEventOptions" data-name="playwright::frame::dispatcheventoptions">
+      <a href="../Playwright/Frame/DispatchEventOptions.html">DispatchEventOptions</a>
+      
+    </li>
+  
+  <li class=" " data-id="playwright/Playwright/Frame/FillOptions" data-name="playwright::frame::filloptions">
+      <a href="../Playwright/Frame/FillOptions.html">FillOptions</a>
+      
+    </li>
+  
+  <li class=" " data-id="playwright/Playwright/Frame/FocusOptions" data-name="playwright::frame::focusoptions">
+      <a href="../Playwright/Frame/FocusOptions.html">FocusOptions</a>
+      
+    </li>
+  
+  <li class=" " data-id="playwright/Playwright/Frame/GetAttributeOptions" data-name="playwright::frame::getattributeoptions">
+      <a href="../Playwright/Frame/GetAttributeOptions.html">GetAttributeOptions</a>
+      
+    </li>
+  
+  <li class=" " data-id="playwright/Playwright/Frame/HoverOptions" data-name="playwright::frame::hoveroptions">
+      <a href="../Playwright/Frame/HoverOptions.html">HoverOptions</a>
+      
+    </li>
+  
+  <li class=" " data-id="playwright/Playwright/Frame/InnerHTMLOptions" data-name="playwright::frame::innerhtmloptions">
+      <a href="../Playwright/Frame/InnerHTMLOptions.html">InnerHTMLOptions</a>
+      
+    </li>
+  
+  <li class=" " data-id="playwright/Playwright/Frame/InnerTextOptions" data-name="playwright::frame::innertextoptions">
+      <a href="../Playwright/Frame/InnerTextOptions.html">InnerTextOptions</a>
+      
+    </li>
+  
+  <li class=" " data-id="playwright/Playwright/Frame/LoadState" data-name="playwright::frame::loadstate">
+      <a href="../Playwright/Frame/LoadState.html">LoadState</a>
+      
+    </li>
+  
+  <li class=" " data-id="playwright/Playwright/Frame/NavigateOptions" data-name="playwright::frame::navigateoptions">
+      <a href="../Playwright/Frame/NavigateOptions.html">NavigateOptions</a>
+      
+    </li>
+  
+  <li class=" " data-id="playwright/Playwright/Frame/PressOptions" data-name="playwright::frame::pressoptions">
+      <a href="../Playwright/Frame/PressOptions.html">PressOptions</a>
+      
+    </li>
+  
+  <li class=" " data-id="playwright/Playwright/Frame/SelectOptionOptions" data-name="playwright::frame::selectoptionoptions">
+      <a href="../Playwright/Frame/SelectOptionOptions.html">SelectOptionOptions</a>
+      
+    </li>
+  
+  <li class=" " data-id="playwright/Playwright/Frame/SetContentOptions" data-name="playwright::frame::setcontentoptions">
+      <a href="../Playwright/Frame/SetContentOptions.html">SetContentOptions</a>
+      
+    </li>
+  
+  <li class=" " data-id="playwright/Playwright/Frame/SetInputFilesOptions" data-name="playwright::frame::setinputfilesoptions">
+      <a href="../Playwright/Frame/SetInputFilesOptions.html">SetInputFilesOptions</a>
+      
+    </li>
+  
+  <li class="parent " data-id="playwright/Playwright/Frame/TapOptions" data-name="playwright::frame::tapoptions">
+      <a href="../Playwright/Frame/TapOptions.html">TapOptions</a>
+      
+        <ul>
+  
+  <li class=" " data-id="playwright/Playwright/Frame/TapOptions/Position" data-name="playwright::frame::tapoptions::position">
+      <a href="../Playwright/Frame/TapOptions/Position.html">Position</a>
+      
+    </li>
+  
+</ul>
+
+      
+    </li>
+  
+  <li class=" " data-id="playwright/Playwright/Frame/TextContentOptions" data-name="playwright::frame::textcontentoptions">
+      <a href="../Playwright/Frame/TextContentOptions.html">TextContentOptions</a>
+      
+    </li>
+  
+  <li class=" " data-id="playwright/Playwright/Frame/TypeOptions" data-name="playwright::frame::typeoptions">
+      <a href="../Playwright/Frame/TypeOptions.html">TypeOptions</a>
+      
+    </li>
+  
+  <li class=" " data-id="playwright/Playwright/Frame/UncheckOptions" data-name="playwright::frame::uncheckoptions">
+      <a href="../Playwright/Frame/UncheckOptions.html">UncheckOptions</a>
+      
+    </li>
+  
+  <li class=" " data-id="playwright/Playwright/Frame/WaitForFunctionOptions" data-name="playwright::frame::waitforfunctionoptions">
+      <a href="../Playwright/Frame/WaitForFunctionOptions.html">WaitForFunctionOptions</a>
+      
+    </li>
+  
+  <li class=" " data-id="playwright/Playwright/Frame/WaitForLoadStateOptions" data-name="playwright::frame::waitforloadstateoptions">
+      <a href="../Playwright/Frame/WaitForLoadStateOptions.html">WaitForLoadStateOptions</a>
+      
+    </li>
+  
+  <li class=" " data-id="playwright/Playwright/Frame/WaitForNavigationOptions" data-name="playwright::frame::waitfornavigationoptions">
+      <a href="../Playwright/Frame/WaitForNavigationOptions.html">WaitForNavigationOptions</a>
+      
+    </li>
+  
+  <li class="parent " data-id="playwright/Playwright/Frame/WaitForSelectorOptions" data-name="playwright::frame::waitforselectoroptions">
+      <a href="../Playwright/Frame/WaitForSelectorOptions.html">WaitForSelectorOptions</a>
+      
+        <ul>
+  
+  <li class=" " data-id="playwright/Playwright/Frame/WaitForSelectorOptions/State" data-name="playwright::frame::waitforselectoroptions::state">
+      <a href="../Playwright/Frame/WaitForSelectorOptions/State.html">State</a>
+      
+    </li>
+  
+</ul>
+
+      
+    </li>
+  
+</ul>
+
+      
+    </li>
+  
+  <li class=" " data-id="playwright/Playwright/Geolocation" data-name="playwright::geolocation">
+      <a href="../Playwright/Geolocation.html">Geolocation</a>
+      
+    </li>
+  
+  <li class=" " data-id="playwright/Playwright/IPlaywright" data-name="playwright::iplaywright">
+      <a href="../Playwright/IPlaywright.html">IPlaywright</a>
+      
+    </li>
+  
+  <li class=" " data-id="playwright/Playwright/JSHandle" data-name="playwright::jshandle">
+      <a href="../Playwright/JSHandle.html">JSHandle</a>
+      
+    </li>
+  
+  <li class="parent " data-id="playwright/Playwright/Keyboard" data-name="playwright::keyboard">
+      <a href="../Playwright/Keyboard.html">Keyboard</a>
+      
+        <ul>
+  
+  <li class=" " data-id="playwright/Playwright/Keyboard/Modifier" data-name="playwright::keyboard::modifier">
+      <a href="../Playwright/Keyboard/Modifier.html">Modifier</a>
+      
+    </li>
+  
+</ul>
+
+      
+    </li>
+  
+  <li class=" " data-id="playwright/Playwright/Listener" data-name="playwright::listener(eventtype)">
+      <a href="../Playwright/Listener.html">Listener</a>
+      
+    </li>
+  
+  <li class=" " data-id="playwright/Playwright/ListenerImpl" data-name="playwright::listenerimpl(t)">
+      <a href="../Playwright/ListenerImpl.html">ListenerImpl</a>
+      
+    </li>
+  
+  <li class="parent " data-id="playwright/Playwright/Logger" data-name="playwright::logger">
+      <a href="../Playwright/Logger.html">Logger</a>
+      
+        <ul>
+  
+  <li class=" " data-id="playwright/Playwright/Logger/LogHints" data-name="playwright::logger::loghints">
+      <a href="../Playwright/Logger/LogHints.html">LogHints</a>
+      
+    </li>
+  
+  <li class=" " data-id="playwright/Playwright/Logger/Severity" data-name="playwright::logger::severity">
+      <a href="../Playwright/Logger/Severity.html">Severity</a>
+      
+    </li>
+  
+</ul>
+
+      
+    </li>
+  
+  <li class="parent " data-id="playwright/Playwright/Mouse" data-name="playwright::mouse">
+      <a href="../Playwright/Mouse.html">Mouse</a>
+      
+        <ul>
+  
+  <li class=" " data-id="playwright/Playwright/Mouse/Button" data-name="playwright::mouse::button">
+      <a href="../Playwright/Mouse/Button.html">Button</a>
+      
+    </li>
+  
+  <li class=" " data-id="playwright/Playwright/Mouse/ClickOptions" data-name="playwright::mouse::clickoptions">
+      <a href="../Playwright/Mouse/ClickOptions.html">ClickOptions</a>
+      
+    </li>
+  
+  <li class=" " data-id="playwright/Playwright/Mouse/DblclickOptions" data-name="playwright::mouse::dblclickoptions">
+      <a href="../Playwright/Mouse/DblclickOptions.html">DblclickOptions</a>
+      
+    </li>
+  
+  <li class=" " data-id="playwright/Playwright/Mouse/DownOptions" data-name="playwright::mouse::downoptions">
+      <a href="../Playwright/Mouse/DownOptions.html">DownOptions</a>
+      
+    </li>
+  
+  <li class=" " data-id="playwright/Playwright/Mouse/MoveOptions" data-name="playwright::mouse::moveoptions">
+      <a href="../Playwright/Mouse/MoveOptions.html">MoveOptions</a>
+      
+    </li>
+  
+  <li class=" " data-id="playwright/Playwright/Mouse/UpOptions" data-name="playwright::mouse::upoptions">
+      <a href="../Playwright/Mouse/UpOptions.html">UpOptions</a>
+      
+    </li>
+  
+</ul>
+
+      
+    </li>
+  
+  <li class="parent " data-id="playwright/Playwright/Page" data-name="playwright::page">
+      <a href="../Playwright/Page.html">Page</a>
+      
+        <ul>
+  
+  <li class=" " data-id="playwright/Playwright/Page/AddScriptTagParams" data-name="playwright::page::addscripttagparams">
+      <a href="../Playwright/Page/AddScriptTagParams.html">AddScriptTagParams</a>
+      
+    </li>
+  
+  <li class=" " data-id="playwright/Playwright/Page/AddStyleTagParams" data-name="playwright::page::addstyletagparams">
+      <a href="../Playwright/Page/AddStyleTagParams.html">AddStyleTagParams</a>
+      
+    </li>
+  
+  <li class="parent " data-id="playwright/Playwright/Page/Binding" data-name="playwright::page::binding">
+      <a href="../Playwright/Page/Binding.html">Binding</a>
+      
+        <ul>
+  
+  <li class=" " data-id="playwright/Playwright/Page/Binding/Source" data-name="playwright::page::binding::source">
+      <a href="../Playwright/Page/Binding/Source.html">Source</a>
+      
+    </li>
+  
+</ul>
+
+      
+    </li>
+  
+  <li class=" " data-id="playwright/Playwright/Page/CheckOptions" data-name="playwright::page::checkoptions">
+      <a href="../Playwright/Page/CheckOptions.html">CheckOptions</a>
+      
+    </li>
+  
+  <li class=" " data-id="playwright/Playwright/Page/ClickOptions" data-name="playwright::page::clickoptions">
+      <a href="../Playwright/Page/ClickOptions.html">ClickOptions</a>
+      
+    </li>
+  
+  <li class=" " data-id="playwright/Playwright/Page/CloseOptions" data-name="playwright::page::closeoptions">
+      <a href="../Playwright/Page/CloseOptions.html">CloseOptions</a>
+      
+    </li>
+  
+  <li class=" " data-id="playwright/Playwright/Page/DblclickOptions" data-name="playwright::page::dblclickoptions">
+      <a href="../Playwright/Page/DblclickOptions.html">DblclickOptions</a>
+      
+    </li>
+  
+  <li class=" " data-id="playwright/Playwright/Page/DispatchEventOptions" data-name="playwright::page::dispatcheventoptions">
+      <a href="../Playwright/Page/DispatchEventOptions.html">DispatchEventOptions</a>
+      
+    </li>
+  
+  <li class="parent " data-id="playwright/Playwright/Page/EmulateMediaParams" data-name="playwright::page::emulatemediaparams">
+      <a href="../Playwright/Page/EmulateMediaParams.html">EmulateMediaParams</a>
+      
+        <ul>
+  
+  <li class=" " data-id="playwright/Playwright/Page/EmulateMediaParams/Media" data-name="playwright::page::emulatemediaparams::media">
+      <a href="../Playwright/Page/EmulateMediaParams/Media.html">Media</a>
+      
+    </li>
+  
+</ul>
+
+      
+    </li>
+  
+  <li class=" " data-id="playwright/Playwright/Page/Error" data-name="playwright::page::error">
+      <a href="../Playwright/Page/Error.html">Error</a>
+      
+    </li>
+  
+  <li class=" " data-id="playwright/Playwright/Page/EventType" data-name="playwright::page::eventtype">
+      <a href="../Playwright/Page/EventType.html">EventType</a>
+      
+    </li>
+  
+  <li class=" " data-id="playwright/Playwright/Page/ExposeBindingOptions" data-name="playwright::page::exposebindingoptions">
+      <a href="../Playwright/Page/ExposeBindingOptions.html">ExposeBindingOptions</a>
+      
+    </li>
+  
+  <li class=" " data-id="playwright/Playwright/Page/FillOptions" data-name="playwright::page::filloptions">
+      <a href="../Playwright/Page/FillOptions.html">FillOptions</a>
+      
+    </li>
+  
+  <li class=" " data-id="playwright/Playwright/Page/FocusOptions" data-name="playwright::page::focusoptions">
+      <a href="../Playwright/Page/FocusOptions.html">FocusOptions</a>
+      
+    </li>
+  
+  <li class=" " data-id="playwright/Playwright/Page/Function" data-name="playwright::page::function">
+      <a href="../Playwright/Page/Function.html">Function</a>
+      
+    </li>
+  
+  <li class=" " data-id="playwright/Playwright/Page/GetAttributeOptions" data-name="playwright::page::getattributeoptions">
+      <a href="../Playwright/Page/GetAttributeOptions.html">GetAttributeOptions</a>
+      
+    </li>
+  
+  <li class=" " data-id="playwright/Playwright/Page/GoBackOptions" data-name="playwright::page::gobackoptions">
+      <a href="../Playwright/Page/GoBackOptions.html">GoBackOptions</a>
+      
+    </li>
+  
+  <li class=" " data-id="playwright/Playwright/Page/GoForwardOptions" data-name="playwright::page::goforwardoptions">
+      <a href="../Playwright/Page/GoForwardOptions.html">GoForwardOptions</a>
+      
+    </li>
+  
+  <li class=" " data-id="playwright/Playwright/Page/HoverOptions" data-name="playwright::page::hoveroptions">
+      <a href="../Playwright/Page/HoverOptions.html">HoverOptions</a>
+      
+    </li>
+  
+  <li class=" " data-id="playwright/Playwright/Page/InnerHTMLOptions" data-name="playwright::page::innerhtmloptions">
+      <a href="../Playwright/Page/InnerHTMLOptions.html">InnerHTMLOptions</a>
+      
+    </li>
+  
+  <li class=" " data-id="playwright/Playwright/Page/InnerTextOptions" data-name="playwright::page::innertextoptions">
+      <a href="../Playwright/Page/InnerTextOptions.html">InnerTextOptions</a>
+      
+    </li>
+  
+  <li class=" " data-id="playwright/Playwright/Page/LoadState" data-name="playwright::page::loadstate">
+      <a href="../Playwright/Page/LoadState.html">LoadState</a>
+      
+    </li>
+  
+  <li class=" " data-id="playwright/Playwright/Page/NavigateOptions" data-name="playwright::page::navigateoptions">
+      <a href="../Playwright/Page/NavigateOptions.html">NavigateOptions</a>
+      
+    </li>
+  
+  <li class="parent " data-id="playwright/Playwright/Page/PdfOptions" data-name="playwright::page::pdfoptions">
+      <a href="../Playwright/Page/PdfOptions.html">PdfOptions</a>
+      
+        <ul>
+  
+  <li class=" " data-id="playwright/Playwright/Page/PdfOptions/Margin" data-name="playwright::page::pdfoptions::margin">
+      <a href="../Playwright/Page/PdfOptions/Margin.html">Margin</a>
+      
+    </li>
+  
+</ul>
+
+      
+    </li>
+  
+  <li class=" " data-id="playwright/Playwright/Page/PressOptions" data-name="playwright::page::pressoptions">
+      <a href="../Playwright/Page/PressOptions.html">PressOptions</a>
+      
+    </li>
+  
+  <li class=" " data-id="playwright/Playwright/Page/ReloadOptions" data-name="playwright::page::reloadoptions">
+      <a href="../Playwright/Page/ReloadOptions.html">ReloadOptions</a>
+      
+    </li>
+  
+  <li class="parent " data-id="playwright/Playwright/Page/ScreenshotOptions" data-name="playwright::page::screenshotoptions">
+      <a href="../Playwright/Page/ScreenshotOptions.html">ScreenshotOptions</a>
+      
+        <ul>
+  
+  <li class=" " data-id="playwright/Playwright/Page/ScreenshotOptions/Clip" data-name="playwright::page::screenshotoptions::clip">
+      <a href="../Playwright/Page/ScreenshotOptions/Clip.html">Clip</a>
+      
+    </li>
+  
+  <li class=" " data-id="playwright/Playwright/Page/ScreenshotOptions/Type" data-name="playwright::page::screenshotoptions::type">
+      <a href="../Playwright/Page/ScreenshotOptions/Type.html">Type</a>
+      
+    </li>
+  
+</ul>
+
+      
+    </li>
+  
+  <li class=" " data-id="playwright/Playwright/Page/SelectOptionOptions" data-name="playwright::page::selectoptionoptions">
+      <a href="../Playwright/Page/SelectOptionOptions.html">SelectOptionOptions</a>
+      
+    </li>
+  
+  <li class=" " data-id="playwright/Playwright/Page/SetContentOptions" data-name="playwright::page::setcontentoptions">
+      <a href="../Playwright/Page/SetContentOptions.html">SetContentOptions</a>
+      
+    </li>
+  
+  <li class=" " data-id="playwright/Playwright/Page/SetInputFilesOptions" data-name="playwright::page::setinputfilesoptions">
+      <a href="../Playwright/Page/SetInputFilesOptions.html">SetInputFilesOptions</a>
+      
+    </li>
+  
+  <li class="parent " data-id="playwright/Playwright/Page/TapOptions" data-name="playwright::page::tapoptions">
+      <a href="../Playwright/Page/TapOptions.html">TapOptions</a>
+      
+        <ul>
+  
+  <li class=" " data-id="playwright/Playwright/Page/TapOptions/Position" data-name="playwright::page::tapoptions::position">
+      <a href="../Playwright/Page/TapOptions/Position.html">Position</a>
+      
+    </li>
+  
+</ul>
+
+      
+    </li>
+  
+  <li class=" " data-id="playwright/Playwright/Page/TextContentOptions" data-name="playwright::page::textcontentoptions">
+      <a href="../Playwright/Page/TextContentOptions.html">TextContentOptions</a>
+      
+    </li>
+  
+  <li class=" " data-id="playwright/Playwright/Page/TypeOptions" data-name="playwright::page::typeoptions">
+      <a href="../Playwright/Page/TypeOptions.html">TypeOptions</a>
+      
+    </li>
+  
+  <li class=" " data-id="playwright/Playwright/Page/UncheckOptions" data-name="playwright::page::uncheckoptions">
+      <a href="../Playwright/Page/UncheckOptions.html">UncheckOptions</a>
+      
+    </li>
+  
+  <li class=" " data-id="playwright/Playwright/Page/ViewPort" data-name="playwright::page::viewport">
+      <a href="../Playwright/Page/ViewPort.html">ViewPort</a>
+      
+    </li>
+  
+  <li class=" " data-id="playwright/Playwright/Page/WaitForEventOptions" data-name="playwright::page::waitforeventoptions">
+      <a href="../Playwright/Page/WaitForEventOptions.html">WaitForEventOptions</a>
+      
+    </li>
+  
+  <li class=" " data-id="playwright/Playwright/Page/WaitForFunctionOptions" data-name="playwright::page::waitforfunctionoptions">
+      <a href="../Playwright/Page/WaitForFunctionOptions.html">WaitForFunctionOptions</a>
+      
+    </li>
+  
+  <li class=" " data-id="playwright/Playwright/Page/WaitForLoadStateOptions" data-name="playwright::page::waitforloadstateoptions">
+      <a href="../Playwright/Page/WaitForLoadStateOptions.html">WaitForLoadStateOptions</a>
+      
+    </li>
+  
+  <li class=" " data-id="playwright/Playwright/Page/WaitForNavigationOptions" data-name="playwright::page::waitfornavigationoptions">
+      <a href="../Playwright/Page/WaitForNavigationOptions.html">WaitForNavigationOptions</a>
+      
+    </li>
+  
+  <li class=" " data-id="playwright/Playwright/Page/WaitForRequestOptions" data-name="playwright::page::waitforrequestoptions">
+      <a href="../Playwright/Page/WaitForRequestOptions.html">WaitForRequestOptions</a>
+      
+    </li>
+  
+  <li class=" " data-id="playwright/Playwright/Page/WaitForResponseOptions" data-name="playwright::page::waitforresponseoptions">
+      <a href="../Playwright/Page/WaitForResponseOptions.html">WaitForResponseOptions</a>
+      
+    </li>
+  
+  <li class="parent " data-id="playwright/Playwright/Page/WaitForSelectorOptions" data-name="playwright::page::waitforselectoroptions">
+      <a href="../Playwright/Page/WaitForSelectorOptions.html">WaitForSelectorOptions</a>
+      
+        <ul>
+  
+  <li class=" " data-id="playwright/Playwright/Page/WaitForSelectorOptions/State" data-name="playwright::page::waitforselectoroptions::state">
+      <a href="../Playwright/Page/WaitForSelectorOptions/State.html">State</a>
+      
+    </li>
+  
+</ul>
+
+      
+    </li>
+  
+</ul>
+
+      
+    </li>
+  
+  <li class=" " data-id="playwright/Playwright/PageBindingProc" data-name="playwright::pagebindingproc">
+      <a href="../Playwright/PageBindingProc.html">PageBindingProc</a>
+      
+    </li>
+  
+  <li class=" " data-id="playwright/Playwright/PageFunctionProc" data-name="playwright::pagefunctionproc">
+      <a href="../Playwright/PageFunctionProc.html">PageFunctionProc</a>
+      
+    </li>
+  
+  <li class=" " data-id="playwright/Playwright/PlaywrightException" data-name="playwright::playwrightexception">
+      <a href="../Playwright/PlaywrightException.html">PlaywrightException</a>
+      
+    </li>
+  
+  <li class=" " data-id="playwright/Playwright/Position" data-name="playwright::position">
+      <a href="../Playwright/Position.html">Position</a>
+      
+    </li>
+  
+  <li class="parent " data-id="playwright/Playwright/Request" data-name="playwright::request">
+      <a href="../Playwright/Request.html">Request</a>
+      
+        <ul>
+  
+  <li class=" " data-id="playwright/Playwright/Request/RequestFailure" data-name="playwright::request::requestfailure">
+      <a href="../Playwright/Request/RequestFailure.html">RequestFailure</a>
+      
+    </li>
+  
+  <li class=" " data-id="playwright/Playwright/Request/RequestTiming" data-name="playwright::request::requesttiming">
+      <a href="../Playwright/Request/RequestTiming.html">RequestTiming</a>
+      
+    </li>
+  
+</ul>
+
+      
+    </li>
+  
+  <li class=" " data-id="playwright/Playwright/Response" data-name="playwright::response">
+      <a href="../Playwright/Response.html">Response</a>
+      
+    </li>
+  
+  <li class="parent " data-id="playwright/Playwright/Route" data-name="playwright::route">
+      <a href="../Playwright/Route.html">Route</a>
+      
+        <ul>
+  
+  <li class=" " data-id="playwright/Playwright/Route/ContinueOverrides" data-name="playwright::route::continueoverrides">
+      <a href="../Playwright/Route/ContinueOverrides.html">ContinueOverrides</a>
+      
+    </li>
+  
+  <li class=" " data-id="playwright/Playwright/Route/FulfillResponse" data-name="playwright::route::fulfillresponse">
+      <a href="../Playwright/Route/FulfillResponse.html">FulfillResponse</a>
+      
+    </li>
+  
+</ul>
+
+      
+    </li>
+  
+  <li class="parent " data-id="playwright/Playwright/Selectors" data-name="playwright::selectors">
+      <a href="../Playwright/Selectors.html">Selectors</a>
+      
+        <ul>
+  
+  <li class=" " data-id="playwright/Playwright/Selectors/RegisterOptions" data-name="playwright::selectors::registeroptions">
+      <a href="../Playwright/Selectors/RegisterOptions.html">RegisterOptions</a>
+      
+    </li>
+  
+</ul>
+
+      
+    </li>
+  
+  <li class=" " data-id="playwright/Playwright/Serialization" data-name="playwright::serialization">
+      <a href="../Playwright/Serialization.html">Serialization</a>
+      
+    </li>
+  
+  <li class=" " data-id="playwright/Playwright/ServerException" data-name="playwright::serverexception">
+      <a href="../Playwright/ServerException.html">ServerException</a>
+      
+    </li>
+  
+  <li class=" " data-id="playwright/Playwright/TimeoutError" data-name="playwright::timeouterror">
+      <a href="../Playwright/TimeoutError.html">TimeoutError</a>
+      
+    </li>
+  
+  <li class=" " data-id="playwright/Playwright/Touchscreen" data-name="playwright::touchscreen">
+      <a href="../Playwright/Touchscreen.html">Touchscreen</a>
+      
+    </li>
+  
+  <li class=" " data-id="playwright/Playwright/Video" data-name="playwright::video">
+      <a href="../Playwright/Video.html">Video</a>
+      
+    </li>
+  
+  <li class=" " data-id="playwright/Playwright/Waitable" data-name="playwright::waitable(t)">
+      <a href="../Playwright/Waitable.html">Waitable</a>
+      
+    </li>
+  
+  <li class="parent " data-id="playwright/Playwright/WebSocket" data-name="playwright::websocket">
+      <a href="../Playwright/WebSocket.html">WebSocket</a>
+      
+        <ul>
+  
+  <li class=" " data-id="playwright/Playwright/WebSocket/EventType" data-name="playwright::websocket::eventtype">
+      <a href="../Playwright/WebSocket/EventType.html">EventType</a>
+      
+    </li>
+  
+  <li class=" " data-id="playwright/Playwright/WebSocket/FrameData" data-name="playwright::websocket::framedata">
+      <a href="../Playwright/WebSocket/FrameData.html">FrameData</a>
+      
+    </li>
+  
+  <li class=" " data-id="playwright/Playwright/WebSocket/WaitForEventOptions" data-name="playwright::websocket::waitforeventoptions">
+      <a href="../Playwright/WebSocket/WaitForEventOptions.html">WaitForEventOptions</a>
+      
+    </li>
+  
+</ul>
+
+      
+    </li>
+  
+  <li class="parent " data-id="playwright/Playwright/Worker" data-name="playwright::worker">
+      <a href="../Playwright/Worker.html">Worker</a>
+      
+        <ul>
+  
+  <li class=" " data-id="playwright/Playwright/Worker/EventType" data-name="playwright::worker::eventtype">
+      <a href="../Playwright/Worker/EventType.html">EventType</a>
+      
+    </li>
+  
+</ul>
+
+      
+    </li>
+  
+</ul>
+
+      
+    </li>
+  
+</ul>
+
+  </div>
+</div>
+
+
+<div class="main-content">
+<h1 class="type-name">
+
+  <span class="kind">module</span> Playwright::Frame
+
+</h1>
+
+
+
+
+
+  <h2>
+    <a id="overview" class="anchor" href="#overview">
+  <svg class="octicon-link" aria-hidden="true">
+    <use href="#octicon-link"/>
+  </svg>
+</a>
+    Overview
+  </h2>
+
+  <p>At every point of time, page exposes its current frame tree via the <code>page.mainFrame()</code> and <code>frame.childFrames()</code> methods.
+Frame object's lifecycle is controlled by three events, dispatched on the page object:</p>
+
+<p>page.on('frameattached') - fired when the frame gets attached to the page. A Frame can be attached to the page only once.
+page.on('framenavigated') - fired when the frame commits navigation to a different URL.
+page.on('framedetached') - fired when the frame gets detached from the page.  A Frame can be detached from the page only once.</p>
+
+<p>An example of dumping frame tree:</p>
+
+<p>An example of getting text from an iframe element:</p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <h2>
+    <a id="defined-in" class="anchor" href="#defined-in">
+  <svg class="octicon-link" aria-hidden="true">
+    <use href="#octicon-link"/>
+  </svg>
+</a>
+    Defined in:
+  </h2>
+  
+    
+      <a href="https://github.com/naqvis/playwright-cr/blob/fb9bb4cbcecb2e9647fe4ab19643339fec554e83/src/playwright/frame.cr#L17" target="_blank">
+        playwright/frame.cr
+      </a>
+    
+    <br/>
+  
+
+
+
+
+
+
+
+
+
+  <h2>
+    <a id="instance-method-summary" class="anchor" href="#instance-method-summary">
+  <svg class="octicon-link" aria-hidden="true">
+    <use href="#octicon-link"/>
+  </svg>
+</a>
+    Instance Method Summary
+  </h2>
+  <ul class="list-summary">
+    
+      <li class="entry-summary">
+        <a href="#add_script_tag(params:AddScriptTagParams):ElementHandle-instance-method" class="signature"><strong>#add_script_tag</strong>(params : AddScriptTagParams) : ElementHandle</a>
+        
+          <div class="summary"><p>Returns the added tag when the script's onload fires or when the script content was injected into frame.</p></div>
+        
+      </li>
+    
+      <li class="entry-summary">
+        <a href="#add_style_tag(params:AddStyleTagParams):ElementHandle-instance-method" class="signature"><strong>#add_style_tag</strong>(params : AddStyleTagParams) : ElementHandle</a>
+        
+          <div class="summary"><p>Returns the added tag when the stylesheet's onload fires or when the CSS content was injected into frame.</p></div>
+        
+      </li>
+    
+      <li class="entry-summary">
+        <a href="#check(selector:String):Nil-instance-method" class="signature"><strong>#check</strong>(selector : String) : Nil</a>
+        
+      </li>
+    
+      <li class="entry-summary">
+        <a href="#check(selector:String,options:CheckOptions?):Nil-instance-method" class="signature"><strong>#check</strong>(selector : String, options : CheckOptions?) : Nil</a>
+        
+          <div class="summary"><p>This method checks an element matching <code>selector</code> by performing the following steps:</p></div>
+        
+      </li>
+    
+      <li class="entry-summary">
+        <a href="#child_frames:Array(Frame)-instance-method" class="signature"><strong>#child_frames</strong> : Array(Frame)</a>
+        
+      </li>
+    
+      <li class="entry-summary">
+        <a href="#click(selector:String):Nil-instance-method" class="signature"><strong>#click</strong>(selector : String) : Nil</a>
+        
+      </li>
+    
+      <li class="entry-summary">
+        <a href="#click(selector:String,options:ClickOptions?):Nil-instance-method" class="signature"><strong>#click</strong>(selector : String, options : ClickOptions?) : Nil</a>
+        
+          <div class="summary"><p>This method clicks an element matching <code>selector</code> by performing the following steps:</p></div>
+        
+      </li>
+    
+      <li class="entry-summary">
+        <a href="#content:String-instance-method" class="signature"><strong>#content</strong> : String</a>
+        
+          <div class="summary"><p>Gets the full HTML contents of the frame, including the doctype.</p></div>
+        
+      </li>
+    
+      <li class="entry-summary">
+        <a href="#dblclick(selector:String):Nil-instance-method" class="signature"><strong>#dblclick</strong>(selector : String) : Nil</a>
+        
+      </li>
+    
+      <li class="entry-summary">
+        <a href="#dblclick(selector:String,options:DblclickOptions?):Nil-instance-method" class="signature"><strong>#dblclick</strong>(selector : String, options : DblclickOptions?) : Nil</a>
+        
+          <div class="summary"><p>This method double clicks an element matching <code>selector</code> by performing the following steps:</p></div>
+        
+      </li>
+    
+      <li class="entry-summary">
+        <a href="#dispatch_event(selector:String,type:String):Nil-instance-method" class="signature"><strong>#dispatch_event</strong>(selector : String, type : String) : Nil</a>
+        
+      </li>
+    
+      <li class="entry-summary">
+        <a href="#dispatch_event(selector:String,type:String,event_init:Array(Any)?):Nil-instance-method" class="signature"><strong>#dispatch_event</strong>(selector : String, type : String, event_init : Array(Any)?) : Nil</a>
+        
+      </li>
+    
+      <li class="entry-summary">
+        <a href="#dispatch_event(selector:String,type:String,event_init:Array(Any)?,options:DispatchEventOptions?):Nil-instance-method" class="signature"><strong>#dispatch_event</strong>(selector : String, type : String, event_init : Array(Any)?, options : DispatchEventOptions?) : Nil</a>
+        
+          <div class="summary"><p>The snippet below dispatches the <code><a href="../Playwright/Frame.html#click(selector:String):Nil-instance-method">#click</a></code> event on the element.</p></div>
+        
+      </li>
+    
+      <li class="entry-summary">
+        <a href="#dispatch_event(selector:String,type:String,*event_init:Any):Nil-instance-method" class="signature"><strong>#dispatch_event</strong>(selector : String, type : String, *event_init : Any) : Nil</a>
+        
+      </li>
+    
+      <li class="entry-summary">
+        <a href="#eval_on_selector(selector:String,page_function:String,*arg:Any):Any-instance-method" class="signature"><strong>#eval_on_selector</strong>(selector : String, page_function : String, *arg : Any) : Any</a>
+        
+      </li>
+    
+      <li class="entry-summary">
+        <a href="#eval_on_selector(selector:String,page_function:String):Any-instance-method" class="signature"><strong>#eval_on_selector</strong>(selector : String, page_function : String) : Any</a>
+        
+      </li>
+    
+      <li class="entry-summary">
+        <a href="#eval_on_selector(selector:String,page_function:String,arg:Array(Any)?):Any-instance-method" class="signature"><strong>#eval_on_selector</strong>(selector : String, page_function : String, arg : Array(Any)?) : Any</a>
+        
+          <div class="summary"><p>Returns the return value of <code>pageFunction</code> The method finds an element matching the specified selector within the frame and passes it as a first argument to <code>pageFunction</code>.</p></div>
+        
+      </li>
+    
+      <li class="entry-summary">
+        <a href="#eval_on_selector_all(selector:String,page_function:String,*arg:Any):Any-instance-method" class="signature"><strong>#eval_on_selector_all</strong>(selector : String, page_function : String, *arg : Any) : Any</a>
+        
+      </li>
+    
+      <li class="entry-summary">
+        <a href="#eval_on_selector_all(selector:String,page_function:String):Any-instance-method" class="signature"><strong>#eval_on_selector_all</strong>(selector : String, page_function : String) : Any</a>
+        
+      </li>
+    
+      <li class="entry-summary">
+        <a href="#eval_on_selector_all(selector:String,page_function:String,arg:Array(Any)?):Any-instance-method" class="signature"><strong>#eval_on_selector_all</strong>(selector : String, page_function : String, arg : Array(Any)?) : Any</a>
+        
+          <div class="summary"><p>Returns the return value of <code>pageFunction</code> The method finds all elements matching the specified selector within the frame and passes an array of matched elements as a first argument to <code>pageFunction</code>.</p></div>
+        
+      </li>
+    
+      <li class="entry-summary">
+        <a href="#evaluate(page_function:String,*arg:Any):Any-instance-method" class="signature"><strong>#evaluate</strong>(page_function : String, *arg : Any) : Any</a>
+        
+      </li>
+    
+      <li class="entry-summary">
+        <a href="#evaluate(page_function:String):Any-instance-method" class="signature"><strong>#evaluate</strong>(page_function : String) : Any</a>
+        
+      </li>
+    
+      <li class="entry-summary">
+        <a href="#evaluate(page_function:String,arg:Array(Any)?):Any-instance-method" class="signature"><strong>#evaluate</strong>(page_function : String, arg : Array(Any)?) : Any</a>
+        
+          <div class="summary"><p>Returns the return value of <code>pageFunction</code> If the function passed to the <code>frame.evaluate</code> returns a Promise, then <code>frame.evaluate</code> would wait for the promise to resolve and return its value.</p></div>
+        
+      </li>
+    
+      <li class="entry-summary">
+        <a href="#evaluate_handle(page_function:String,arg:Array(Any)?):JSHandle-instance-method" class="signature"><strong>#evaluate_handle</strong>(page_function : String, arg : Array(Any)?) : JSHandle</a>
+        
+          <div class="summary"><p>Returns the return value of <code>pageFunction</code> as in-page object (JSHandle).</p></div>
+        
+      </li>
+    
+      <li class="entry-summary">
+        <a href="#evaluate_handle(page_function:String):JSHandle-instance-method" class="signature"><strong>#evaluate_handle</strong>(page_function : String) : JSHandle</a>
+        
+      </li>
+    
+      <li class="entry-summary">
+        <a href="#evaluate_handle(page_function:String,*arg:Any):JSHandle-instance-method" class="signature"><strong>#evaluate_handle</strong>(page_function : String, *arg : Any) : JSHandle</a>
+        
+      </li>
+    
+      <li class="entry-summary">
+        <a href="#fill(selector:String,value:String,options:FillOptions?):Nil-instance-method" class="signature"><strong>#fill</strong>(selector : String, value : String, options : FillOptions?) : Nil</a>
+        
+          <div class="summary"><p>This method waits for an element matching <code>selector</code>, waits for actionability checks, focuses the element, fills it and triggers an <code>input</code> event after filling.</p></div>
+        
+      </li>
+    
+      <li class="entry-summary">
+        <a href="#fill(selector:String,value:String):Nil-instance-method" class="signature"><strong>#fill</strong>(selector : String, value : String) : Nil</a>
+        
+      </li>
+    
+      <li class="entry-summary">
+        <a href="#focus(selector:String,options:FocusOptions?):Nil-instance-method" class="signature"><strong>#focus</strong>(selector : String, options : FocusOptions?) : Nil</a>
+        
+          <div class="summary"><p>This method fetches an element with <code>selector</code> and focuses it.</p></div>
+        
+      </li>
+    
+      <li class="entry-summary">
+        <a href="#focus(selector:String):Nil-instance-method" class="signature"><strong>#focus</strong>(selector : String) : Nil</a>
+        
+      </li>
+    
+      <li class="entry-summary">
+        <a href="#frame_element:ElementHandle-instance-method" class="signature"><strong>#frame_element</strong> : ElementHandle</a>
+        
+          <div class="summary"><p>Returns the <code>frame</code> or <code>iframe</code> element handle which corresponds to this frame.</p></div>
+        
+      </li>
+    
+      <li class="entry-summary">
+        <a href="#get_attribute(selector:String,name:String):String?-instance-method" class="signature"><strong>#get_attribute</strong>(selector : String, name : String) : String?</a>
+        
+      </li>
+    
+      <li class="entry-summary">
+        <a href="#get_attribute(selector:String,name:String,options:GetAttributeOptions?):String?-instance-method" class="signature"><strong>#get_attribute</strong>(selector : String, name : String, options : GetAttributeOptions?) : String?</a>
+        
+          <div class="summary"><p>Returns element attribute value.</p></div>
+        
+      </li>
+    
+      <li class="entry-summary">
+        <a href="#goto(url:String,options:NavigateOptions?):Response?-instance-method" class="signature"><strong>#goto</strong>(url : String, options : NavigateOptions?) : Response?</a>
+        
+          <div class="summary"><p>Returns the main resource response.</p></div>
+        
+      </li>
+    
+      <li class="entry-summary">
+        <a href="#goto(url:String):Response?-instance-method" class="signature"><strong>#goto</strong>(url : String) : Response?</a>
+        
+      </li>
+    
+      <li class="entry-summary">
+        <a href="#hover(selector:String,options:HoverOptions?):Nil-instance-method" class="signature"><strong>#hover</strong>(selector : String, options : HoverOptions?) : Nil</a>
+        
+          <div class="summary"><p>This method hovers over an element matching <code>selector</code> by performing the following steps:</p></div>
+        
+      </li>
+    
+      <li class="entry-summary">
+        <a href="#hover(selector:String):Nil-instance-method" class="signature"><strong>#hover</strong>(selector : String) : Nil</a>
+        
+      </li>
+    
+      <li class="entry-summary">
+        <a href="#inner_html(selector:String,options:InnerHTMLOptions?):String-instance-method" class="signature"><strong>#inner_html</strong>(selector : String, options : InnerHTMLOptions?) : String</a>
+        
+          <div class="summary"><p>Returns <code>element.innerHTML</code>.</p></div>
+        
+      </li>
+    
+      <li class="entry-summary">
+        <a href="#inner_html(selector:String):String-instance-method" class="signature"><strong>#inner_html</strong>(selector : String) : String</a>
+        
+      </li>
+    
+      <li class="entry-summary">
+        <a href="#inner_text(selector:String,options:InnerTextOptions?):String-instance-method" class="signature"><strong>#inner_text</strong>(selector : String, options : InnerTextOptions?) : String</a>
+        
+          <div class="summary"><p>Returns <code>element.innerText</code>.</p></div>
+        
+      </li>
+    
+      <li class="entry-summary">
+        <a href="#inner_text(selector:String):String-instance-method" class="signature"><strong>#inner_text</strong>(selector : String) : String</a>
+        
+      </li>
+    
+      <li class="entry-summary">
+        <a href="#is_detached:Bool-instance-method" class="signature"><strong>#is_detached</strong> : Bool</a>
+        
+          <div class="summary"><p>Returns <code>true</code> if the frame has been detached, or <code>false</code> otherwise.</p></div>
+        
+      </li>
+    
+      <li class="entry-summary">
+        <a href="#name:String-instance-method" class="signature"><strong>#name</strong> : String</a>
+        
+          <div class="summary"><p>Returns frame's name attribute as specified in the tag.</p></div>
+        
+      </li>
+    
+      <li class="entry-summary">
+        <a href="#page:Page?-instance-method" class="signature"><strong>#page</strong> : Page?</a>
+        
+          <div class="summary"><p>Returns the page containing this frame.</p></div>
+        
+      </li>
+    
+      <li class="entry-summary">
+        <a href="#parent_frame:Frame?-instance-method" class="signature"><strong>#parent_frame</strong> : Frame?</a>
+        
+          <div class="summary"><p>Parent frame, if any.</p></div>
+        
+      </li>
+    
+      <li class="entry-summary">
+        <a href="#press(selector:String,key:String):Nil-instance-method" class="signature"><strong>#press</strong>(selector : String, key : String) : Nil</a>
+        
+      </li>
+    
+      <li class="entry-summary">
+        <a href="#press(selector:String,key:String,options:PressOptions?):Nil-instance-method" class="signature"><strong>#press</strong>(selector : String, key : String, options : PressOptions?) : Nil</a>
+        
+          <div class="summary"><p><code>key</code> can specify the intended keyboardEvent.key value or a single character to generate the text for.</p></div>
+        
+      </li>
+    
+      <li class="entry-summary">
+        <a href="#query_selector(selector:String):ElementHandle?-instance-method" class="signature"><strong>#query_selector</strong>(selector : String) : ElementHandle?</a>
+        
+          <div class="summary"><p>Returns the ElementHandle pointing to the frame element.</p></div>
+        
+      </li>
+    
+      <li class="entry-summary">
+        <a href="#query_selector_all(selector:String):Array(ElementHandle)-instance-method" class="signature"><strong>#query_selector_all</strong>(selector : String) : Array(ElementHandle)</a>
+        
+          <div class="summary"><p>Returns the ElementHandles pointing to the frame elements.</p></div>
+        
+      </li>
+    
+      <li class="entry-summary">
+        <a href="#select_option(selector:String,values:Array(ElementHandle)?)-instance-method" class="signature"><strong>#select_option</strong>(selector : String, values : Array(ElementHandle)?)</a>
+        
+      </li>
+    
+      <li class="entry-summary">
+        <a href="#select_option(selector:String,value:ElementHandle?)-instance-method" class="signature"><strong>#select_option</strong>(selector : String, value : ElementHandle?)</a>
+        
+      </li>
+    
+      <li class="entry-summary">
+        <a href="#select_option(selector:String,values:Array(ElementHandle::SelectOption)?)-instance-method" class="signature"><strong>#select_option</strong>(selector : String, values : Array(ElementHandle::SelectOption)?)</a>
+        
+      </li>
+    
+      <li class="entry-summary">
+        <a href="#select_option(selector:String,value:ElementHandle::SelectOption?)-instance-method" class="signature"><strong>#select_option</strong>(selector : String, value : ElementHandle::SelectOption?)</a>
+        
+      </li>
+    
+      <li class="entry-summary">
+        <a href="#select_option(selector:String,values:Array(String))-instance-method" class="signature"><strong>#select_option</strong>(selector : String, values : Array(String))</a>
+        
+      </li>
+    
+      <li class="entry-summary">
+        <a href="#select_option(selector:String,value:String)-instance-method" class="signature"><strong>#select_option</strong>(selector : String, value : String)</a>
+        
+      </li>
+    
+      <li class="entry-summary">
+        <a href="#select_option(selector:String,values:Array(ElementHandle)?,options:SelectOptionOptions?)-instance-method" class="signature"><strong>#select_option</strong>(selector : String, values : Array(ElementHandle)?, options : SelectOptionOptions?)</a>
+        
+      </li>
+    
+      <li class="entry-summary">
+        <a href="#select_option(selector:String,value:ElementHandle?,options:SelectOptionOptions?)-instance-method" class="signature"><strong>#select_option</strong>(selector : String, value : ElementHandle?, options : SelectOptionOptions?)</a>
+        
+      </li>
+    
+      <li class="entry-summary">
+        <a href="#select_option(selector:String,values:Array(ElementHandle::SelectOption)?,options:SelectOptionOptions?)-instance-method" class="signature"><strong>#select_option</strong>(selector : String, values : Array(ElementHandle::SelectOption)?, options : SelectOptionOptions?)</a>
+        
+      </li>
+    
+      <li class="entry-summary">
+        <a href="#select_option(selector:String,value:ElementHandle::SelectOption?,options:SelectOptionOptions?)-instance-method" class="signature"><strong>#select_option</strong>(selector : String, value : ElementHandle::SelectOption?, options : SelectOptionOptions?)</a>
+        
+      </li>
+    
+      <li class="entry-summary">
+        <a href="#select_option(selector:String,values:Array(String),options:SelectOptionOptions?)-instance-method" class="signature"><strong>#select_option</strong>(selector : String, values : Array(String), options : SelectOptionOptions?)</a>
+        
+      </li>
+    
+      <li class="entry-summary">
+        <a href="#select_option(selector:String,value:String,options:SelectOptionOptions?)-instance-method" class="signature"><strong>#select_option</strong>(selector : String, value : String, options : SelectOptionOptions?)</a>
+        
+      </li>
+    
+      <li class="entry-summary">
+        <a href="#set_content(html:String,options:SetContentOptions?):Nil-instance-method" class="signature"><strong>#set_content</strong>(html : String, options : SetContentOptions?) : Nil</a>
+        
+      </li>
+    
+      <li class="entry-summary">
+        <a href="#set_content(html:String):Nil-instance-method" class="signature"><strong>#set_content</strong>(html : String) : Nil</a>
+        
+      </li>
+    
+      <li class="entry-summary">
+        <a href="#set_input_files(selector:String,files:Array(FileChooser::FilePayload))-instance-method" class="signature"><strong>#set_input_files</strong>(selector : String, files : Array(FileChooser::FilePayload))</a>
+        
+      </li>
+    
+      <li class="entry-summary">
+        <a href="#set_input_files(selector:String,file:FileChooser::FilePayload)-instance-method" class="signature"><strong>#set_input_files</strong>(selector : String, file : FileChooser::FilePayload)</a>
+        
+      </li>
+    
+      <li class="entry-summary">
+        <a href="#set_input_files(selector:String,files:Array(Path))-instance-method" class="signature"><strong>#set_input_files</strong>(selector : String, files : Array(Path))</a>
+        
+      </li>
+    
+      <li class="entry-summary">
+        <a href="#set_input_files(selector:String,file:Path)-instance-method" class="signature"><strong>#set_input_files</strong>(selector : String, file : Path)</a>
+        
+      </li>
+    
+      <li class="entry-summary">
+        <a href="#set_input_files(selector:String,file:Array(FileChooser::FilePayload),options:SetInputFilesOptions?)-instance-method" class="signature"><strong>#set_input_files</strong>(selector : String, file : Array(FileChooser::FilePayload), options : SetInputFilesOptions?)</a>
+        
+          <div class="summary"><p>This method expects <code>selector</code> to point to an input element.</p></div>
+        
+      </li>
+    
+      <li class="entry-summary">
+        <a href="#set_input_files(selector:String,file:FileChooser::FilePayload,options:SetInputFilesOptions?)-instance-method" class="signature"><strong>#set_input_files</strong>(selector : String, file : FileChooser::FilePayload, options : SetInputFilesOptions?)</a>
+        
+      </li>
+    
+      <li class="entry-summary">
+        <a href="#set_input_files(selector:String,file:Array(Path),options:SetInputFilesOptions?)-instance-method" class="signature"><strong>#set_input_files</strong>(selector : String, file : Array(Path), options : SetInputFilesOptions?)</a>
+        
+      </li>
+    
+      <li class="entry-summary">
+        <a href="#set_input_files(selector:String,file:Path,options:SetInputFilesOptions?)-instance-method" class="signature"><strong>#set_input_files</strong>(selector : String, file : Path, options : SetInputFilesOptions?)</a>
+        
+      </li>
+    
+      <li class="entry-summary">
+        <a href="#tap(selector:String,options:TapOptions?):Nil-instance-method" class="signature"><strong>#tap</strong>(selector : String, options : TapOptions?) : Nil</a>
+        
+          <div class="summary"><p>This method taps an element matching <code>selector</code> by performing the following steps:</p></div>
+        
+      </li>
+    
+      <li class="entry-summary">
+        <a href="#tap(selector:String):Nil-instance-method" class="signature"><strong>#tap</strong>(selector : String) : Nil</a>
+        
+      </li>
+    
+      <li class="entry-summary">
+        <a href="#text_content(selector:String,options:TextContentOptions?):String?-instance-method" class="signature"><strong>#text_content</strong>(selector : String, options : TextContentOptions?) : String?</a>
+        
+          <div class="summary"><p>Returns <code>element.textContent</code>.</p></div>
+        
+      </li>
+    
+      <li class="entry-summary">
+        <a href="#text_content(selector:String):String?-instance-method" class="signature"><strong>#text_content</strong>(selector : String) : String?</a>
+        
+      </li>
+    
+      <li class="entry-summary">
+        <a href="#title:String-instance-method" class="signature"><strong>#title</strong> : String</a>
+        
+          <div class="summary"><p>Returns the page title.</p></div>
+        
+      </li>
+    
+      <li class="entry-summary">
+        <a href="#type(selector:String,text:String,options:TypeOptions?):Nil-instance-method" class="signature"><strong>#type</strong>(selector : String, text : String, options : TypeOptions?) : Nil</a>
+        
+          <div class="summary"><p>Sends a <code>keydown</code>, <code>keypress</code>/<code>input</code>, and <code>keyup</code> event for each character in the text.</p></div>
+        
+      </li>
+    
+      <li class="entry-summary">
+        <a href="#type(selector:String,text:String):Nil-instance-method" class="signature"><strong>#type</strong>(selector : String, text : String) : Nil</a>
+        
+      </li>
+    
+      <li class="entry-summary">
+        <a href="#uncheck(selector:String,options:UncheckOptions?):Nil-instance-method" class="signature"><strong>#uncheck</strong>(selector : String, options : UncheckOptions?) : Nil</a>
+        
+          <div class="summary"><p>This method checks an element matching <code>selector</code> by performing the following steps:</p></div>
+        
+      </li>
+    
+      <li class="entry-summary">
+        <a href="#uncheck(selector:String):Nil-instance-method" class="signature"><strong>#uncheck</strong>(selector : String) : Nil</a>
+        
+      </li>
+    
+      <li class="entry-summary">
+        <a href="#url:String-instance-method" class="signature"><strong>#url</strong> : String</a>
+        
+          <div class="summary"><p>Returns frame's url.</p></div>
+        
+      </li>
+    
+      <li class="entry-summary">
+        <a href="#wait_for_function(page_function:String,arg:Array(Any)?,options:WaitForFunctionOptions?):Deferred(JSHandle)-instance-method" class="signature"><strong>#wait_for_function</strong>(page_function : String, arg : Array(Any)?, options : WaitForFunctionOptions?) : Deferred(JSHandle)</a>
+        
+          <div class="summary"><p>Returns when the <code>pageFunction</code> returns a truthy value, returns that value.</p></div>
+        
+      </li>
+    
+      <li class="entry-summary">
+        <a href="#wait_for_function(page_function:String,arg:Array(Any)?):Deferred(JSHandle)-instance-method" class="signature"><strong>#wait_for_function</strong>(page_function : String, arg : Array(Any)?) : Deferred(JSHandle)</a>
+        
+      </li>
+    
+      <li class="entry-summary">
+        <a href="#wait_for_function(page_function:String):Deferred(JSHandle)-instance-method" class="signature"><strong>#wait_for_function</strong>(page_function : String) : Deferred(JSHandle)</a>
+        
+      </li>
+    
+      <li class="entry-summary">
+        <a href="#wait_for_function(page_function:String,*arg:Any):Deferred(JSHandle)-instance-method" class="signature"><strong>#wait_for_function</strong>(page_function : String, *arg : Any) : Deferred(JSHandle)</a>
+        
+      </li>
+    
+      <li class="entry-summary">
+        <a href="#wait_for_load_state(state:LoadState?,options:WaitForLoadStateOptions?):Deferred(Nil)-instance-method" class="signature"><strong>#wait_for_load_state</strong>(state : LoadState?, options : WaitForLoadStateOptions?) : Deferred(Nil)</a>
+        
+          <div class="summary"><p>Waits for the required load state to be reached.</p></div>
+        
+      </li>
+    
+      <li class="entry-summary">
+        <a href="#wait_for_load_state(state:LoadState?):Deferred(Nil)-instance-method" class="signature"><strong>#wait_for_load_state</strong>(state : LoadState?) : Deferred(Nil)</a>
+        
+      </li>
+    
+      <li class="entry-summary">
+        <a href="#wait_for_load_state:Deferred(Nil)-instance-method" class="signature"><strong>#wait_for_load_state</strong> : Deferred(Nil)</a>
+        
+      </li>
+    
+      <li class="entry-summary">
+        <a href="#wait_for_navigation(options:WaitForNavigationOptions?):Deferred(Response?)-instance-method" class="signature"><strong>#wait_for_navigation</strong>(options : WaitForNavigationOptions?) : Deferred(Response?)</a>
+        
+          <div class="summary"><p>Returns the main resource response.</p></div>
+        
+      </li>
+    
+      <li class="entry-summary">
+        <a href="#wait_for_navigation:Deferred(Response?)-instance-method" class="signature"><strong>#wait_for_navigation</strong> : Deferred(Response?)</a>
+        
+      </li>
+    
+      <li class="entry-summary">
+        <a href="#wait_for_selector(selector:String,options:WaitForSelectorOptions?):Deferred(ElementHandle?)-instance-method" class="signature"><strong>#wait_for_selector</strong>(selector : String, options : WaitForSelectorOptions?) : Deferred(ElementHandle?)</a>
+        
+          <div class="summary"><p>Returns when element specified by selector satisfies <code>state</code> option.</p></div>
+        
+      </li>
+    
+      <li class="entry-summary">
+        <a href="#wait_for_selector(selector:String):Deferred(ElementHandle?)-instance-method" class="signature"><strong>#wait_for_selector</strong>(selector : String) : Deferred(ElementHandle?)</a>
+        
+      </li>
+    
+      <li class="entry-summary">
+        <a href="#wait_for_timeout(timeout:Int32):Deferred(Nil)-instance-method" class="signature"><strong>#wait_for_timeout</strong>(timeout : Int32) : Deferred(Nil)</a>
+        
+          <div class="summary"><p>Waits for the given <code>timeout</code> in milliseconds.</p></div>
+        
+      </li>
+    
+  </ul>
+
+
+
+
+
+<div class="methods-inherited">
+  
+</div>
+
+
+
+
+
+
+  <h2>
+    <a id="instance-method-detail" class="anchor" href="#instance-method-detail">
+  <svg class="octicon-link" aria-hidden="true">
+    <use href="#octicon-link"/>
+  </svg>
+</a>
+    Instance Method Detail
+  </h2>
+  
+    <div class="entry-detail" id="add_script_tag(params:AddScriptTagParams):ElementHandle-instance-method">
+      <div class="signature">
+        abstract 
+        def <strong>add_script_tag</strong>(params : <a href="../Playwright/Frame/AddScriptTagParams.html">AddScriptTagParams</a>) : <a href="../Playwright/ElementHandle.html">ElementHandle</a>
+
+        <a class="method-permalink" href="#add_script_tag(params:AddScriptTagParams):ElementHandle-instance-method">#</a>
+      </div>
+      
+        <div class="doc">
+          
+          <p>Returns the added tag when the script's onload fires or when the script content was injected into frame.
+Adds a <code><script></code> tag into the page with the desired url or content.</p>
+        </div>
+      
+      <br/>
+      <div>
+        
+          [<a href="https://github.com/naqvis/playwright-cr/blob/fb9bb4cbcecb2e9647fe4ab19643339fec554e83/src/playwright/frame.cr#L546" target="_blank">View source</a>]
+        
+      </div>
+    </div>
+  
+    <div class="entry-detail" id="add_style_tag(params:AddStyleTagParams):ElementHandle-instance-method">
+      <div class="signature">
+        abstract 
+        def <strong>add_style_tag</strong>(params : <a href="../Playwright/Frame/AddStyleTagParams.html">AddStyleTagParams</a>) : <a href="../Playwright/ElementHandle.html">ElementHandle</a>
+
+        <a class="method-permalink" href="#add_style_tag(params:AddStyleTagParams):ElementHandle-instance-method">#</a>
+      </div>
+      
+        <div class="doc">
+          
+          <p>Returns the added tag when the stylesheet's onload fires or when the CSS content was injected into frame.
+Adds a <code><link rel="stylesheet"></code> tag into the page with the desired url or a <code><style type="text/css"></code> tag with the content.</p>
+        </div>
+      
+      <br/>
+      <div>
+        
+          [<a href="https://github.com/naqvis/playwright-cr/blob/fb9bb4cbcecb2e9647fe4ab19643339fec554e83/src/playwright/frame.cr#L549" target="_blank">View source</a>]
+        
+      </div>
+    </div>
+  
+    <div class="entry-detail" id="check(selector:String):Nil-instance-method">
+      <div class="signature">
+        
+        def <strong>check</strong>(selector : String) : Nil
+
+        <a class="method-permalink" href="#check(selector:String):Nil-instance-method">#</a>
+      </div>
+      
+      <br/>
+      <div>
+        
+          [<a href="https://github.com/naqvis/playwright-cr/blob/fb9bb4cbcecb2e9647fe4ab19643339fec554e83/src/playwright/frame.cr#L551" target="_blank">View source</a>]
+        
+      </div>
+    </div>
+  
+    <div class="entry-detail" id="check(selector:String,options:CheckOptions?):Nil-instance-method">
+      <div class="signature">
+        abstract 
+        def <strong>check</strong>(selector : String, options : <a href="../Playwright/Frame/CheckOptions.html">CheckOptions</a>?) : Nil
+
+        <a class="method-permalink" href="#check(selector:String,options:CheckOptions?):Nil-instance-method">#</a>
+      </div>
+      
+        <div class="doc">
+          
+          <p>This method checks an element matching <code>selector</code> by performing the following steps:</p>
+
+<p>Find an element match matching <code>selector</code>. If there is none, wait until a matching element is attached to the DOM.
+Ensure that matched element is a checkbox or a radio input. If not, this method rejects. If the element is already checked, this method returns immediately.
+Wait for actionability checks on the matched element, unless <code>force</code> option is set. If the element is detached during the checks, the whole action is retried.
+Scroll the element into view if needed.
+Use page.mouse to click in the center of the element.
+Wait for initiated navigations to either succeed or fail, unless <code>noWaitAfter</code> option is set.
+Ensure that the element is now checked. If not, this method rejects.</p>
+
+<p>When all steps combined have not finished during the specified <code>timeout</code>, this method rejects with a TimeoutError. Passing zero timeout disables this.</p>
+        </div>
+      
+      <br/>
+      <div>
+        
+          [<a href="https://github.com/naqvis/playwright-cr/blob/fb9bb4cbcecb2e9647fe4ab19643339fec554e83/src/playwright/frame.cr#L566" target="_blank">View source</a>]
+        
+      </div>
+    </div>
+  
+    <div class="entry-detail" id="child_frames:Array(Frame)-instance-method">
+      <div class="signature">
+        abstract 
+        def <strong>child_frames</strong> : Array(<a href="../Playwright/Frame.html">Frame</a>)
+
+        <a class="method-permalink" href="#child_frames:Array(Frame)-instance-method">#</a>
+      </div>
+      
+      <br/>
+      <div>
+        
+          [<a href="https://github.com/naqvis/playwright-cr/blob/fb9bb4cbcecb2e9647fe4ab19643339fec554e83/src/playwright/frame.cr#L567" target="_blank">View source</a>]
+        
+      </div>
+    </div>
+  
+    <div class="entry-detail" id="click(selector:String):Nil-instance-method">
+      <div class="signature">
+        
+        def <strong>click</strong>(selector : String) : Nil
+
+        <a class="method-permalink" href="#click(selector:String):Nil-instance-method">#</a>
+      </div>
+      
+      <br/>
+      <div>
+        
+          [<a href="https://github.com/naqvis/playwright-cr/blob/fb9bb4cbcecb2e9647fe4ab19643339fec554e83/src/playwright/frame.cr#L569" target="_blank">View source</a>]
+        
+      </div>
+    </div>
+  
+    <div class="entry-detail" id="click(selector:String,options:ClickOptions?):Nil-instance-method">
+      <div class="signature">
+        abstract 
+        def <strong>click</strong>(selector : String, options : <a href="../Playwright/Frame/ClickOptions.html">ClickOptions</a>?) : Nil
+
+        <a class="method-permalink" href="#click(selector:String,options:ClickOptions?):Nil-instance-method">#</a>
+      </div>
+      
+        <div class="doc">
+          
+          <p>This method clicks an element matching <code>selector</code> by performing the following steps:</p>
+
+<p>Find an element match matching <code>selector</code>. If there is none, wait until a matching element is attached to the DOM.
+Wait for actionability checks on the matched element, unless <code>force</code> option is set. If the element is detached during the checks, the whole action is retried.
+Scroll the element into view if needed.
+Use page.mouse to click in the center of the element, or the specified <code>position</code>.
+Wait for initiated navigations to either succeed or fail, unless <code>noWaitAfter</code> option is set.</p>
+
+<p>When all steps combined have not finished during the specified <code>timeout</code>, this method rejects with a TimeoutError. Passing zero timeout disables this.</p>
+        </div>
+      
+      <br/>
+      <div>
+        
+          [<a href="https://github.com/naqvis/playwright-cr/blob/fb9bb4cbcecb2e9647fe4ab19643339fec554e83/src/playwright/frame.cr#L582" target="_blank">View source</a>]
+        
+      </div>
+    </div>
+  
+    <div class="entry-detail" id="content:String-instance-method">
+      <div class="signature">
+        abstract 
+        def <strong>content</strong> : String
+
+        <a class="method-permalink" href="#content:String-instance-method">#</a>
+      </div>
+      
+        <div class="doc">
+          
+          <p>Gets the full HTML contents of the frame, including the doctype.</p>
+        </div>
+      
+      <br/>
+      <div>
+        
+          [<a href="https://github.com/naqvis/playwright-cr/blob/fb9bb4cbcecb2e9647fe4ab19643339fec554e83/src/playwright/frame.cr#L584" target="_blank">View source</a>]
+        
+      </div>
+    </div>
+  
+    <div class="entry-detail" id="dblclick(selector:String):Nil-instance-method">
+      <div class="signature">
+        
+        def <strong>dblclick</strong>(selector : String) : Nil
+
+        <a class="method-permalink" href="#dblclick(selector:String):Nil-instance-method">#</a>
+      </div>
+      
+      <br/>
+      <div>
+        
+          [<a href="https://github.com/naqvis/playwright-cr/blob/fb9bb4cbcecb2e9647fe4ab19643339fec554e83/src/playwright/frame.cr#L586" target="_blank">View source</a>]
+        
+      </div>
+    </div>
+  
+    <div class="entry-detail" id="dblclick(selector:String,options:DblclickOptions?):Nil-instance-method">
+      <div class="signature">
+        abstract 
+        def <strong>dblclick</strong>(selector : String, options : <a href="../Playwright/Frame/DblclickOptions.html">DblclickOptions</a>?) : Nil
+
+        <a class="method-permalink" href="#dblclick(selector:String,options:DblclickOptions?):Nil-instance-method">#</a>
+      </div>
+      
+        <div class="doc">
+          
+          <p>This method double clicks an element matching <code>selector</code> by performing the following steps:</p>
+
+<p>Find an element match matching <code>selector</code>. If there is none, wait until a matching element is attached to the DOM.
+Wait for actionability checks on the matched element, unless <code>force</code> option is set. If the element is detached during the checks, the whole action is retried.
+Scroll the element into view if needed.
+Use page.mouse to double click in the center of the element, or the specified <code>position</code>.
+Wait for initiated navigations to either succeed or fail, unless <code>noWaitAfter</code> option is set. Note that if the first click of the <code><a href="../Playwright/Frame.html#dblclick(selector:String):Nil-instance-method">#dblclick()</a></code> triggers a navigation event, this method will reject.</p>
+
+<p>When all steps combined have not finished during the specified <code>timeout</code>, this method rejects with a TimeoutError. Passing zero timeout disables this.</p>
+
+<p><strong>NOTE</strong> <code>frame.dblclick()</code> dispatches two <code><a href="../Playwright/Frame.html#click(selector:String):Nil-instance-method">#click</a></code> events and a single <code><a href="../Playwright/Frame.html#dblclick(selector:String):Nil-instance-method">#dblclick</a></code> event.</p>
+        </div>
+      
+      <br/>
+      <div>
+        
+          [<a href="https://github.com/naqvis/playwright-cr/blob/fb9bb4cbcecb2e9647fe4ab19643339fec554e83/src/playwright/frame.cr#L601" target="_blank">View source</a>]
+        
+      </div>
+    </div>
+  
+    <div class="entry-detail" id="dispatch_event(selector:String,type:String):Nil-instance-method">
+      <div class="signature">
+        
+        def <strong>dispatch_event</strong>(selector : String, type : String) : Nil
+
+        <a class="method-permalink" href="#dispatch_event(selector:String,type:String):Nil-instance-method">#</a>
+      </div>
+      
+      <br/>
+      <div>
+        
+          [<a href="https://github.com/naqvis/playwright-cr/blob/fb9bb4cbcecb2e9647fe4ab19643339fec554e83/src/playwright/frame.cr#L607" target="_blank">View source</a>]
+        
+      </div>
+    </div>
+  
+    <div class="entry-detail" id="dispatch_event(selector:String,type:String,event_init:Array(Any)?):Nil-instance-method">
+      <div class="signature">
+        
+        def <strong>dispatch_event</strong>(selector : String, type : String, event_init : Array(<a href="../Playwright/Any.html">Any</a>)?) : Nil
+
+        <a class="method-permalink" href="#dispatch_event(selector:String,type:String,event_init:Array(Any)?):Nil-instance-method">#</a>
+      </div>
+      
+      <br/>
+      <div>
+        
+          [<a href="https://github.com/naqvis/playwright-cr/blob/fb9bb4cbcecb2e9647fe4ab19643339fec554e83/src/playwright/frame.cr#L603" target="_blank">View source</a>]
+        
+      </div>
+    </div>
+  
+    <div class="entry-detail" id="dispatch_event(selector:String,type:String,event_init:Array(Any)?,options:DispatchEventOptions?):Nil-instance-method">
+      <div class="signature">
+        abstract 
+        def <strong>dispatch_event</strong>(selector : String, type : String, event_init : Array(<a href="../Playwright/Any.html">Any</a>)?, options : <a href="../Playwright/Frame/DispatchEventOptions.html">DispatchEventOptions</a>?) : Nil
+
+        <a class="method-permalink" href="#dispatch_event(selector:String,type:String,event_init:Array(Any)?,options:DispatchEventOptions?):Nil-instance-method">#</a>
+      </div>
+      
+        <div class="doc">
+          
+          <p>The snippet below dispatches the <code><a href="../Playwright/Frame.html#click(selector:String):Nil-instance-method">#click</a></code> event on the element. Regardless of the visibility state of the elment, <code><a href="../Playwright/Frame.html#click(selector:String):Nil-instance-method">#click</a></code> is dispatched. This is equivalend to calling element.click().</p>
+
+<p>Under the hood, it creates an instance of an event based on the given <code><a href="../Playwright/Frame.html#type(selector:String,text:String,options:TypeOptions?):Nil-instance-method">#type</a></code>, initializes it with <code>eventInit</code> properties and dispatches it on the element. Events are <code>composed</code>, <code>cancelable</code> and bubble by default.
+Since <code>eventInit</code> is event-specific, please refer to the events documentation for the lists of initial properties:</p>
+
+<p>DragEvent
+FocusEvent
+KeyboardEvent
+MouseEvent
+PointerEvent
+TouchEvent
+Event</p>
+
+<p>You can also specify <code><a href="../Playwright/JSHandle.html">JSHandle</a></code> as the property value if you want live objects to be passed into the event:</p>
+        </div>
+      
+      <br/>
+      <div>
+        
+          [<a href="https://github.com/naqvis/playwright-cr/blob/fb9bb4cbcecb2e9647fe4ab19643339fec554e83/src/playwright/frame.cr#L630" target="_blank">View source</a>]
+        
+      </div>
+    </div>
+  
+    <div class="entry-detail" id="dispatch_event(selector:String,type:String,*event_init:Any):Nil-instance-method">
+      <div class="signature">
+        
+        def <strong>dispatch_event</strong>(selector : String, type : String, *event_init : <a href="../Playwright/Any.html">Any</a>) : Nil
+
+        <a class="method-permalink" href="#dispatch_event(selector:String,type:String,*event_init:Any):Nil-instance-method">#</a>
+      </div>
+      
+      <br/>
+      <div>
+        
+          [<a href="https://github.com/naqvis/playwright-cr/blob/fb9bb4cbcecb2e9647fe4ab19643339fec554e83/src/playwright/frame.cr#L611" target="_blank">View source</a>]
+        
+      </div>
+    </div>
+  
+    <div class="entry-detail" id="eval_on_selector(selector:String,page_function:String,*arg:Any):Any-instance-method">
+      <div class="signature">
+        
+        def <strong>eval_on_selector</strong>(selector : String, page_function : String, *arg : <a href="../Playwright/Any.html">Any</a>) : <a href="../Playwright/Any.html">Any</a>
+
+        <a class="method-permalink" href="#eval_on_selector(selector:String,page_function:String,*arg:Any):Any-instance-method">#</a>
+      </div>
+      
+      <br/>
+      <div>
+        
+          [<a href="https://github.com/naqvis/playwright-cr/blob/fb9bb4cbcecb2e9647fe4ab19643339fec554e83/src/playwright/frame.cr#L519" target="_blank">View source</a>]
+        
+      </div>
+    </div>
+  
+    <div class="entry-detail" id="eval_on_selector(selector:String,page_function:String):Any-instance-method">
+      <div class="signature">
+        
+        def <strong>eval_on_selector</strong>(selector : String, page_function : String) : <a href="../Playwright/Any.html">Any</a>
+
+        <a class="method-permalink" href="#eval_on_selector(selector:String,page_function:String):Any-instance-method">#</a>
+      </div>
+      
+      <br/>
+      <div>
+        
+          [<a href="https://github.com/naqvis/playwright-cr/blob/fb9bb4cbcecb2e9647fe4ab19643339fec554e83/src/playwright/frame.cr#L515" target="_blank">View source</a>]
+        
+      </div>
+    </div>
+  
+    <div class="entry-detail" id="eval_on_selector(selector:String,page_function:String,arg:Array(Any)?):Any-instance-method">
+      <div class="signature">
+        abstract 
+        def <strong>eval_on_selector</strong>(selector : String, page_function : String, arg : Array(<a href="../Playwright/Any.html">Any</a>)?) : <a href="../Playwright/Any.html">Any</a>
+
+        <a class="method-permalink" href="#eval_on_selector(selector:String,page_function:String,arg:Array(Any)?):Any-instance-method">#</a>
+      </div>
+      
+        <div class="doc">
+          
+          <p>Returns the return value of <code>pageFunction</code>
+The method finds an element matching the specified selector within the frame and passes it as a first argument to <code>pageFunction</code>. See Working with selectors for more details. If no elements match the selector, the method throws an error.
+If <code>pageFunction</code> returns a Promise, then <code>frame.$eval</code> would wait for the promise to resolve and return its value.
+Examples:</p>
+        </div>
+      
+      <br/>
+      <div>
+        
+          [<a href="https://github.com/naqvis/playwright-cr/blob/fb9bb4cbcecb2e9647fe4ab19643339fec554e83/src/playwright/frame.cr#L528" target="_blank">View source</a>]
+        
+      </div>
+    </div>
+  
+    <div class="entry-detail" id="eval_on_selector_all(selector:String,page_function:String,*arg:Any):Any-instance-method">
+      <div class="signature">
+        
+        def <strong>eval_on_selector_all</strong>(selector : String, page_function : String, *arg : <a href="../Playwright/Any.html">Any</a>) : <a href="../Playwright/Any.html">Any</a>
+
+        <a class="method-permalink" href="#eval_on_selector_all(selector:String,page_function:String,*arg:Any):Any-instance-method">#</a>
+      </div>
+      
+      <br/>
+      <div>
+        
+          [<a href="https://github.com/naqvis/playwright-cr/blob/fb9bb4cbcecb2e9647fe4ab19643339fec554e83/src/playwright/frame.cr#L534" target="_blank">View source</a>]
+        
+      </div>
+    </div>
+  
+    <div class="entry-detail" id="eval_on_selector_all(selector:String,page_function:String):Any-instance-method">
+      <div class="signature">
+        
+        def <strong>eval_on_selector_all</strong>(selector : String, page_function : String) : <a href="../Playwright/Any.html">Any</a>
+
+        <a class="method-permalink" href="#eval_on_selector_all(selector:String,page_function:String):Any-instance-method">#</a>
+      </div>
+      
+      <br/>
+      <div>
+        
+          [<a href="https://github.com/naqvis/playwright-cr/blob/fb9bb4cbcecb2e9647fe4ab19643339fec554e83/src/playwright/frame.cr#L530" target="_blank">View source</a>]
+        
+      </div>
+    </div>
+  
+    <div class="entry-detail" id="eval_on_selector_all(selector:String,page_function:String,arg:Array(Any)?):Any-instance-method">
+      <div class="signature">
+        abstract 
+        def <strong>eval_on_selector_all</strong>(selector : String, page_function : String, arg : Array(<a href="../Playwright/Any.html">Any</a>)?) : <a href="../Playwright/Any.html">Any</a>
+
+        <a class="method-permalink" href="#eval_on_selector_all(selector:String,page_function:String,arg:Array(Any)?):Any-instance-method">#</a>
+      </div>
+      
+        <div class="doc">
+          
+          <p>Returns the return value of <code>pageFunction</code>
+The method finds all elements matching the specified selector within the frame and passes an array of matched elements as a first argument to <code>pageFunction</code>. See Working with selectors for more details.
+If <code>pageFunction</code> returns a Promise, then <code>frame.$$eval</code> would wait for the promise to resolve and return its value.
+Examples:</p>
+        </div>
+      
+      <br/>
+      <div>
+        
+          [<a href="https://github.com/naqvis/playwright-cr/blob/fb9bb4cbcecb2e9647fe4ab19643339fec554e83/src/playwright/frame.cr#L543" target="_blank">View source</a>]
+        
+      </div>
+    </div>
+  
+    <div class="entry-detail" id="evaluate(page_function:String,*arg:Any):Any-instance-method">
+      <div class="signature">
+        
+        def <strong>evaluate</strong>(page_function : String, *arg : <a href="../Playwright/Any.html">Any</a>) : <a href="../Playwright/Any.html">Any</a>
+
+        <a class="method-permalink" href="#evaluate(page_function:String,*arg:Any):Any-instance-method">#</a>
+      </div>
+      
+      <br/>
+      <div>
+        
+          [<a href="https://github.com/naqvis/playwright-cr/blob/fb9bb4cbcecb2e9647fe4ab19643339fec554e83/src/playwright/frame.cr#L636" target="_blank">View source</a>]
+        
+      </div>
+    </div>
+  
+    <div class="entry-detail" id="evaluate(page_function:String):Any-instance-method">
+      <div class="signature">
+        
+        def <strong>evaluate</strong>(page_function : String) : <a href="../Playwright/Any.html">Any</a>
+
+        <a class="method-permalink" href="#evaluate(page_function:String):Any-instance-method">#</a>
+      </div>
+      
+      <br/>
+      <div>
+        
+          [<a href="https://github.com/naqvis/playwright-cr/blob/fb9bb4cbcecb2e9647fe4ab19643339fec554e83/src/playwright/frame.cr#L632" target="_blank">View source</a>]
+        
+      </div>
+    </div>
+  
+    <div class="entry-detail" id="evaluate(page_function:String,arg:Array(Any)?):Any-instance-method">
+      <div class="signature">
+        abstract 
+        def <strong>evaluate</strong>(page_function : String, arg : Array(<a href="../Playwright/Any.html">Any</a>)?) : <a href="../Playwright/Any.html">Any</a>
+
+        <a class="method-permalink" href="#evaluate(page_function:String,arg:Array(Any)?):Any-instance-method">#</a>
+      </div>
+      
+        <div class="doc">
+          
+          <p>Returns the return value of <code>pageFunction</code>
+If the function passed to the <code>frame.evaluate</code> returns a Promise, then <code>frame.evaluate</code> would wait for the promise to resolve and return its value.
+If the function passed to the <code>frame.evaluate</code> returns a non-Serializable value, then <code>frame.evaluate</code> returns <code>undefined</code>. DevTools Protocol also supports transferring some additional values that are not serializable by <code>JSON</code>: <code>-0</code>, <code>NaN</code>, <code>Infinity</code>, <code>-Infinity</code>, and bigint literals.</p>
+
+<p>A string can also be passed in instead of a function.</p>
+
+<p>ElementHandle instances can be passed as an argument to the <code>frame.evaluate</code>:</p>
+        </div>
+      
+      <br/>
+      <div>
+        
+          [<a href="https://github.com/naqvis/playwright-cr/blob/fb9bb4cbcecb2e9647fe4ab19643339fec554e83/src/playwright/frame.cr#L648" target="_blank">View source</a>]
+        
+      </div>
+    </div>
+  
+    <div class="entry-detail" id="evaluate_handle(page_function:String,arg:Array(Any)?):JSHandle-instance-method">
+      <div class="signature">
+        abstract 
+        def <strong>evaluate_handle</strong>(page_function : String, arg : Array(<a href="../Playwright/Any.html">Any</a>)?) : <a href="../Playwright/JSHandle.html">JSHandle</a>
+
+        <a class="method-permalink" href="#evaluate_handle(page_function:String,arg:Array(Any)?):JSHandle-instance-method">#</a>
+      </div>
+      
+        <div class="doc">
+          
+          <p>Returns the return value of <code>pageFunction</code> as in-page object (JSHandle).
+The only difference between <code>frame.evaluate</code> and <code>frame.evaluateHandle</code> is that <code>frame.evaluateHandle</code> returns in-page object (JSHandle).
+If the function, passed to the <code>frame.evaluateHandle</code>, returns a Promise, then <code>frame.evaluateHandle</code> would wait for the promise to resolve and return its value.</p>
+
+<p>A string can also be passed in instead of a function.</p>
+
+<p>JSHandle instances can be passed as an argument to the <code>frame.evaluateHandle</code>:</p>
+        </div>
+      
+      <br/>
+      <div>
+        
+          [<a href="https://github.com/naqvis/playwright-cr/blob/fb9bb4cbcecb2e9647fe4ab19643339fec554e83/src/playwright/frame.cr#L666" target="_blank">View source</a>]
+        
+      </div>
+    </div>
+  
+    <div class="entry-detail" id="evaluate_handle(page_function:String):JSHandle-instance-method">
+      <div class="signature">
+        
+        def <strong>evaluate_handle</strong>(page_function : String) : <a href="../Playwright/JSHandle.html">JSHandle</a>
+
+        <a class="method-permalink" href="#evaluate_handle(page_function:String):JSHandle-instance-method">#</a>
+      </div>
+      
+      <br/>
+      <div>
+        
+          [<a href="https://github.com/naqvis/playwright-cr/blob/fb9bb4cbcecb2e9647fe4ab19643339fec554e83/src/playwright/frame.cr#L650" target="_blank">View source</a>]
+        
+      </div>
+    </div>
+  
+    <div class="entry-detail" id="evaluate_handle(page_function:String,*arg:Any):JSHandle-instance-method">
+      <div class="signature">
+        
+        def <strong>evaluate_handle</strong>(page_function : String, *arg : <a href="../Playwright/Any.html">Any</a>) : <a href="../Playwright/JSHandle.html">JSHandle</a>
+
+        <a class="method-permalink" href="#evaluate_handle(page_function:String,*arg:Any):JSHandle-instance-method">#</a>
+      </div>
+      
+      <br/>
+      <div>
+        
+          [<a href="https://github.com/naqvis/playwright-cr/blob/fb9bb4cbcecb2e9647fe4ab19643339fec554e83/src/playwright/frame.cr#L654" target="_blank">View source</a>]
+        
+      </div>
+    </div>
+  
+    <div class="entry-detail" id="fill(selector:String,value:String,options:FillOptions?):Nil-instance-method">
+      <div class="signature">
+        abstract 
+        def <strong>fill</strong>(selector : String, value : String, options : <a href="../Playwright/Frame/FillOptions.html">FillOptions</a>?) : Nil
+
+        <a class="method-permalink" href="#fill(selector:String,value:String,options:FillOptions?):Nil-instance-method">#</a>
+      </div>
+      
+        <div class="doc">
+          
+          <p>This method waits for an element matching <code>selector</code>, waits for actionability checks, focuses the element, fills it and triggers an <code>input</code> event after filling. If the element matching <code>selector</code> is not an <code><input></code>, <code><textarea></code> or <code>[contenteditable]</code> element, this method throws an error. Note that you can pass an empty string to clear the input field.
+To send fine-grained keyboard events, use <code>frame.type(selector, text[, options])</code>.</p>
+        </div>
+      
+      <br/>
+      <div>
+        
+          [<a href="https://github.com/naqvis/playwright-cr/blob/fb9bb4cbcecb2e9647fe4ab19643339fec554e83/src/playwright/frame.cr#L674" target="_blank">View source</a>]
+        
+      </div>
+    </div>
+  
+    <div class="entry-detail" id="fill(selector:String,value:String):Nil-instance-method">
+      <div class="signature">
+        
+        def <strong>fill</strong>(selector : String, value : String) : Nil
+
+        <a class="method-permalink" href="#fill(selector:String,value:String):Nil-instance-method">#</a>
+      </div>
+      
+      <br/>
+      <div>
+        
+          [<a href="https://github.com/naqvis/playwright-cr/blob/fb9bb4cbcecb2e9647fe4ab19643339fec554e83/src/playwright/frame.cr#L668" target="_blank">View source</a>]
+        
+      </div>
+    </div>
+  
+    <div class="entry-detail" id="focus(selector:String,options:FocusOptions?):Nil-instance-method">
+      <div class="signature">
+        abstract 
+        def <strong>focus</strong>(selector : String, options : <a href="../Playwright/Frame/FocusOptions.html">FocusOptions</a>?) : Nil
+
+        <a class="method-permalink" href="#focus(selector:String,options:FocusOptions?):Nil-instance-method">#</a>
+      </div>
+      
+        <div class="doc">
+          
+          <p>This method fetches an element with <code>selector</code> and focuses it. If there's no element matching <code>selector</code>, the method waits until a matching element appears in the DOM.</p>
+        </div>
+      
+      <br/>
+      <div>
+        
+          [<a href="https://github.com/naqvis/playwright-cr/blob/fb9bb4cbcecb2e9647fe4ab19643339fec554e83/src/playwright/frame.cr#L681" target="_blank">View source</a>]
+        
+      </div>
+    </div>
+  
+    <div class="entry-detail" id="focus(selector:String):Nil-instance-method">
+      <div class="signature">
+        
+        def <strong>focus</strong>(selector : String) : Nil
+
+        <a class="method-permalink" href="#focus(selector:String):Nil-instance-method">#</a>
+      </div>
+      
+      <br/>
+      <div>
+        
+          [<a href="https://github.com/naqvis/playwright-cr/blob/fb9bb4cbcecb2e9647fe4ab19643339fec554e83/src/playwright/frame.cr#L676" target="_blank">View source</a>]
+        
+      </div>
+    </div>
+  
+    <div class="entry-detail" id="frame_element:ElementHandle-instance-method">
+      <div class="signature">
+        abstract 
+        def <strong>frame_element</strong> : <a href="../Playwright/ElementHandle.html">ElementHandle</a>
+
+        <a class="method-permalink" href="#frame_element:ElementHandle-instance-method">#</a>
+      </div>
+      
+        <div class="doc">
+          
+          <p>Returns the <code>frame</code> or <code>iframe</code> element handle which corresponds to this frame.
+This is an inverse of <code>elementHandle.contentFrame()</code>. Note that returned handle actually belongs to the parent frame.
+This method throws an error if the frame has been detached before <code>frameElement()</code> returns.</p>
+        </div>
+      
+      <br/>
+      <div>
+        
+          [<a href="https://github.com/naqvis/playwright-cr/blob/fb9bb4cbcecb2e9647fe4ab19643339fec554e83/src/playwright/frame.cr#L686" target="_blank">View source</a>]
+        
+      </div>
+    </div>
+  
+    <div class="entry-detail" id="get_attribute(selector:String,name:String):String?-instance-method">
+      <div class="signature">
+        
+        def <strong>get_attribute</strong>(selector : String, name : String) : String?
+
+        <a class="method-permalink" href="#get_attribute(selector:String,name:String):String?-instance-method">#</a>
+      </div>
+      
+      <br/>
+      <div>
+        
+          [<a href="https://github.com/naqvis/playwright-cr/blob/fb9bb4cbcecb2e9647fe4ab19643339fec554e83/src/playwright/frame.cr#L688" target="_blank">View source</a>]
+        
+      </div>
+    </div>
+  
+    <div class="entry-detail" id="get_attribute(selector:String,name:String,options:GetAttributeOptions?):String?-instance-method">
+      <div class="signature">
+        abstract 
+        def <strong>get_attribute</strong>(selector : String, name : String, options : <a href="../Playwright/Frame/GetAttributeOptions.html">GetAttributeOptions</a>?) : String?
+
+        <a class="method-permalink" href="#get_attribute(selector:String,name:String,options:GetAttributeOptions?):String?-instance-method">#</a>
+      </div>
+      
+        <div class="doc">
+          
+          <p>Returns element attribute value.</p>
+        </div>
+      
+      <br/>
+      <div>
+        
+          [<a href="https://github.com/naqvis/playwright-cr/blob/fb9bb4cbcecb2e9647fe4ab19643339fec554e83/src/playwright/frame.cr#L693" target="_blank">View source</a>]
+        
+      </div>
+    </div>
+  
+    <div class="entry-detail" id="goto(url:String,options:NavigateOptions?):Response?-instance-method">
+      <div class="signature">
+        abstract 
+        def <strong>goto</strong>(url : String, options : <a href="../Playwright/Frame/NavigateOptions.html">NavigateOptions</a>?) : <a href="../Playwright/Response.html">Response</a>?
+
+        <a class="method-permalink" href="#goto(url:String,options:NavigateOptions?):Response?-instance-method">#</a>
+      </div>
+      
+        <div class="doc">
+          
+          <p>Returns the main resource response. In case of multiple redirects, the navigation will resolve with the response of the last redirect.
+<code>frame.goto</code> will throw an error if:</p>
+
+<p>there's an SSL error (e.g. in case of self-signed certificates).
+target URL is invalid.
+the <code>timeout</code> is exceeded during navigation.
+the remote server does not respond or is unreachable.
+the main resource failed to load.</p>
+
+<p><code>frame.goto</code> will not throw an error when any valid HTTP status code is returned by the remote server, including 404 "Not Found" and 500 "Internal Server Error".  The status code for such responses can be retrieved by calling <code>response.status()</code>.</p>
+
+<p><strong>NOTE</strong> <code>frame.goto</code> either throws an error or returns a main resource response. The only exceptions are navigation to <code>about:blank</code> or navigation to the same URL with a different hash, which would succeed and return <code>null</code>.
+<strong>NOTE</strong> Headless mode doesn't support navigation to a PDF document. See the upstream issue.</p>
+        </div>
+      
+      <br/>
+      <div>
+        
+          [<a href="https://github.com/naqvis/playwright-cr/blob/fb9bb4cbcecb2e9647fe4ab19643339fec554e83/src/playwright/frame.cr#L712" target="_blank">View source</a>]
+        
+      </div>
+    </div>
+  
+    <div class="entry-detail" id="goto(url:String):Response?-instance-method">
+      <div class="signature">
+        
+        def <strong>goto</strong>(url : String) : <a href="../Playwright/Response.html">Response</a>?
+
+        <a class="method-permalink" href="#goto(url:String):Response?-instance-method">#</a>
+      </div>
+      
+      <br/>
+      <div>
+        
+          [<a href="https://github.com/naqvis/playwright-cr/blob/fb9bb4cbcecb2e9647fe4ab19643339fec554e83/src/playwright/frame.cr#L695" target="_blank">View source</a>]
+        
+      </div>
+    </div>
+  
+    <div class="entry-detail" id="hover(selector:String,options:HoverOptions?):Nil-instance-method">
+      <div class="signature">
+        abstract 
+        def <strong>hover</strong>(selector : String, options : <a href="../Playwright/Frame/HoverOptions.html">HoverOptions</a>?) : Nil
+
+        <a class="method-permalink" href="#hover(selector:String,options:HoverOptions?):Nil-instance-method">#</a>
+      </div>
+      
+        <div class="doc">
+          
+          <p>This method hovers over an element matching <code>selector</code> by performing the following steps:</p>
+
+<p>Find an element match matching <code>selector</code>. If there is none, wait until a matching element is attached to the DOM.
+Wait for actionability checks on the matched element, unless <code>force</code> option is set. If the element is detached during the checks, the whole action is retried.
+Scroll the element into view if needed.
+Use page.mouse to hover over the center of the element, or the specified <code>position</code>.
+Wait for initiated navigations to either succeed or fail, unless <code>noWaitAfter</code> option is set.</p>
+
+<p>When all steps combined have not finished during the specified <code>timeout</code>, this method rejects with a TimeoutError. Passing zero timeout disables this.</p>
+        </div>
+      
+      <br/>
+      <div>
+        
+          [<a href="https://github.com/naqvis/playwright-cr/blob/fb9bb4cbcecb2e9647fe4ab19643339fec554e83/src/playwright/frame.cr#L727" target="_blank">View source</a>]
+        
+      </div>
+    </div>
+  
+    <div class="entry-detail" id="hover(selector:String):Nil-instance-method">
+      <div class="signature">
+        
+        def <strong>hover</strong>(selector : String) : Nil
+
+        <a class="method-permalink" href="#hover(selector:String):Nil-instance-method">#</a>
+      </div>
+      
+      <br/>
+      <div>
+        
+          [<a href="https://github.com/naqvis/playwright-cr/blob/fb9bb4cbcecb2e9647fe4ab19643339fec554e83/src/playwright/frame.cr#L714" target="_blank">View source</a>]
+        
+      </div>
+    </div>
+  
+    <div class="entry-detail" id="inner_html(selector:String,options:InnerHTMLOptions?):String-instance-method">
+      <div class="signature">
+        abstract 
+        def <strong>inner_html</strong>(selector : String, options : <a href="../Playwright/Frame/InnerHTMLOptions.html">InnerHTMLOptions</a>?) : String
+
+        <a class="method-permalink" href="#inner_html(selector:String,options:InnerHTMLOptions?):String-instance-method">#</a>
+      </div>
+      
+        <div class="doc">
+          
+          <p>Returns <code>element.innerHTML</code>.</p>
+        </div>
+      
+      <br/>
+      <div>
+        
+          [<a href="https://github.com/naqvis/playwright-cr/blob/fb9bb4cbcecb2e9647fe4ab19643339fec554e83/src/playwright/frame.cr#L734" target="_blank">View source</a>]
+        
+      </div>
+    </div>
+  
+    <div class="entry-detail" id="inner_html(selector:String):String-instance-method">
+      <div class="signature">
+        
+        def <strong>inner_html</strong>(selector : String) : String
+
+        <a class="method-permalink" href="#inner_html(selector:String):String-instance-method">#</a>
+      </div>
+      
+      <br/>
+      <div>
+        
+          [<a href="https://github.com/naqvis/playwright-cr/blob/fb9bb4cbcecb2e9647fe4ab19643339fec554e83/src/playwright/frame.cr#L729" target="_blank">View source</a>]
+        
+      </div>
+    </div>
+  
+    <div class="entry-detail" id="inner_text(selector:String,options:InnerTextOptions?):String-instance-method">
+      <div class="signature">
+        abstract 
+        def <strong>inner_text</strong>(selector : String, options : <a href="../Playwright/Frame/InnerTextOptions.html">InnerTextOptions</a>?) : String
+
+        <a class="method-permalink" href="#inner_text(selector:String,options:InnerTextOptions?):String-instance-method">#</a>
+      </div>
+      
+        <div class="doc">
+          
+          <p>Returns <code>element.innerText</code>.</p>
+        </div>
+      
+      <br/>
+      <div>
+        
+          [<a href="https://github.com/naqvis/playwright-cr/blob/fb9bb4cbcecb2e9647fe4ab19643339fec554e83/src/playwright/frame.cr#L741" target="_blank">View source</a>]
+        
+      </div>
+    </div>
+  
+    <div class="entry-detail" id="inner_text(selector:String):String-instance-method">
+      <div class="signature">
+        
+        def <strong>inner_text</strong>(selector : String) : String
+
+        <a class="method-permalink" href="#inner_text(selector:String):String-instance-method">#</a>
+      </div>
+      
+      <br/>
+      <div>
+        
+          [<a href="https://github.com/naqvis/playwright-cr/blob/fb9bb4cbcecb2e9647fe4ab19643339fec554e83/src/playwright/frame.cr#L736" target="_blank">View source</a>]
+        
+      </div>
+    </div>
+  
+    <div class="entry-detail" id="is_detached:Bool-instance-method">
+      <div class="signature">
+        abstract 
+        def <strong>is_detached</strong> : Bool
+
+        <a class="method-permalink" href="#is_detached:Bool-instance-method">#</a>
+      </div>
+      
+        <div class="doc">
+          
+          <p>Returns <code>true</code> if the frame has been detached, or <code>false</code> otherwise.</p>
+        </div>
+      
+      <br/>
+      <div>
+        
+          [<a href="https://github.com/naqvis/playwright-cr/blob/fb9bb4cbcecb2e9647fe4ab19643339fec554e83/src/playwright/frame.cr#L743" target="_blank">View source</a>]
+        
+      </div>
+    </div>
+  
+    <div class="entry-detail" id="name:String-instance-method">
+      <div class="signature">
+        abstract 
+        def <strong>name</strong> : String
+
+        <a class="method-permalink" href="#name:String-instance-method">#</a>
+      </div>
+      
+        <div class="doc">
+          
+          <p>Returns frame's name attribute as specified in the tag.
+If the name is empty, returns the id attribute instead.</p>
+
+<p><strong>NOTE</strong> This value is calculated once when the frame is created, and will not update if the attribute is changed later.</p>
+        </div>
+      
+      <br/>
+      <div>
+        
+          [<a href="https://github.com/naqvis/playwright-cr/blob/fb9bb4cbcecb2e9647fe4ab19643339fec554e83/src/playwright/frame.cr#L748" target="_blank">View source</a>]
+        
+      </div>
+    </div>
+  
+    <div class="entry-detail" id="page:Page?-instance-method">
+      <div class="signature">
+        abstract 
+        def <strong>page</strong> : <a href="../Playwright/Page.html">Page</a>?
+
+        <a class="method-permalink" href="#page:Page?-instance-method">#</a>
+      </div>
+      
+        <div class="doc">
+          
+          <p>Returns the page containing this frame.</p>
+        </div>
+      
+      <br/>
+      <div>
+        
+          [<a href="https://github.com/naqvis/playwright-cr/blob/fb9bb4cbcecb2e9647fe4ab19643339fec554e83/src/playwright/frame.cr#L750" target="_blank">View source</a>]
+        
+      </div>
+    </div>
+  
+    <div class="entry-detail" id="parent_frame:Frame?-instance-method">
+      <div class="signature">
+        abstract 
+        def <strong>parent_frame</strong> : <a href="../Playwright/Frame.html">Frame</a>?
+
+        <a class="method-permalink" href="#parent_frame:Frame?-instance-method">#</a>
+      </div>
+      
+        <div class="doc">
+          
+          <p>Parent frame, if any. Detached frames and main frames return <code>null</code>.</p>
+        </div>
+      
+      <br/>
+      <div>
+        
+          [<a href="https://github.com/naqvis/playwright-cr/blob/fb9bb4cbcecb2e9647fe4ab19643339fec554e83/src/playwright/frame.cr#L752" target="_blank">View source</a>]
+        
+      </div>
+    </div>
+  
+    <div class="entry-detail" id="press(selector:String,key:String):Nil-instance-method">
+      <div class="signature">
+        
+        def <strong>press</strong>(selector : String, key : String) : Nil
+
+        <a class="method-permalink" href="#press(selector:String,key:String):Nil-instance-method">#</a>
+      </div>
+      
+      <br/>
+      <div>
+        
+          [<a href="https://github.com/naqvis/playwright-cr/blob/fb9bb4cbcecb2e9647fe4ab19643339fec554e83/src/playwright/frame.cr#L754" target="_blank">View source</a>]
+        
+      </div>
+    </div>
+  
+    <div class="entry-detail" id="press(selector:String,key:String,options:PressOptions?):Nil-instance-method">
+      <div class="signature">
+        abstract 
+        def <strong>press</strong>(selector : String, key : String, options : <a href="../Playwright/Frame/PressOptions.html">PressOptions</a>?) : Nil
+
+        <a class="method-permalink" href="#press(selector:String,key:String,options:PressOptions?):Nil-instance-method">#</a>
+      </div>
+      
+        <div class="doc">
+          
+          <p><code>key</code> can specify the intended keyboardEvent.key value or a single character to generate the text for. A superset of the <code>key</code> values can be found here. Examples of the keys are:
+<code>F1</code> - <code>F12</code>, <code>Digit0</code>- <code>Digit9</code>, <code>KeyA</code>- <code>KeyZ</code>, <code>Backquote</code>, <code>Minus</code>, <code>Equal</code>, <code>Backslash</code>, <code>Backspace</code>, <code>Tab</code>, <code>Delete</code>, <code>Escape</code>, <code>ArrowDown</code>, <code>End</code>, <code>Enter</code>, <code>Home</code>, <code>Insert</code>, <code>PageDown</code>, <code>PageUp</code>, <code>ArrowRight</code>, <code>ArrowUp</code>, etc.
+Following modification shortcuts are also suported: <code>Shift</code>, <code>Control</code>, <code>Alt</code>, <code>Meta</code>, <code>ShiftLeft</code>.
+Holding down <code>Shift</code> will type the text that corresponds to the <code>key</code> in the upper case.
+If <code>key</code> is a single character, it is case-sensitive, so the values <code>a</code> and <code>A</code> will generate different respective texts.
+Shortcuts such as <code>key: "Control+o"</code> or <code>key: "Control+Shift+T"</code> are supported as well. When speficied with the modifier, modifier is pressed and being held while the subsequent key is being pressed.</p>
+        </div>
+      
+      <br/>
+      <div>
+        
+          [<a href="https://github.com/naqvis/playwright-cr/blob/fb9bb4cbcecb2e9647fe4ab19643339fec554e83/src/playwright/frame.cr#L764" target="_blank">View source</a>]
+        
+      </div>
+    </div>
+  
+    <div class="entry-detail" id="query_selector(selector:String):ElementHandle?-instance-method">
+      <div class="signature">
+        abstract 
+        def <strong>query_selector</strong>(selector : String) : <a href="../Playwright/ElementHandle.html">ElementHandle</a>?
+
+        <a class="method-permalink" href="#query_selector(selector:String):ElementHandle?-instance-method">#</a>
+      </div>
+      
+        <div class="doc">
+          
+          <p>Returns the ElementHandle pointing to the frame element.
+The method finds an element matching the specified selector within the frame. See Working with selectors for more details. If no elements match the selector, returns <code>null</code>.</p>
+        </div>
+      
+      <br/>
+      <div>
+        
+          [<a href="https://github.com/naqvis/playwright-cr/blob/fb9bb4cbcecb2e9647fe4ab19643339fec554e83/src/playwright/frame.cr#L510" target="_blank">View source</a>]
+        
+      </div>
+    </div>
+  
+    <div class="entry-detail" id="query_selector_all(selector:String):Array(ElementHandle)-instance-method">
+      <div class="signature">
+        abstract 
+        def <strong>query_selector_all</strong>(selector : String) : Array(<a href="../Playwright/ElementHandle.html">ElementHandle</a>)
+
+        <a class="method-permalink" href="#query_selector_all(selector:String):Array(ElementHandle)-instance-method">#</a>
+      </div>
+      
+        <div class="doc">
+          
+          <p>Returns the ElementHandles pointing to the frame elements.
+The method finds all elements matching the specified selector within the frame. See Working with selectors for more details. If no elements match the selector, returns empty array.</p>
+        </div>
+      
+      <br/>
+      <div>
+        
+          [<a href="https://github.com/naqvis/playwright-cr/blob/fb9bb4cbcecb2e9647fe4ab19643339fec554e83/src/playwright/frame.cr#L513" target="_blank">View source</a>]
+        
+      </div>
+    </div>
+  
+    <div class="entry-detail" id="select_option(selector:String,values:Array(ElementHandle)?)-instance-method">
+      <div class="signature">
+        
+        def <strong>select_option</strong>(selector : String, values : Array(<a href="../Playwright/ElementHandle.html">ElementHandle</a>)?)
+
+        <a class="method-permalink" href="#select_option(selector:String,values:Array(ElementHandle)?)-instance-method">#</a>
+      </div>
+      
+      <br/>
+      <div>
+        
+          [<a href="https://github.com/naqvis/playwright-cr/blob/fb9bb4cbcecb2e9647fe4ab19643339fec554e83/src/playwright/frame.cr#L807" target="_blank">View source</a>]
+        
+      </div>
+    </div>
+  
+    <div class="entry-detail" id="select_option(selector:String,value:ElementHandle?)-instance-method">
+      <div class="signature">
+        
+        def <strong>select_option</strong>(selector : String, value : <a href="../Playwright/ElementHandle.html">ElementHandle</a>?)
+
+        <a class="method-permalink" href="#select_option(selector:String,value:ElementHandle?)-instance-method">#</a>
+      </div>
+      
+      <br/>
+      <div>
+        
+          [<a href="https://github.com/naqvis/playwright-cr/blob/fb9bb4cbcecb2e9647fe4ab19643339fec554e83/src/playwright/frame.cr#L799" target="_blank">View source</a>]
+        
+      </div>
+    </div>
+  
+    <div class="entry-detail" id="select_option(selector:String,values:Array(ElementHandle::SelectOption)?)-instance-method">
+      <div class="signature">
+        
+        def <strong>select_option</strong>(selector : String, values : Array(<a href="../Playwright/ElementHandle/SelectOption.html">ElementHandle::SelectOption</a>)?)
+
+        <a class="method-permalink" href="#select_option(selector:String,values:Array(ElementHandle::SelectOption)?)-instance-method">#</a>
+      </div>
+      
+      <br/>
+      <div>
+        
+          [<a href="https://github.com/naqvis/playwright-cr/blob/fb9bb4cbcecb2e9647fe4ab19643339fec554e83/src/playwright/frame.cr#L793" target="_blank">View source</a>]
+        
+      </div>
+    </div>
+  
+    <div class="entry-detail" id="select_option(selector:String,value:ElementHandle::SelectOption?)-instance-method">
+      <div class="signature">
+        
+        def <strong>select_option</strong>(selector : String, value : <a href="../Playwright/ElementHandle/SelectOption.html">ElementHandle::SelectOption</a>?)
+
+        <a class="method-permalink" href="#select_option(selector:String,value:ElementHandle::SelectOption?)-instance-method">#</a>
+      </div>
+      
+      <br/>
+      <div>
+        
+          [<a href="https://github.com/naqvis/playwright-cr/blob/fb9bb4cbcecb2e9647fe4ab19643339fec554e83/src/playwright/frame.cr#L785" target="_blank">View source</a>]
+        
+      </div>
+    </div>
+  
+    <div class="entry-detail" id="select_option(selector:String,values:Array(String))-instance-method">
+      <div class="signature">
+        
+        def <strong>select_option</strong>(selector : String, values : Array(String))
+
+        <a class="method-permalink" href="#select_option(selector:String,values:Array(String))-instance-method">#</a>
+      </div>
+      
+      <br/>
+      <div>
+        
+          [<a href="https://github.com/naqvis/playwright-cr/blob/fb9bb4cbcecb2e9647fe4ab19643339fec554e83/src/playwright/frame.cr#L774" target="_blank">View source</a>]
+        
+      </div>
+    </div>
+  
+    <div class="entry-detail" id="select_option(selector:String,value:String)-instance-method">
+      <div class="signature">
+        
+        def <strong>select_option</strong>(selector : String, value : String)
+
+        <a class="method-permalink" href="#select_option(selector:String,value:String)-instance-method">#</a>
+      </div>
+      
+      <br/>
+      <div>
+        
+          [<a href="https://github.com/naqvis/playwright-cr/blob/fb9bb4cbcecb2e9647fe4ab19643339fec554e83/src/playwright/frame.cr#L766" target="_blank">View source</a>]
+        
+      </div>
+    </div>
+  
+    <div class="entry-detail" id="select_option(selector:String,values:Array(ElementHandle)?,options:SelectOptionOptions?)-instance-method">
+      <div class="signature">
+        abstract 
+        def <strong>select_option</strong>(selector : String, values : Array(<a href="../Playwright/ElementHandle.html">ElementHandle</a>)?, options : <a href="../Playwright/Frame/SelectOptionOptions.html">SelectOptionOptions</a>?)
+
+        <a class="method-permalink" href="#select_option(selector:String,values:Array(ElementHandle)?,options:SelectOptionOptions?)-instance-method">#</a>
+      </div>
+      
+      <br/>
+      <div>
+        
+          [<a href="https://github.com/naqvis/playwright-cr/blob/fb9bb4cbcecb2e9647fe4ab19643339fec554e83/src/playwright/frame.cr#L815" target="_blank">View source</a>]
+        
+      </div>
+    </div>
+  
+    <div class="entry-detail" id="select_option(selector:String,value:ElementHandle?,options:SelectOptionOptions?)-instance-method">
+      <div class="signature">
+        
+        def <strong>select_option</strong>(selector : String, value : <a href="../Playwright/ElementHandle.html">ElementHandle</a>?, options : <a href="../Playwright/Frame/SelectOptionOptions.html">SelectOptionOptions</a>?)
+
+        <a class="method-permalink" href="#select_option(selector:String,value:ElementHandle?,options:SelectOptionOptions?)-instance-method">#</a>
+      </div>
+      
+      <br/>
+      <div>
+        
+          [<a href="https://github.com/naqvis/playwright-cr/blob/fb9bb4cbcecb2e9647fe4ab19643339fec554e83/src/playwright/frame.cr#L803" target="_blank">View source</a>]
+        
+      </div>
+    </div>
+  
+    <div class="entry-detail" id="select_option(selector:String,values:Array(ElementHandle::SelectOption)?,options:SelectOptionOptions?)-instance-method">
+      <div class="signature">
+        abstract 
+        def <strong>select_option</strong>(selector : String, values : Array(<a href="../Playwright/ElementHandle/SelectOption.html">ElementHandle::SelectOption</a>)?, options : <a href="../Playwright/Frame/SelectOptionOptions.html">SelectOptionOptions</a>?)
+
+        <a class="method-permalink" href="#select_option(selector:String,values:Array(ElementHandle::SelectOption)?,options:SelectOptionOptions?)-instance-method">#</a>
+      </div>
+      
+      <br/>
+      <div>
+        
+          [<a href="https://github.com/naqvis/playwright-cr/blob/fb9bb4cbcecb2e9647fe4ab19643339fec554e83/src/playwright/frame.cr#L797" target="_blank">View source</a>]
+        
+      </div>
+    </div>
+  
+    <div class="entry-detail" id="select_option(selector:String,value:ElementHandle::SelectOption?,options:SelectOptionOptions?)-instance-method">
+      <div class="signature">
+        
+        def <strong>select_option</strong>(selector : String, value : <a href="../Playwright/ElementHandle/SelectOption.html">ElementHandle::SelectOption</a>?, options : <a href="../Playwright/Frame/SelectOptionOptions.html">SelectOptionOptions</a>?)
+
+        <a class="method-permalink" href="#select_option(selector:String,value:ElementHandle::SelectOption?,options:SelectOptionOptions?)-instance-method">#</a>
+      </div>
+      
+      <br/>
+      <div>
+        
+          [<a href="https://github.com/naqvis/playwright-cr/blob/fb9bb4cbcecb2e9647fe4ab19643339fec554e83/src/playwright/frame.cr#L789" target="_blank">View source</a>]
+        
+      </div>
+    </div>
+  
+    <div class="entry-detail" id="select_option(selector:String,values:Array(String),options:SelectOptionOptions?)-instance-method">
+      <div class="signature">
+        
+        def <strong>select_option</strong>(selector : String, values : Array(String), options : <a href="../Playwright/Frame/SelectOptionOptions.html">SelectOptionOptions</a>?)
+
+        <a class="method-permalink" href="#select_option(selector:String,values:Array(String),options:SelectOptionOptions?)-instance-method">#</a>
+      </div>
+      
+      <br/>
+      <div>
+        
+          [<a href="https://github.com/naqvis/playwright-cr/blob/fb9bb4cbcecb2e9647fe4ab19643339fec554e83/src/playwright/frame.cr#L778" target="_blank">View source</a>]
+        
+      </div>
+    </div>
+  
+    <div class="entry-detail" id="select_option(selector:String,value:String,options:SelectOptionOptions?)-instance-method">
+      <div class="signature">
+        
+        def <strong>select_option</strong>(selector : String, value : String, options : <a href="../Playwright/Frame/SelectOptionOptions.html">SelectOptionOptions</a>?)
+
+        <a class="method-permalink" href="#select_option(selector:String,value:String,options:SelectOptionOptions?)-instance-method">#</a>
+      </div>
+      
+      <br/>
+      <div>
+        
+          [<a href="https://github.com/naqvis/playwright-cr/blob/fb9bb4cbcecb2e9647fe4ab19643339fec554e83/src/playwright/frame.cr#L770" target="_blank">View source</a>]
+        
+      </div>
+    </div>
+  
+    <div class="entry-detail" id="set_content(html:String,options:SetContentOptions?):Nil-instance-method">
+      <div class="signature">
+        abstract 
+        def <strong>set_content</strong>(html : String, options : <a href="../Playwright/Frame/SetContentOptions.html">SetContentOptions</a>?) : Nil
+
+        <a class="method-permalink" href="#set_content(html:String,options:SetContentOptions?):Nil-instance-method">#</a>
+      </div>
+      
+      <br/>
+      <div>
+        
+          [<a href="https://github.com/naqvis/playwright-cr/blob/fb9bb4cbcecb2e9647fe4ab19643339fec554e83/src/playwright/frame.cr#L821" target="_blank">View source</a>]
+        
+      </div>
+    </div>
+  
+    <div class="entry-detail" id="set_content(html:String):Nil-instance-method">
+      <div class="signature">
+        
+        def <strong>set_content</strong>(html : String) : Nil
+
+        <a class="method-permalink" href="#set_content(html:String):Nil-instance-method">#</a>
+      </div>
+      
+      <br/>
+      <div>
+        
+          [<a href="https://github.com/naqvis/playwright-cr/blob/fb9bb4cbcecb2e9647fe4ab19643339fec554e83/src/playwright/frame.cr#L817" target="_blank">View source</a>]
+        
+      </div>
+    </div>
+  
+    <div class="entry-detail" id="set_input_files(selector:String,files:Array(FileChooser::FilePayload))-instance-method">
+      <div class="signature">
+        
+        def <strong>set_input_files</strong>(selector : String, files : Array(<a href="../Playwright/FileChooser/FilePayload.html">FileChooser::FilePayload</a>))
+
+        <a class="method-permalink" href="#set_input_files(selector:String,files:Array(FileChooser::FilePayload))-instance-method">#</a>
+      </div>
+      
+      <br/>
+      <div>
+        
+          [<a href="https://github.com/naqvis/playwright-cr/blob/fb9bb4cbcecb2e9647fe4ab19643339fec554e83/src/playwright/frame.cr#L845" target="_blank">View source</a>]
+        
+      </div>
+    </div>
+  
+    <div class="entry-detail" id="set_input_files(selector:String,file:FileChooser::FilePayload)-instance-method">
+      <div class="signature">
+        
+        def <strong>set_input_files</strong>(selector : String, file : <a href="../Playwright/FileChooser/FilePayload.html">FileChooser::FilePayload</a>)
+
+        <a class="method-permalink" href="#set_input_files(selector:String,file:FileChooser::FilePayload)-instance-method">#</a>
+      </div>
+      
+      <br/>
+      <div>
+        
+          [<a href="https://github.com/naqvis/playwright-cr/blob/fb9bb4cbcecb2e9647fe4ab19643339fec554e83/src/playwright/frame.cr#L837" target="_blank">View source</a>]
+        
+      </div>
+    </div>
+  
+    <div class="entry-detail" id="set_input_files(selector:String,files:Array(Path))-instance-method">
+      <div class="signature">
+        
+        def <strong>set_input_files</strong>(selector : String, files : Array(Path))
+
+        <a class="method-permalink" href="#set_input_files(selector:String,files:Array(Path))-instance-method">#</a>
+      </div>
+      
+      <br/>
+      <div>
+        
+          [<a href="https://github.com/naqvis/playwright-cr/blob/fb9bb4cbcecb2e9647fe4ab19643339fec554e83/src/playwright/frame.cr#L831" target="_blank">View source</a>]
+        
+      </div>
+    </div>
+  
+    <div class="entry-detail" id="set_input_files(selector:String,file:Path)-instance-method">
+      <div class="signature">
+        
+        def <strong>set_input_files</strong>(selector : String, file : Path)
+
+        <a class="method-permalink" href="#set_input_files(selector:String,file:Path)-instance-method">#</a>
+      </div>
+      
+      <br/>
+      <div>
+        
+          [<a href="https://github.com/naqvis/playwright-cr/blob/fb9bb4cbcecb2e9647fe4ab19643339fec554e83/src/playwright/frame.cr#L823" target="_blank">View source</a>]
+        
+      </div>
+    </div>
+  
+    <div class="entry-detail" id="set_input_files(selector:String,file:Array(FileChooser::FilePayload),options:SetInputFilesOptions?)-instance-method">
+      <div class="signature">
+        abstract 
+        def <strong>set_input_files</strong>(selector : String, file : Array(<a href="../Playwright/FileChooser/FilePayload.html">FileChooser::FilePayload</a>), options : <a href="../Playwright/Frame/SetInputFilesOptions.html">SetInputFilesOptions</a>?)
+
+        <a class="method-permalink" href="#set_input_files(selector:String,file:Array(FileChooser::FilePayload),options:SetInputFilesOptions?)-instance-method">#</a>
+      </div>
+      
+        <div class="doc">
+          
+          <p>This method expects <code>selector</code> to point to an input element.
+Sets the value of the file input to these file paths or files. If some of the <code>filePaths</code> are relative paths, then they are resolved relative to the the current working directory. For empty array, clears the selected files.</p>
+        </div>
+      
+      <br/>
+      <div>
+        
+          [<a href="https://github.com/naqvis/playwright-cr/blob/fb9bb4cbcecb2e9647fe4ab19643339fec554e83/src/playwright/frame.cr#L851" target="_blank">View source</a>]
+        
+      </div>
+    </div>
+  
+    <div class="entry-detail" id="set_input_files(selector:String,file:FileChooser::FilePayload,options:SetInputFilesOptions?)-instance-method">
+      <div class="signature">
+        
+        def <strong>set_input_files</strong>(selector : String, file : <a href="../Playwright/FileChooser/FilePayload.html">FileChooser::FilePayload</a>, options : <a href="../Playwright/Frame/SetInputFilesOptions.html">SetInputFilesOptions</a>?)
+
+        <a class="method-permalink" href="#set_input_files(selector:String,file:FileChooser::FilePayload,options:SetInputFilesOptions?)-instance-method">#</a>
+      </div>
+      
+      <br/>
+      <div>
+        
+          [<a href="https://github.com/naqvis/playwright-cr/blob/fb9bb4cbcecb2e9647fe4ab19643339fec554e83/src/playwright/frame.cr#L841" target="_blank">View source</a>]
+        
+      </div>
+    </div>
+  
+    <div class="entry-detail" id="set_input_files(selector:String,file:Array(Path),options:SetInputFilesOptions?)-instance-method">
+      <div class="signature">
+        abstract 
+        def <strong>set_input_files</strong>(selector : String, file : Array(Path), options : <a href="../Playwright/Frame/SetInputFilesOptions.html">SetInputFilesOptions</a>?)
+
+        <a class="method-permalink" href="#set_input_files(selector:String,file:Array(Path),options:SetInputFilesOptions?)-instance-method">#</a>
+      </div>
+      
+      <br/>
+      <div>
+        
+          [<a href="https://github.com/naqvis/playwright-cr/blob/fb9bb4cbcecb2e9647fe4ab19643339fec554e83/src/playwright/frame.cr#L835" target="_blank">View source</a>]
+        
+      </div>
+    </div>
+  
+    <div class="entry-detail" id="set_input_files(selector:String,file:Path,options:SetInputFilesOptions?)-instance-method">
+      <div class="signature">
+        
+        def <strong>set_input_files</strong>(selector : String, file : Path, options : <a href="../Playwright/Frame/SetInputFilesOptions.html">SetInputFilesOptions</a>?)
+
+        <a class="method-permalink" href="#set_input_files(selector:String,file:Path,options:SetInputFilesOptions?)-instance-method">#</a>
+      </div>
+      
+      <br/>
+      <div>
+        
+          [<a href="https://github.com/naqvis/playwright-cr/blob/fb9bb4cbcecb2e9647fe4ab19643339fec554e83/src/playwright/frame.cr#L827" target="_blank">View source</a>]
+        
+      </div>
+    </div>
+  
+    <div class="entry-detail" id="tap(selector:String,options:TapOptions?):Nil-instance-method">
+      <div class="signature">
+        abstract 
+        def <strong>tap</strong>(selector : String, options : <a href="../Playwright/Frame/TapOptions.html">TapOptions</a>?) : Nil
+
+        <a class="method-permalink" href="#tap(selector:String,options:TapOptions?):Nil-instance-method">#</a>
+      </div>
+      
+        <div class="doc">
+          
+          <p>This method taps an element matching <code>selector</code> by performing the following steps:</p>
+
+<p>Find an element match matching <code>selector</code>. If there is none, wait until a matching element is attached to the DOM.
+Wait for actionability checks on the matched element, unless <code>force</code> option is set. If the element is detached during the checks, the whole action is retried.
+Scroll the element into view if needed.
+Use page.touchscreen to tap the center of the element, or the specified <code>position</code>.
+Wait for initiated navigations to either succeed or fail, unless <code>noWaitAfter</code> option is set.</p>
+
+<p>When all steps combined have not finished during the specified <code>timeout</code>, this method rejects with a TimeoutError. Passing zero timeout disables this.</p>
+
+<p><strong>NOTE</strong> <code>frame.tap()</code> requires that the <code>hasTouch</code> option of the browser context be set to true.</p>
+        </div>
+      
+      <br/>
+      <div>
+        
+          [<a href="https://github.com/naqvis/playwright-cr/blob/fb9bb4cbcecb2e9647fe4ab19643339fec554e83/src/playwright/frame.cr#L868" target="_blank">View source</a>]
+        
+      </div>
+    </div>
+  
+    <div class="entry-detail" id="tap(selector:String):Nil-instance-method">
+      <div class="signature">
+        
+        def <strong>tap</strong>(selector : String) : Nil
+
+        <a class="method-permalink" href="#tap(selector:String):Nil-instance-method">#</a>
+      </div>
+      
+      <br/>
+      <div>
+        
+          [<a href="https://github.com/naqvis/playwright-cr/blob/fb9bb4cbcecb2e9647fe4ab19643339fec554e83/src/playwright/frame.cr#L853" target="_blank">View source</a>]
+        
+      </div>
+    </div>
+  
+    <div class="entry-detail" id="text_content(selector:String,options:TextContentOptions?):String?-instance-method">
+      <div class="signature">
+        abstract 
+        def <strong>text_content</strong>(selector : String, options : <a href="../Playwright/Frame/TextContentOptions.html">TextContentOptions</a>?) : String?
+
+        <a class="method-permalink" href="#text_content(selector:String,options:TextContentOptions?):String?-instance-method">#</a>
+      </div>
+      
+        <div class="doc">
+          
+          <p>Returns <code>element.textContent</code>.</p>
+        </div>
+      
+      <br/>
+      <div>
+        
+          [<a href="https://github.com/naqvis/playwright-cr/blob/fb9bb4cbcecb2e9647fe4ab19643339fec554e83/src/playwright/frame.cr#L875" target="_blank">View source</a>]
+        
+      </div>
+    </div>
+  
+    <div class="entry-detail" id="text_content(selector:String):String?-instance-method">
+      <div class="signature">
+        
+        def <strong>text_content</strong>(selector : String) : String?
+
+        <a class="method-permalink" href="#text_content(selector:String):String?-instance-method">#</a>
+      </div>
+      
+      <br/>
+      <div>
+        
+          [<a href="https://github.com/naqvis/playwright-cr/blob/fb9bb4cbcecb2e9647fe4ab19643339fec554e83/src/playwright/frame.cr#L870" target="_blank">View source</a>]
+        
+      </div>
+    </div>
+  
+    <div class="entry-detail" id="title:String-instance-method">
+      <div class="signature">
+        abstract 
+        def <strong>title</strong> : String
+
+        <a class="method-permalink" href="#title:String-instance-method">#</a>
+      </div>
+      
+        <div class="doc">
+          
+          <p>Returns the page title.</p>
+        </div>
+      
+      <br/>
+      <div>
+        
+          [<a href="https://github.com/naqvis/playwright-cr/blob/fb9bb4cbcecb2e9647fe4ab19643339fec554e83/src/playwright/frame.cr#L877" target="_blank">View source</a>]
+        
+      </div>
+    </div>
+  
+    <div class="entry-detail" id="type(selector:String,text:String,options:TypeOptions?):Nil-instance-method">
+      <div class="signature">
+        abstract 
+        def <strong>type</strong>(selector : String, text : String, options : <a href="../Playwright/Frame/TypeOptions.html">TypeOptions</a>?) : Nil
+
+        <a class="method-permalink" href="#type(selector:String,text:String,options:TypeOptions?):Nil-instance-method">#</a>
+      </div>
+      
+        <div class="doc">
+          
+          <p>Sends a <code>keydown</code>, <code>keypress</code>/<code>input</code>, and <code>keyup</code> event for each character in the text. <code>frame.type</code> can be used to send fine-grained keyboard events. To fill values in form fields, use <code>frame.fill(selector, value[, options])</code>.
+To press a special key, like <code>Control</code> or <code>ArrowDown</code>, use <code>keyboard.press(key[, options])</code>.</p>
+        </div>
+      
+      <br/>
+      <div>
+        
+          [<a href="https://github.com/naqvis/playwright-cr/blob/fb9bb4cbcecb2e9647fe4ab19643339fec554e83/src/playwright/frame.cr#L886" target="_blank">View source</a>]
+        
+      </div>
+    </div>
+  
+    <div class="entry-detail" id="type(selector:String,text:String):Nil-instance-method">
+      <div class="signature">
+        
+        def <strong>type</strong>(selector : String, text : String) : Nil
+
+        <a class="method-permalink" href="#type(selector:String,text:String):Nil-instance-method">#</a>
+      </div>
+      
+      <br/>
+      <div>
+        
+          [<a href="https://github.com/naqvis/playwright-cr/blob/fb9bb4cbcecb2e9647fe4ab19643339fec554e83/src/playwright/frame.cr#L879" target="_blank">View source</a>]
+        
+      </div>
+    </div>
+  
+    <div class="entry-detail" id="uncheck(selector:String,options:UncheckOptions?):Nil-instance-method">
+      <div class="signature">
+        abstract 
+        def <strong>uncheck</strong>(selector : String, options : <a href="../Playwright/Frame/UncheckOptions.html">UncheckOptions</a>?) : Nil
+
+        <a class="method-permalink" href="#uncheck(selector:String,options:UncheckOptions?):Nil-instance-method">#</a>
+      </div>
+      
+        <div class="doc">
+          
+          <p>This method checks an element matching <code>selector</code> by performing the following steps:</p>
+
+<p>Find an element match matching <code>selector</code>. If there is none, wait until a matching element is attached to the DOM.
+Ensure that matched element is a checkbox or a radio input. If not, this method rejects. If the element is already unchecked, this method returns immediately.
+Wait for actionability checks on the matched element, unless <code>force</code> option is set. If the element is detached during the checks, the whole action is retried.
+Scroll the element into view if needed.
+Use page.mouse to click in the center of the element.
+Wait for initiated navigations to either succeed or fail, unless <code>noWaitAfter</code> option is set.
+Ensure that the element is now unchecked. If not, this method rejects.</p>
+
+<p>When all steps combined have not finished during the specified <code>timeout</code>, this method rejects with a TimeoutError. Passing zero timeout disables this.</p>
+        </div>
+      
+      <br/>
+      <div>
+        
+          [<a href="https://github.com/naqvis/playwright-cr/blob/fb9bb4cbcecb2e9647fe4ab19643339fec554e83/src/playwright/frame.cr#L903" target="_blank">View source</a>]
+        
+      </div>
+    </div>
+  
+    <div class="entry-detail" id="uncheck(selector:String):Nil-instance-method">
+      <div class="signature">
+        
+        def <strong>uncheck</strong>(selector : String) : Nil
+
+        <a class="method-permalink" href="#uncheck(selector:String):Nil-instance-method">#</a>
+      </div>
+      
+      <br/>
+      <div>
+        
+          [<a href="https://github.com/naqvis/playwright-cr/blob/fb9bb4cbcecb2e9647fe4ab19643339fec554e83/src/playwright/frame.cr#L888" target="_blank">View source</a>]
+        
+      </div>
+    </div>
+  
+    <div class="entry-detail" id="url:String-instance-method">
+      <div class="signature">
+        abstract 
+        def <strong>url</strong> : String
+
+        <a class="method-permalink" href="#url:String-instance-method">#</a>
+      </div>
+      
+        <div class="doc">
+          
+          <p>Returns frame's url.</p>
+        </div>
+      
+      <br/>
+      <div>
+        
+          [<a href="https://github.com/naqvis/playwright-cr/blob/fb9bb4cbcecb2e9647fe4ab19643339fec554e83/src/playwright/frame.cr#L905" target="_blank">View source</a>]
+        
+      </div>
+    </div>
+  
+    <div class="entry-detail" id="wait_for_function(page_function:String,arg:Array(Any)?,options:WaitForFunctionOptions?):Deferred(JSHandle)-instance-method">
+      <div class="signature">
+        abstract 
+        def <strong>wait_for_function</strong>(page_function : String, arg : Array(<a href="../Playwright/Any.html">Any</a>)?, options : <a href="../Playwright/Frame/WaitForFunctionOptions.html">WaitForFunctionOptions</a>?) : <a href="../Playwright/Deferred.html">Deferred</a>(<a href="../Playwright/JSHandle.html">JSHandle</a>)
+
+        <a class="method-permalink" href="#wait_for_function(page_function:String,arg:Array(Any)?,options:WaitForFunctionOptions?):Deferred(JSHandle)-instance-method">#</a>
+      </div>
+      
+        <div class="doc">
+          
+          <p>Returns when the <code>pageFunction</code> returns a truthy value, returns that value.
+The <code>waitForFunction</code> can be used to observe viewport size change:</p>
+
+<p>To pass an argument to the predicate of <code>frame.waitForFunction</code> function:</p>
+        </div>
+      
+      <br/>
+      <div>
+        
+          [<a href="https://github.com/naqvis/playwright-cr/blob/fb9bb4cbcecb2e9647fe4ab19643339fec554e83/src/playwright/frame.cr#L924" target="_blank">View source</a>]
+        
+      </div>
+    </div>
+  
+    <div class="entry-detail" id="wait_for_function(page_function:String,arg:Array(Any)?):Deferred(JSHandle)-instance-method">
+      <div class="signature">
+        
+        def <strong>wait_for_function</strong>(page_function : String, arg : Array(<a href="../Playwright/Any.html">Any</a>)?) : <a href="../Playwright/Deferred.html">Deferred</a>(<a href="../Playwright/JSHandle.html">JSHandle</a>)
+
+        <a class="method-permalink" href="#wait_for_function(page_function:String,arg:Array(Any)?):Deferred(JSHandle)-instance-method">#</a>
+      </div>
+      
+      <br/>
+      <div>
+        
+          [<a href="https://github.com/naqvis/playwright-cr/blob/fb9bb4cbcecb2e9647fe4ab19643339fec554e83/src/playwright/frame.cr#L907" target="_blank">View source</a>]
+        
+      </div>
+    </div>
+  
+    <div class="entry-detail" id="wait_for_function(page_function:String):Deferred(JSHandle)-instance-method">
+      <div class="signature">
+        
+        def <strong>wait_for_function</strong>(page_function : String) : <a href="../Playwright/Deferred.html">Deferred</a>(<a href="../Playwright/JSHandle.html">JSHandle</a>)
+
+        <a class="method-permalink" href="#wait_for_function(page_function:String):Deferred(JSHandle)-instance-method">#</a>
+      </div>
+      
+      <br/>
+      <div>
+        
+          [<a href="https://github.com/naqvis/playwright-cr/blob/fb9bb4cbcecb2e9647fe4ab19643339fec554e83/src/playwright/frame.cr#L911" target="_blank">View source</a>]
+        
+      </div>
+    </div>
+  
+    <div class="entry-detail" id="wait_for_function(page_function:String,*arg:Any):Deferred(JSHandle)-instance-method">
+      <div class="signature">
+        
+        def <strong>wait_for_function</strong>(page_function : String, *arg : <a href="../Playwright/Any.html">Any</a>) : <a href="../Playwright/Deferred.html">Deferred</a>(<a href="../Playwright/JSHandle.html">JSHandle</a>)
+
+        <a class="method-permalink" href="#wait_for_function(page_function:String,*arg:Any):Deferred(JSHandle)-instance-method">#</a>
+      </div>
+      
+      <br/>
+      <div>
+        
+          [<a href="https://github.com/naqvis/playwright-cr/blob/fb9bb4cbcecb2e9647fe4ab19643339fec554e83/src/playwright/frame.cr#L915" target="_blank">View source</a>]
+        
+      </div>
+    </div>
+  
+    <div class="entry-detail" id="wait_for_load_state(state:LoadState?,options:WaitForLoadStateOptions?):Deferred(Nil)-instance-method">
+      <div class="signature">
+        abstract 
+        def <strong>wait_for_load_state</strong>(state : <a href="../Playwright/Frame/LoadState.html">LoadState</a>?, options : <a href="../Playwright/Frame/WaitForLoadStateOptions.html">WaitForLoadStateOptions</a>?) : <a href="../Playwright/Deferred.html">Deferred</a>(Nil)
+
+        <a class="method-permalink" href="#wait_for_load_state(state:LoadState?,options:WaitForLoadStateOptions?):Deferred(Nil)-instance-method">#</a>
+      </div>
+      
+        <div class="doc">
+          
+          <p>Waits for the required load state to be reached.
+This returns when the frame reaches a required load state, <code>load</code> by default. The navigation must have been committed when this method is called. If current document has already reached the required state, resolves immediately.</p>
+        </div>
+      
+      <br/>
+      <div>
+        
+          [<a href="https://github.com/naqvis/playwright-cr/blob/fb9bb4cbcecb2e9647fe4ab19643339fec554e83/src/playwright/frame.cr#L937" target="_blank">View source</a>]
+        
+      </div>
+    </div>
+  
+    <div class="entry-detail" id="wait_for_load_state(state:LoadState?):Deferred(Nil)-instance-method">
+      <div class="signature">
+        
+        def <strong>wait_for_load_state</strong>(state : <a href="../Playwright/Frame/LoadState.html">LoadState</a>?) : <a href="../Playwright/Deferred.html">Deferred</a>(Nil)
+
+        <a class="method-permalink" href="#wait_for_load_state(state:LoadState?):Deferred(Nil)-instance-method">#</a>
+      </div>
+      
+      <br/>
+      <div>
+        
+          [<a href="https://github.com/naqvis/playwright-cr/blob/fb9bb4cbcecb2e9647fe4ab19643339fec554e83/src/playwright/frame.cr#L926" target="_blank">View source</a>]
+        
+      </div>
+    </div>
+  
+    <div class="entry-detail" id="wait_for_load_state:Deferred(Nil)-instance-method">
+      <div class="signature">
+        
+        def <strong>wait_for_load_state</strong> : <a href="../Playwright/Deferred.html">Deferred</a>(Nil)
+
+        <a class="method-permalink" href="#wait_for_load_state:Deferred(Nil)-instance-method">#</a>
+      </div>
+      
+      <br/>
+      <div>
+        
+          [<a href="https://github.com/naqvis/playwright-cr/blob/fb9bb4cbcecb2e9647fe4ab19643339fec554e83/src/playwright/frame.cr#L930" target="_blank">View source</a>]
+        
+      </div>
+    </div>
+  
+    <div class="entry-detail" id="wait_for_navigation(options:WaitForNavigationOptions?):Deferred(Response?)-instance-method">
+      <div class="signature">
+        abstract 
+        def <strong>wait_for_navigation</strong>(options : <a href="../Playwright/Frame/WaitForNavigationOptions.html">WaitForNavigationOptions</a>?) : <a href="../Playwright/Deferred.html">Deferred</a>(<a href="../Playwright/Response.html">Response</a>?)
+
+        <a class="method-permalink" href="#wait_for_navigation(options:WaitForNavigationOptions?):Deferred(Response?)-instance-method">#</a>
+      </div>
+      
+        <div class="doc">
+          
+          <p>Returns the main resource response. In case of multiple redirects, the navigation will resolve with the response of the last redirect. In case of navigation to a different anchor or navigation due to History API usage, the navigation will resolve with <code>null</code>.
+This method waits for the frame to navigate to a new URL. It is useful for when you run code which will indirectly cause the frame to navigate. Consider this example:</p>
+
+<p><strong>NOTE</strong> Usage of the History API to change the URL is considered a navigation.</p>
+        </div>
+      
+      <br/>
+      <div>
+        
+          [<a href="https://github.com/naqvis/playwright-cr/blob/fb9bb4cbcecb2e9647fe4ab19643339fec554e83/src/playwright/frame.cr#L947" target="_blank">View source</a>]
+        
+      </div>
+    </div>
+  
+    <div class="entry-detail" id="wait_for_navigation:Deferred(Response?)-instance-method">
+      <div class="signature">
+        
+        def <strong>wait_for_navigation</strong> : <a href="../Playwright/Deferred.html">Deferred</a>(<a href="../Playwright/Response.html">Response</a>?)
+
+        <a class="method-permalink" href="#wait_for_navigation:Deferred(Response?)-instance-method">#</a>
+      </div>
+      
+      <br/>
+      <div>
+        
+          [<a href="https://github.com/naqvis/playwright-cr/blob/fb9bb4cbcecb2e9647fe4ab19643339fec554e83/src/playwright/frame.cr#L939" target="_blank">View source</a>]
+        
+      </div>
+    </div>
+  
+    <div class="entry-detail" id="wait_for_selector(selector:String,options:WaitForSelectorOptions?):Deferred(ElementHandle?)-instance-method">
+      <div class="signature">
+        abstract 
+        def <strong>wait_for_selector</strong>(selector : String, options : <a href="../Playwright/Frame/WaitForSelectorOptions.html">WaitForSelectorOptions</a>?) : <a href="../Playwright/Deferred.html">Deferred</a>(<a href="../Playwright/ElementHandle.html">ElementHandle</a>?)
+
+        <a class="method-permalink" href="#wait_for_selector(selector:String,options:WaitForSelectorOptions?):Deferred(ElementHandle?)-instance-method">#</a>
+      </div>
+      
+        <div class="doc">
+          
+          <p>Returns when element specified by selector satisfies <code>state</code> option. Returns <code>null</code> if waiting for <code>hidden</code> or <code>detached</code>.
+Wait for the <code>selector</code> to satisfy <code>state</code> option (either appear/disappear from dom, or become visible/hidden). If at the moment of calling the method <code>selector</code> already satisfies the condition, the method will return immediately. If the selector doesn't satisfy the condition for the <code>timeout</code> milliseconds, the function will throw.
+This method works across navigations:</p>
+        </div>
+      
+      <br/>
+      <div>
+        
+          [<a href="https://github.com/naqvis/playwright-cr/blob/fb9bb4cbcecb2e9647fe4ab19643339fec554e83/src/playwright/frame.cr#L957" target="_blank">View source</a>]
+        
+      </div>
+    </div>
+  
+    <div class="entry-detail" id="wait_for_selector(selector:String):Deferred(ElementHandle?)-instance-method">
+      <div class="signature">
+        
+        def <strong>wait_for_selector</strong>(selector : String) : <a href="../Playwright/Deferred.html">Deferred</a>(<a href="../Playwright/ElementHandle.html">ElementHandle</a>?)
+
+        <a class="method-permalink" href="#wait_for_selector(selector:String):Deferred(ElementHandle?)-instance-method">#</a>
+      </div>
+      
+      <br/>
+      <div>
+        
+          [<a href="https://github.com/naqvis/playwright-cr/blob/fb9bb4cbcecb2e9647fe4ab19643339fec554e83/src/playwright/frame.cr#L949" target="_blank">View source</a>]
+        
+      </div>
+    </div>
+  
+    <div class="entry-detail" id="wait_for_timeout(timeout:Int32):Deferred(Nil)-instance-method">
+      <div class="signature">
+        abstract 
+        def <strong>wait_for_timeout</strong>(timeout : Int32) : <a href="../Playwright/Deferred.html">Deferred</a>(Nil)
+
+        <a class="method-permalink" href="#wait_for_timeout(timeout:Int32):Deferred(Nil)-instance-method">#</a>
+      </div>
+      
+        <div class="doc">
+          
+          <p>Waits for the given <code>timeout</code> in milliseconds.
+Note that <code>frame.waitForTimeout()</code> should only be used for debugging. Tests using the timer in production are going to be flaky. Use signals such as network events, selectors becoming visible and others instead.</p>
+        </div>
+      
+      <br/>
+      <div>
+        
+          [<a href="https://github.com/naqvis/playwright-cr/blob/fb9bb4cbcecb2e9647fe4ab19643339fec554e83/src/playwright/frame.cr#L960" target="_blank">View source</a>]
+        
+      </div>
+    </div>
+  
+
+
+
+
+</div>
+
+</body>
+</html>
